@@ -2,10 +2,11 @@
 
 title: Shane Elipot
 locale: en_US
-description: A website about my research and blogging randomly about science things ...
+description: Physical Oceanographer at the University of Miami.
 logo:
 search: true
-url: https://selipot.github.io
+#url: https://selipot.github.io
+url : ""
 
 # Jekyll configuration
 

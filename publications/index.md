@@ -6,6 +6,8 @@ image:
   credit: Shane Elipot, A panoramic view of Miami and Miami Beach
 ---
 
+- - -
+
 Links to my [google scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en)
 and
 [ORCID registry](http://orcid.org/0000-0001-6051-5426)

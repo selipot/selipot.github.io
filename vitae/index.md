@@ -6,6 +6,8 @@ image:
   credit: Shane Elipot, A view of Bear Cut and Key Biscayne from RSMAS
 ---
 
+- - -
+
 **Since 2013---** [**The Rosenstiel School of Marine and Atmospheric Science**], [**University of Miami**], Miami, USA
 
 Associate Scientist, since April 2014; Assistant Scientist, April 2013 - March 2014.
@@ -41,8 +43,10 @@ Master (*Diplôme d’Ingénieur*), Oceanography and Hydrography.
 **1995---1998:** [**Lycée Henri Poincaré**], Nancy, France.
 
 Undergraduate preparation in advanced mathematics, physics and chemistry for the competition entrance examination to French graduate engineering schools, 1995-1998.
-* * *
-Full cv is [here](latest-cv.pdf).
+
+- - -
+
+My full cv can be find [here](latest-cv.pdf).
 
 [**The Rosenstiel School of Marine and Atmospheric Science**]: http://www.rsmas.miami.edu
 [**University of Miami**]: http://www.miami.edu

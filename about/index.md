@@ -1,26 +1,25 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
+title: About & Contact
 image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: drifter-launch.jpg
+  credit: Launching a surface drifter onboard the NOAA ship Ronald H. Brown
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+I am a physical oceanographer in the [Department of Ocean Sciences](http://www.rsmas.miami.edu/research/departments/ocean-sciences/) at the [Rosenstiel School of Marine and Atmospheric Science](http://rsmas.miami.edu) of [the University of Miami](http://www.miami.edu).
 
-## So Simple Theme is all about:
+I conduct research in atmosphere-ocean interactions, the oceanic surface boundary layer, the dynamics of the meridional overturning circulation, and the Agulhas Current System. I am interested in the nature of oceanic and atmospheric observations, and more generally in time series and covariance analyses of environmental data.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+*Mailing address:*
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+Department of Ocean Sciences
 
-[^1]: Example: *domain.com/category-name/post-title*
+The Rosenstiel School of Marine and Atmospheric Science, University of Miami
+
+4600 Rickenbacker Causeway, Miami, FL 33149
+
+*Email & Phone:*
+
+[selipot@rsmas.miami.edu](mailto:selipot@rsmas.miami.edu)
+
++1 (305) 421-4630

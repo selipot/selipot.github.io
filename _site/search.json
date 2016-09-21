@@ -3,7 +3,7 @@
   
     {
       "title"			: "On the new standard of sharing your code",
-      "link"			: "http://localhost:4000/blog/the-evil-jet-colormap/",
+      "link"			: "/blog/the-evil-jet-colormap/",
       "excerpt"		: "Scientists in general, and oceanographers in particular, have been used for many years to sharing “their” data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies."
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Launch of new personal site on GitHub",
-      "link"			: "http://localhost:4000/blog/shane-elipot-site-launched/",
+      "link"			: "/blog/shane-elipot-site-launched/",
       "excerpt"		: "I finally got around to put my new professional website together! It is powered by Jekyll and currently hosted, for free, on GitHub. I browsed many resources to approximately understand how this works, and learned to use git at a basic level with the online tutorial tryGit. I followed the simple tutorial by Jonathan Mcglone, but then opted for the free Jekyll theme So Simple.  In the process, I downloaded a free text editor called Atom which I find very neat, at least on Mac OS X. You can easily download a package for Atom that will allow you to use Emacs keybindings, which I am used to."
     }
   
@@ -23,27 +23,35 @@
   
 
   
+    ,{
+      "title"			: "Projects",
+      "link"			: "/projects/",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"			: "Past Projects",
+      "link"			: "/projects/old/",
+      "excerpt"		: ""
+    }
+  
 
   
     ,{
       "title"			: "About & Contact",
-      "link"			: "http://localhost:4000/home/",
+      "link"			: "/about/",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "Projects",
-      "link"			: "http://localhost:4000/projects/",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Publications",
-      "link"			: "http://localhost:4000/publications/",
+      "title"			: "Abstracts",
+      "link"			: "/abstracts/",
       "excerpt"		: ""
     }
   
@@ -55,23 +63,15 @@
   
     ,{
       "title"			: "Curriculum Vitae",
-      "link"			: "http://localhost:4000/vitae/",
+      "link"			: "/vitae/",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "About the Jekyll Theme",
-      "link"			: "http://localhost:4000/about/",
-      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
-    }
-  
-
-  
-    ,{
-      "title"			: "Abstracts",
-      "link"			: "http://localhost:4000/abstracts/",
+      "title"			: "Publications",
+      "link"			: "/publications/",
       "excerpt"		: ""
     }
   

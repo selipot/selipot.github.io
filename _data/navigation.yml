@@ -1,11 +1,11 @@
 # Site navigation links
 - title: Home
-  url: 
+  url: /
 
 - title: About & Contact
-  url: /home/
+  url: /about/
 
-- title: Projects
+- title: Current Projects
   url: /projects/
 
 - title: Publications
@@ -14,8 +14,10 @@
 - title: Vitae
   url: /vitae/
 
-- title: Abstracts
-  url: /abstracts/
+- title : Past Projects
+  url: /projects/old/
+# - title: Abstracts
+#   url: /abstracts/
 
 - title: Blog
   url: /blog/
