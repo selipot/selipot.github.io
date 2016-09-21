@@ -5,8 +5,10 @@ image:
   feature: dolphins2.jpg
   credit: Dolphins at the bow of the RS Algoa, April 2016
 ---
+
 * * *
-# The Agulhas System Climate Array (ASCA)
+
+## The Agulhas System Climate Array (ASCA)
 
 ![Alt text](/images/algoa.jpg)
 
