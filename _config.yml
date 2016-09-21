@@ -5,7 +5,7 @@ locale: en_US
 description: A website about my research and blogging randomly about science things ...
 logo:
 search: true
-url: http://localhost:4000
+url: http://selipot.github.io
 
 # Jekyll configuration
 
