@@ -1,0 +1,21 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: About & Contact
+  url: /home/
+
+- title: Projects
+  url: /projects/
+
+- title: Publications
+  url: /publications/
+
+- title: Vitae
+  url: /vitae/
+
+- title: Abstracts
+  url: /abstracts/
+
+- title: Blog
+  url: /blog/

@@ -1,8 +1,12 @@
 ---
-layout: default
-title: Shane Elipot, Physical Oceanographer
+layout: page
+title: Latest Posts
+excerpt:
+search_omit: true
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Shane Elipot</h1>
-	<p>I'm best known as ? Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<ul class="post-list">
+{% for post in site.posts limit:10 %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
