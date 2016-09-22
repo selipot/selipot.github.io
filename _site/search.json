@@ -3,7 +3,7 @@
   
     {
       "title"			: "On the new standard of sharing your code",
-      "link"			: "/blog/the-evil-jet-colormap/",
+      "link"			: "/blog/the-new-standard-of-sharing-code/",
       "excerpt"		: "Scientists in general, and oceanographers in particular, have been used for many years to sharing “their” data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies."
     }
   
@@ -23,14 +23,6 @@
   
 
   
-    ,{
-      "title"			: "Projects",
-      "link"			: "/projects/",
-      "excerpt"		: ""
-    }
-  
-
-  
 
   
     ,{
@@ -42,16 +34,16 @@
 
   
     ,{
-      "title"			: "About & Contact",
-      "link"			: "/about/",
+      "title"			: "Projects",
+      "link"			: "/projects/",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "Abstracts",
-      "link"			: "/abstracts/",
+      "title"			: "Publications",
+      "link"			: "/publications/",
       "excerpt"		: ""
     }
   
@@ -70,8 +62,16 @@
 
   
     ,{
-      "title"			: "Publications",
-      "link"			: "/publications/",
+      "title"			: "About & Contact",
+      "link"			: "/about/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Abstracts",
+      "link"			: "/abstracts/",
       "excerpt"		: ""
     }
   
