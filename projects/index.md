@@ -3,7 +3,7 @@ layout: page
 title: Projects
 image:
   feature: dolphins2.jpg
-  credit: Dolphins at the bow of the RS Algoa, April 2016
+  credit: The bow of the RS Algoa in the Agulhas Current, Indian Ocean, April 2016
 ---
 
 * * *

@@ -3,7 +3,7 @@
   
     {
       "title"			: "On the new standard of sharing your code",
-      "link"			: "https://selipot.github.io/blog/the-new-standard-of-sharing-code/",
+      "link"			: "/blog/the-new-standard-of-sharing-code/",
       "excerpt"		: "Scientists in general, and oceanographers in particular, have been used for many years to sharing “their” data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies."
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Launch of new personal site on GitHub",
-      "link"			: "https://selipot.github.io/blog/shane-elipot-site-launched/",
+      "link"			: "/blog/shane-elipot-site-launched/",
       "excerpt"		: "I finally got around to put my new professional website together! It is powered by Jekyll and currently hosted, for free, on GitHub. I browsed many resources to approximately understand how this works, and learned to use git at a basic level with the online tutorial tryGit. I followed the simple tutorial by Jonathan Mcglone, but then opted for the free Jekyll theme So Simple.  In the process, I downloaded a free text editor called Atom which I find very neat, at least on Mac OS X. You can easily download a package for Atom that will allow you to use Emacs keybindings, which I am used to."
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Past Projects",
-      "link"			: "https://selipot.github.io/projects/old/",
+      "link"			: "/projects/old/",
       "excerpt"		: ""
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "Projects",
-      "link"			: "https://selipot.github.io/projects/",
+      "link"			: "/projects/",
       "excerpt"		: ""
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "Publications",
-      "link"			: "https://selipot.github.io/publications/",
+      "link"			: "/publications/",
       "excerpt"		: ""
     }
   
@@ -55,7 +55,7 @@
   
     ,{
       "title"			: "Curriculum Vitae",
-      "link"			: "https://selipot.github.io/vitae/",
+      "link"			: "/vitae/",
       "excerpt"		: ""
     }
   
@@ -63,7 +63,7 @@
   
     ,{
       "title"			: "About & Contact",
-      "link"			: "https://selipot.github.io/about/",
+      "link"			: "/about/",
       "excerpt"		: ""
     }
   
@@ -71,7 +71,7 @@
   
     ,{
       "title"			: "Abstracts",
-      "link"			: "https://selipot.github.io/abstracts/",
+      "link"			: "/abstracts/",
       "excerpt"		: ""
     }
   

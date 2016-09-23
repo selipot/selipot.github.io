@@ -8,7 +8,6 @@ tags: code, data, sharing, GitHub
 image:
   feature:
 date: 2016-09-19
-comments: true
 ---
 
 Scientists in general, and oceanographers in particular, have been used for many years to sharing "their" data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies.

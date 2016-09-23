@@ -3,7 +3,7 @@ layout: page
 title: Publications
 image:
   feature: miami.jpg
-  credit: Shane Elipot, A panoramic view of Miami and Miami Beach
+  credit: A distorted panoramic view of Miami beach and Miami
 ---
 
 - - -

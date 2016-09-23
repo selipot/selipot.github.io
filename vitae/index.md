@@ -3,7 +3,7 @@ layout: page
 title: Curriculum Vitae
 image:
   feature: rsmas-panorama.jpg
-  credit: Shane Elipot, A view of Bear Cut and Key Biscayne from RSMAS
+  credit: A view of Bear Cut and Key Biscayne from RSMAS
 ---
 
 - - -
@@ -20,7 +20,7 @@ Physical Oceanographer.
 
 Honorary Research Fellow.
 
-**2008:** [**Cooperative Institute for Marine and Atmospheric Studies**], [University of Miami][**University of Miami**], Miami, Florida, USA.
+**2008:** [**Cooperative Institute for Marine and Atmospheric Studies**], [University of Miami], Miami, Florida, USA.
 
 Postdoctoral Associate
 
