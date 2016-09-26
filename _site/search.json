@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Things reviewers say",
+      "link"			: "/blog/things-reviews-say/",
+      "excerpt"		: "I found somehow reassuring to read in a blog post of  EOS that the Editor in Chief of Geophysical Research Letters, no less, recently had a manuscript rejected for publication. He wrote that “this rejection was particularly deflating, both because I had invested two years in the science, and because two of the three reviewers dismissed the very conception of the analysis.” I see this as being told that your paper sucks because your analysis sucks in the first place. Ouch. We’ve all had at least one terrible story about a particular set of reviews. It turns out that last week was Peer Review Week! Who knew?"
+    }
+  
+
+  
+    ,{
       "title"			: "On the new standard of sharing your code",
       "link"			: "/blog/the-new-standard-of-sharing-code/",
       "excerpt"		: "Scientists in general, and oceanographers in particular, have been used for many years to sharing “their” data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies."
