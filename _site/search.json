@@ -31,6 +31,14 @@
   
 
   
+    ,{
+      "title"			: "Projects",
+      "link"			: "/projects/",
+      "excerpt"		: ""
+    }
+  
+
+  
 
   
     ,{
@@ -42,16 +50,16 @@
 
   
     ,{
-      "title"			: "Projects",
-      "link"			: "/projects/",
+      "title"			: "About & Contact",
+      "link"			: "/about/",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "Publications",
-      "link"			: "/publications/",
+      "title"			: "Abstracts",
+      "link"			: "/abstracts/",
       "excerpt"		: ""
     }
   
@@ -70,16 +78,8 @@
 
   
     ,{
-      "title"			: "About & Contact",
-      "link"			: "/about/",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Abstracts",
-      "link"			: "/abstracts/",
+      "title"			: "Publications",
+      "link"			: "/publications/",
       "excerpt"		: ""
     }
   
