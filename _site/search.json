@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Colors of the <strike>Wind</strike> Ocean",
+      "link"			: "/blog/colors-of-the-ocean/",
+      "excerpt"		: "You can own the earth and still"
+    }
+  
+
+  
+    ,{
       "title"			: "Things reviewers say",
       "link"			: "/blog/things-reviews-say/",
       "excerpt"		: "I found somehow reassuring to read in a blog post of  EOS that the Editor in Chief of Geophysical Research Letters, no less, recently had a manuscript rejected for publication. He wrote that “this rejection was particularly deflating, both because I had invested two years in the science, and because two of the three reviewers dismissed the very conception of the analysis.” I see this as being told that your paper sucks because your analysis sucks in the first place. Ouch. We’ve all had at least one terrible story about a particular set of reviews. It turns out that last week was Peer Review Week! Who knew?"
@@ -31,14 +39,6 @@
   
 
   
-    ,{
-      "title"			: "Projects",
-      "link"			: "/projects/",
-      "excerpt"		: ""
-    }
-  
-
-  
 
   
     ,{
@@ -50,16 +50,16 @@
 
   
     ,{
-      "title"			: "About & Contact",
-      "link"			: "/about/",
+      "title"			: "Projects",
+      "link"			: "/projects/",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "Abstracts",
-      "link"			: "/abstracts/",
+      "title"			: "Publications",
+      "link"			: "/publications/",
       "excerpt"		: ""
     }
   
@@ -78,8 +78,16 @@
 
   
     ,{
-      "title"			: "Publications",
-      "link"			: "/publications/",
+      "title"			: "About & Contact",
+      "link"			: "/about/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Abstracts",
+      "link"			: "/abstracts/",
       "excerpt"		: ""
     }
   

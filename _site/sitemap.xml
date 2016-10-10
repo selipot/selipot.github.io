@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/blog/colors-of-the-ocean/</loc>
+<lastmod>2016-10-09T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>/blog/things-reviews-say/</loc>
 <lastmod>2016-09-25T00:00:00-04:00</lastmod>
 </url>
@@ -16,19 +20,16 @@
 <loc>/</loc>
 </url>
 <url>
-<loc>/projects/</loc>
-</url>
-<url>
 <loc>/blog/</loc>
 </url>
 <url>
 <loc>/projects/old/</loc>
 </url>
 <url>
-<loc>/about/</loc>
+<loc>/projects/</loc>
 </url>
 <url>
-<loc>/abstracts/</loc>
+<loc>/publications/</loc>
 </url>
 <url>
 <loc>/tags/</loc>
@@ -37,7 +38,10 @@
 <loc>/vitae/</loc>
 </url>
 <url>
-<loc>/publications/</loc>
+<loc>/about/</loc>
+</url>
+<url>
+<loc>/abstracts/</loc>
 </url>
 <url>
 <loc>/images/globalrotaryspectra123.pdf</loc>
