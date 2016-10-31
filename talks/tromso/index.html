@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <title>The Troms&oslash; Lecture</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <!-- This is template for http://remarkjs.com/ by Ole Petter Bang -->
+ <!-- CSS modifcations by J. M. Lilly-->
+
+ <style type="text/css">
+body { font-family: 'Georgia';letter-spacing:0.025em;}
+h1, h2, h3 {
+  font-family: 'Georgia';
+  font-weight: normal;
+}
+.remark-slide-content h1 { font-size: 2.4em; color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:-.25em}
+.remark-slide-content h2 { font-size: 1.55em;color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+.remark-slide-content  h3 { font-size: 1.4em;color:#606060;font-weight: bold;letter-spacing:0.05em;margin-top:0em}
+.remark-slide-content p,ol,ul { font-size: 1.2em; }
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-fading { z-index: 9; }
+.toc {bottom:12px;opacity:0.5;position:absolute;left:30px;font-size: 1.4em;}/*JML*/
+/*I find this by jgrepping for remark for slide-number, see resources.js*/
+
+/* Thanks to http://www.partage-it.com/animez-vos-presentations-remark-js/  (in French) */
+.remark-slide-container {transition: opacity 0.5s ease-out;opacity: 0;}
+.remark-visible {transition: opacity 0.5s ease-out;opacity: 1;}
+
+/* Two-column layout */
+.left-column {
+  width: 50%;
+  float: left;
+}
+.right-column {
+  width: 49%;
+  float: right;
+  padding-top: 0em;
+  margin-top: 0em;
+  text-align: left;
+}
+.footnote {
+  position:absolute;
+  bottom: 2em;
+  left: 14em;
+  font-size: 0.7em;
+ }
+
+/* Some special classes */
+.title {font-size: 1.6em; color:#606060;font-weight:bold;letter-spacing:0.05em}
+.author {font-size: 1.4em; color:#606060;font-weight:bold;letter-spacing:0.02em}
+.coauthor {font-size: 1.0em; color:#606060;font-weight:bold;letter-spacing:0.02em}
+.institution {font-size: 1.0em;}
+.date {font-size: 1.0em;font-style: italic}
+.note {font-size: 0.8em;font-style: italic}
+
+.caption {font-size: 0.65em;}
+.cite {font-size: 0.8em; color:#33AA99;font-style: italic}
+.strike {color:salmon;text-decoration:line-through}
+
+/*Set color scheme for links.*/
+a {text-decoration: none; color: #666666;text-align:center; width: 24%}
+/*Setting link properties is particular, do not change order below*/
+a:visited {color:#666666}
+a:hover {color:#33AA99}
+a:active, a#active {color:#FF9700;}
+ </style>
+  </head>
+  <body>
+ <textarea id="source">
+class: center, middle
+
+.title[Time Series Analyses in a Changing Climate]
+
+&nbsp;
+&nbsp;
+.author[Shane Elipot]
+
+.institution[The Rosenstiel School of Marine and Atmospheric Science, University of Miami]
+
+.coauthor[Jonathan Lilly]
+
+.institution[NorthWest Research Associates, Seattle]
+&nbsp;
+&nbsp;
+
+.date[November 8, 2016]
+
+.note[Sponsored by: the FP7 Integrated Infrastructure Initiative FixO3; the Horizon 2020 project ENVRIplus; the Arctic Marine Geology and Geophysics (AMGG) Research School]
+.footnote[Created with [{Remark.js}](http://remarkjs.com/) using [{Markdown}](https://daringfireball.net/projects/markdown/) +  [{MathJax}](https://www.mathjax.org/)]
+
+---
+name: toc
+class: left, .toc[[&#10023;](#toc)]
+
+
+# Outline
+
+1.     [Foreword](#foreword)
+1.	[Descriptive statistics (the time domain)](#timedomain)
+2.	[Stationarity, non-stationarity, and trends](#stationarity)
+3.	[Fourier Spectral analysis](#spectral)
+4.	[Bivariate time series](#bivariate)
+4.	[Epilogue](#epilogue)
+
+
+---
+name: foreword
+class: left, .toc[[&#10023;](#toc)]
+
+# Foreword
+
+This Troms&oslash; lecture is heavily based on a longer course (The Oslo Lectures) given by Jonathan M. Lilly in Oslo at the invitation of the Norwegian Research School in Climate Dynamics (ResClim), during the week May 23–27, 2016. JML's Oslo Lectures are freely available for online viewing or download at [{www.jmlilly.net/talks/oslo/index.html}](http://www.jmlilly.net/talks/oslo/index.html)
+
+This current Troms&oslash; lecture is available for download on my website at [{selipot.github.io}](https://selipot.github.io) under [{Talks}]().
+
+The practical session this afternoon will be conducted using the [{Matlab}](https://www.mathworks.com/products/matlab/) computational software and the freely available Matlab toolbox **jLab** written by Jonathan Lilly and freely available [{here}](http://www.jmlilly.net/jmlsoft.html). Please download, install, and test the toolbox before the practical session.
+
+In addition, we will be using the code and data I have made available for download [{here}]().
+
+---
+name: timedomain
+class: center, middle, .toc[[&#10023;](#toc)]
+
+# 1. Descriptive Statistics (The time domain)
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+#  The Sample Interval
+
+We have a sequence of `$N$` observations
+
+`$$x_n, \quad\quad n=0,1,2,\ldots N-1$$`
+
+which coincide with times
+
+`$$t_n, \quad\quad n=0,1,2,\ldots N-1.$$`
+
+<!--It is a little strange to start counting at zero,
+but this makes life easier later.-->
+
+The sequence `$x_n$` is called a *discrete time series*.
+
+It is assumed that the *sample interval*,  `$\Delta_t$`, is constant
+
+`$$t_n=n\Delta_t$$`
+
+with the time at `$n=0$` defined to be `$0$`.  The *duration* is `$T=N\Delta_t$`.
+
+If the sample interval in your data is not uniform,  the first processing step is to interpolate it to be so.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+#  The Underlying Process
+
+A critical assumption is that there exists some &ldquo;process&rdquo; `$x(t)$` that our data sequence `$x_n$` is a *sample of*:
+
+`\[x_n=x(n\Delta_t), \quad\quad n=0,1,2,\ldots N-1.\]`
+
+Unlike `$x_n$`,  `$x(t)$` is believed to exist for *all times*.
+
+(i) The process `$x(t)$` exists in *continuous time*, while `$x_n$` only exists at *discrete times*.
+
+(ii) The process `$x(t)$` exists for *all past and future* times, while `$x_n$` is only available over a certain time interval.
+
+<!--The process `$x(t)$` represents an idealized physical process that continues for all times.-->
+
+It is the properties of `$x(t)$` that we are trying to estimate, *based on* the available sample  `$x_n$`.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Measurement Noise
+
+In reality, the measurement device and/or data processing probably introduces some artifical variability, termed *noise*.
+
+It is more realistic to consider that the observations `$x_n$` contain samples of the process of interest, `$y(t)$`, *plus* some noise  `$\epsilon_n$`:
+
+`\[x_n = y(n\Delta_t)+ \epsilon_n, \quad\quad n=0,1,2,\ldots N-1.\]`
+
+This is an example of the *unobserved components model*.  This means that  we *believe* that the data is composed of *different components*, but we cannot observe these components individually.
+
+The process `$y(t)$` is potentially obscured or degraded by the limitations of data collection in three ways:  (i) finite sample interval, (ii) finite duration, (iii) noise.
+
+Because of this, the time series is an *imperfect* representation of the real-world processes we are trying to study.
+
+<!--Q: What are some examples of measurement noise?-->
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Time versus Frequency
+
+There are two complementary (opposite) points of view regarding the time series `$x_n$`.
+
+The first regards `$x_n$` as being built up as a sequence of discrete values `$x_0,x_2,\dots x_{N-1}$`.
+
+This is the domain of *statistics*: the mean, variance, histogram, etc.
+
+When we look at data statistics, generally, the order in which the values are observed *doesn't matter*.
+
+The second point of view regards `$x_n$` as being built up of sinusoids: purely periodic functions spanning the whole duration of the data.
+
+This is the domain of *Fourier spectral analysis*.
+
+In between these two extremes is wavelet analysis.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Time-Domain Statistics
+
+A good place to start is with the very simplest tools.
+
+The *sample mean* describes a &ldquo;typical&rdquo; value:
+
+`\[\overline{x} \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n\]`
+
+The *sample variance* gives the spread about the mean:
+
+`\[\sigma_x^2 \equiv \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\overline{x}\right)^2\]`
+
+&ldquo;Sample&rdquo; here means that it is computed from the observed data, as opposed to being a property of the assumed underlying process `$x(t)$`.
+
+The mean and variance are called the first two *moments* of the distribution of values associated with the process.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+# Example
+
+22-year time series of Agulhas current transport (Beal and Elipot, 2016):
+
+Sample mean is -95 Sverdrup (1 Sv = $10^6$ m$^3$ s$^{-1}$)
+
+Sample standard deviation is 20 Sv
+
+<img style="width:100%"  src="./figures/agulhas_timeseries.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Histogram
+The mean, variance, skewness, and kurtosis (seen next) describe aspects of the *histogram*: the observed distribution of data values.
+
+<center><img style="width:50%"  src="./figures/agulhas_histogram.png"></center>
+
+Here is the histogram of *all* Agulhas Jet transport (blue), versus Gaussian noise having the same mean and variance (orange).
+
+---
+
+class: left, .toc[[&#10023;](#toc)]
+#  Skewness
+
+The *skewness* describes the tendency for an *asymmetry* between positive excursions and negative excursions:
+
+`\[\gamma_x \equiv \frac{1}{\sigma_x^3}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\overline{x}\right)^3\]`
+
+<center><img style="width:90%"  src="./figures/Negative_and_positive_skew_diagrams.svg"></center>
+
+---
+
+class: left, .toc[[&#10023;](#toc)]
+#  Kurtosis
+
+The *kurtosis* is said to either measure *peakedness* (concentration near `$\overline{x}$`), or a tendency for *long tails* (concentration far from `$\overline{x}$`):
+
+`\[\kappa_x \equiv \frac{1}{\sigma_x^4}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\overline{x}\right)^4\]`
+
+ Actually, it measures both. Kurtosis is a measure of the spread of `$x_n$` about the *two points*  `$\overline{x} \pm \sigma_x$`.  This can happen *either* for peakness *or* for long tails!  .cite[See Moors (1986), &ldquo;The Meaning of Kurtosis&rdquo;.]
+
+Because the value of kurtosis for a Gaussian process can be shown to be equal to 3, one sometimes encounters the *excess kurtosis*
+
+`\[\tilde\kappa_x \equiv \kappa_x -3.\]`
+
+Values of `$\tilde\kappa_x\gt 0$` mean the data is *more kurtotic*&mdash;peaked or long-tailed&mdash;than a Gaussian, while `$\tilde\kappa_x\lt 0$` means it is less so.
+
+---
+
+class: center, .toc[[&#10023;](#toc)]
+#  Illustration of Kurtosis
+
+Distributions corresponding to different values of excess kurtosis.
+
+<center><img style="width:75%"  src="./figures/Standard_symmetric_pdfs.png"></center>
+
+Positive excess kurtosis corresponds to long tails and peakedness.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Example
+
+The skewness is -0.6, and the excess kurtosis is 1.14
+
+<center><img style="width:50%"  src="./figures/agulhas_histogram.png"></center>
+
+Here is the histogram of *all* Agulhas Jet transport (blue), versus Gaussian noise having the same mean and variance (orange).
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+# Processes vs Estimates
+
+How can we be sure that the *sample* statistics for `$x_n$` are the statistics of the process `$x(t)$`? We can't, but we can estimate an uncertainty for our estimates, also called an *error*.
+
+Here is an example for the estimate of the mean. Recall the sample mean:
+
+`$$\overline{x} \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n.$$`
+
+The *standard error of the mean* is
+
+`$$ s_{\overline{x}} \equiv \frac{\sigma_x}{\sqrt{N}}$$`
+
+sometimes reported as `$\overline{x} \pm s_{\overline{x}}$`.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Example
+<!-- Sample mean `$\overline{x} = \frac{1}{N}\sum_{n=0}^{N-1} x_n$` and variance `$\sigma_x^2 = \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\overline{x}\right)^2$`
+ as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange). -->
+ Sample mean `$\overline{x}$` with $\pm$ 1 standard error `$s_{\overline{x}}$` and variance `$\sigma_x^2$`
+  as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange).
+
+<center><img style="width:60%"  src="./figures/agulhas_mean_variance.png"></center>
+
+---
+name: stationarity
+class: center, middle, , .toc[[&#10023;](#toc)]
+
+# 2. Stationarity vs non-stationarity, trends
+---
+class: center, .toc[[&#10023;](#toc)]
+#First Example
+<img style="width:100%"  src="./figures/drifteruv.png">
+---
+class: center, .toc[[&#10023;](#toc)]
+#First Example
+<img style="width:100%"  src="./figures/drifteruvzoomed.png">
+---
+class: center, .toc[[&#10023;](#toc)]
+#First Example
+<img style="width:100%"  src="./figures/driftermap.png">
+---
+class: left, .toc[[&#10023;](#toc)]
+
+# Observable Features
+1.  The data consists of two time series that are similar in character.
+1.  Both time series present a superposition of scales and a high degree of roughness.
+1.  The data seems to consist of different time periods with distinct statistical characteristics&mdash;the data is *nonstationary*.
+1.  Zooming in to one particular period show regular oscillations of roughly uniform amplitude and frequency.
+1.  The phasing of these show a circular polarization orbited in a counterclockwise direction.
+1.  The zoomed-in plot shows a fair amount of what appears to be measurement noise superimposed on the oscillatory signal.
+
+--
+
+This is a record of velocities of a single surface drifter at 6-hour intervals. All Surface drifter data are freely available from the Data Assembly Center of the Global Drifter Program [{www.aoml.noaa.gov/phod/dac/}](http://www.aoml.noaa.gov/phod/dac/index.php).
+
+---
+class: center, .toc[[&#10023;](#toc)]
+#Second Example
+Can you guess what this time series is?
+<img style="width:100%"  src="./figures/dailyco2.png">
+---
+class: center, .toc[[&#10023;](#toc)]
+
+# Second Example
+<img style="width:100%"  src="./figures/dailyco2zoomed.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+# Observable Features
+1. The data exhibit a very strong positive trend, roughly linear with time. Thus, this time series does not present a **mean statistics** that represents a "typical" value.
+1. On top of the trend there seems to be a sinusoid-like oscillation that does not appear to change with time.
+1.  The zoomed-in plot shows noise superimposed on the sinusoidal and trend processes.
+
+--
+
+This is a record of daily atmospheric CO$_2$ measured at Mauna Loa in Hawaii at an altitude of 3400 m. *(Data from Dr. Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/) and Dr. Ralph Keeling, Scripps Institution of Oceanography (scrippsco2.ucsd.edu/))*
+
+We will investigate further this time series during the practical session this afternoon.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Non-stationarity
+
+The sample statistics may be changing with time because the underlying process (that is its statistics) is changing with time. The process is said to be &ldquo;non-stationary&rdquo; (not the formal definition).
+
+Sometimes we need to re-think our model for the underlying process. Let us hypothesized that the process `$x(t)$` is the sum of an unknown process $y(t)$, plus a linear trend $a$, plus noise:
+`$$x(t) = y(t) + a t + \epsilon(t),$$`
+
+--
+
+or maybe the trend is better described as being quadratic with time because of an acceleration:
+`$$x(t) = y(t) + b t^2 + a t + \epsilon(t).$$`
+
+--
+
+The goal is then to estimate the unknowns $a,b$, which consists of methods of analyses generally called &ldquo;parametric&rdquo;. It is a bit like the difference between just *looking* at data and *assuming* a form of the data.
+
+---
+name: spectral
+class: center, middle, .toc[[&#10023;](#toc)]
+
+# 3. Fourier Spectral Analysis
+
+---
+
+class: center, .toc[[&#10023;](#toc)]
+#  Complex Fourier Series
+
+It is possible to represent a discrete time series `$x_n$` as a sum of complex exponentials, a complex Fourier series:
+
+`\[ x_n = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N}, \quad\quad\quad n=0,1,\ldots N-1  \]`
+
+<img style="width:55%"  src="./figures/sinesandcosines.png">
+
+We leave out for now how to obtain the complex coefficients `$X_m$` ...
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+#  About Frequency
+
+You will typically find two frequency notations:
+
+`\[ \cos(2 \pi f t)\quad\quad \text{or} \quad\quad \cos(\omega t)  \]`
+
+`$f$` is called the *cyclic* frequency.  Its units are cycles/time. Example: Hz = cycles/sec.
+
+`$\omega = 2 \pi f$` is called the *radian* or *angular* frequency.  Its units are rad/time. The associated *period* of oscillation is `$P=1/f=2\pi/\omega$`.
+
+As `$t$` goes from `$0$` to `$1/f = 2\pi/\omega = P$`, `$2 \pi f t$` goes from `$0$` to `$2\pi$` and `$\omega t$` goes from `$0$` to `$2\pi$`.
+
+A very common error in Fourier analysis is mixing up cyclic and radian frequencies!
+
+Note: neither &ldquo;cycles&rdquo; nor &ldquo;radians&rdquo; actually have any units, thus both  `$f$` and `$\omega$` have units of 1/time. However, specifying for example 'cycles per day' or 'radians per day' helps to avoid confusion.
+
+---
+class: center, .toc[[&#10023;](#toc)]
+#Review: Sinusoids
+
+Cosine function (blue) and sine function (orange)
+
+<img style="width:80%"  src="./figures/sineandcosine.png">
+
+---
+class: center, .toc[[&#10023;](#toc)]
+# Complex Exponentials, 2D
+
+Now consider a plot `$\cos(t)$` vs. `$\sin(t)$`.
+
+That's the same as `$  \cos(t) + i \sin( t)  = e^{i t}$`.
+<center><img style="width:60%"  src="./figures/twodcomplexexponential.png">
+</center>
+---
+class: center, .toc[[&#10023;](#toc)]
+# Complex Exponentials, 3D
+
+This is better seen in 3D as a *spiral* as time increases.
+
+`\[\cos(t) + i \sin( t) = e^{i t} \]`
+
+<center><img style="width:80%"  src="./figures/threedcomplexexponential.png">
+</center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  The complex Fourier series
+
+The discrete time series `$x_n$` can written as a sum of complex exponentials:
+
+`\[ x_n = \frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N}, \quad\quad\quad n=0,1,\ldots N-1  \]`
+
+--
+
+`\[ x_n = \frac{1}{N \Delta_t} \left[ X_0  +  X_1 e^{i2\pi n \Delta_t \,(1/N \Delta_t)} +  X_2 e^{i2\pi n \Delta_t \,(2/N \Delta_t)}  +  X_3 e^{i2\pi n \Delta_t\, (3/N \Delta_t)}  +\ldots \right]. \]`
+
+--
+
+The  `$m$`th term behaves as `$ e^{i2\pi f_m n \Delta_t} =\cos(2\pi f_m n \Delta_t) +i \sin(2\pi f_m n \Delta_t) $`, where `$f_m\equiv m/N \Delta_t$`.
+
+Note that in the litterature, `$\Delta_t$` is often set to one, and thus omitted, leading to a lot of confusion (including for me!). 
+
+The quantity `$f_m\equiv m/N \Delta_t$` is called the `$m$`th *Fourier frequency*. The *period* associated with `$f_m$` is `$1/f_m=\Delta_t N/m$`.  Thus `$m$` tells us the *number of oscillations* contained in the length `$N \Delta_t$` time series.
+
+<!--The next slides illustrate continuously sampling, versus discretely sampling with unit and non-unit sample interval. -->
+
+---
+class: center, .toc[[&#10023;](#toc)]
+#  Continuous Time
+
+`$\cos(2\pi f_m t)$` and `$\sin(2\pi f_m t)$`
+
+`$f_m=0,$`  `$1/100,$` `$2/100,$` `$3/100\quad\quad$`  `$t=[0\ldots 100]$`
+
+<img style="width:75%"  src="./figures/sinesandcosines.png">
+
+---
+class: center, .toc[[&#10023;](#toc)]
+#  Discrete Time
+
+`$\cos(2\pi f_m n \Delta_t)$` and `$\sin(2\pi f_m n \Delta_t)$`
+
+`$f_m=0,$`  `$1/100,$` `$2/100,$` `$3/100\quad$`  `$n=0,1,2,\dots 99\quad$` `$\Delta_t = 1$`
+
+<img style="width:75%"  src="./figures/sinesandcosines_discrete.png">
+
+---
+class: center, .toc[[&#10023;](#toc)]
+#  The Nyquist Frequency
+
+The single most important frequency is the *highest resolvable* frequency, the *Nyquist frequency*.
+
+`$f^\mathcal{N} \equiv \frac{1}{2\Delta_t}\quad\quad \omega^\mathcal{N} \equiv \frac{2\pi}{2\Delta_t}=\frac{\pi}{\Delta_t}$`
+
+<img style="width:85%"  src="./figures/nyquistfrequency.png
+">
+
+The highest resolvable frequency is *one cycle per two data points.*
+
+`$e^{i2\pi  f^{\mathcal{N}} n \Delta_t}=e^{i2\pi \cdot 1/(2\Delta_t) \cdot n\Delta_t}=e^{i\pi n} = (-1)^n = 1,-1,1,-1,\dots $`
+
+Note that there is no &ldquo;sine&rdquo; component at Nyquist in the Fourier series!
+
+<!-- class: center, .toc[[&#10023;](#toc)]
+#  Non-Unit Sample Interval-->
+
+<!--
+`$\cos(2\pi f_m n\Delta)$` and `$\sin(2\pi  f_m n \Delta)$`
+`$f_m=0,$`  `$1/100,$` `$2/100,$` `$3/100\quad\quad$`  `$n=0,1,2,\dots 99\quad\quad$`  `$\Delta=10$`-->
+
+<!--<img style="width:85%"  src="./figures/sinesandcosines_discrete.png">-->
+---
+class: center, .toc[[&#10023;](#toc)]
+#  The Rayleigh Frequency
+
+The second most important frequency is the *lowest resolvable* frequency, the *Rayleigh frequency*.
+
+`$f^\mathcal{R} \equiv \frac{1}{N\Delta_t}\quad\quad \omega^\mathcal{R} \equiv \frac{2\pi}{N\Delta_t}$`
+
+<img style="width:85%"  src="./figures/rayleighfrequency.png
+">
+
+The lowest resolvable frequency is one cycle over the *entire record*.
+Here the sample interval `$\Delta_t=1$` and the number of points is `$N=10$`.
+
+If we think of the data as a vibrating string, the Rayleigh frequency is the *first overtone*.  The fundamental does not appear in the DFT.
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Importance of Rayleigh
+
+The Rayleigh frequency `$f^\mathcal{R}$` is important because it gives the *spacing between* the Fourier frequencies:
+
+`$f_0=0$`, `$f_1=\frac{1}{N\Delta_t}$`, `$f_2=\frac{2}{N\Delta_t},\ldots$` `$\quad\quad f_n=n\,f^\mathcal{R},\quad\quad f^\mathcal{R}=\frac{1}{N\Delta_t}$`
+
+Thus, it controls the *frequency-domain resolution*. If you want to distiguish between two closely spaced peaks, you need the dataset *duration* to be sufficiently *large* so that the Rayleigh frequency is sufficiently *small*.
+
+--
+
+As an example, the two principal semi-diurnal tidal &ldquo;species&rdquo; have period of 12 h (M`$_2$`) and 12.4206012 h (S`$_2$`). The minimum record length to distinguish the two frequencies is thus
+
+`\[N \Delta_t = \frac{1}{f^\mathcal{R}} = \frac{1}{f^{S_2} - f^{M_2}} =\frac{1}{\frac{1}{12} - \frac{1}{12.4206012}} = 354.36 \text{ hours}.\]`
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Rayleigh and Nyquist frequencies
+
+The ratio of the Rayleigh to Nyquist frequencies tells you how many *different frequencies* you can resolve.
+
+ `\[\frac{f^\mathcal{N}}{f^\mathcal{R}}=\frac{N\Delta_t}{2\Delta_t}=\frac{N}{2}\]`
+
+So why do we have `$N$` frequencies in the sum for the complex Fourier series?
+
+`\[ x_n = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N}\]`
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Fourier Frequencies
+
+The first few Fourier frequencies `$f_m=m/(N\Delta_t)$` are:
+
+`\[f_0=\frac{0}{N\Delta_t},\quad f_1=\frac{1}{N\Delta_t}, \quad f_2=\frac{2}{N\Delta_t},\ldots\]`
+
+while the last few are
+
+`\[\ldots,f_{N-2}=\frac{N-2}{N\Delta_t}=1-\frac{2}{N\Delta_t},\quad f_{N-1}=\frac{N-1}{N\Delta_t}=1-\frac{1}{N\Delta_t}.\]`
+
+But notice that the last Fourier exponential term is
+
+`\[e^{i2\pi f_{N-1} n\Delta_t} = e^{i2\pi (N-1) n/N}=e^{i2\pi n (1-1/N) }=e^{i2\pi n}e^{-i2\pi n/N}=e^{-i2\pi n/N} = e^{-i2\pi f_1 n \Delta_t}\]`
+
+because `$e^{i2\pi n}=1$` for all integers `$n$`!  Frequencies higher than the Nyquist cannot appear due to our sample rate.  Therefore, these terms instead specify terms that have a frequency *less than* the Nyquist but that rotate in the *negative* direction.
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Fourier Frequencies
+
+In the vicinity of `$m=N/2$`, for even `$N$`, we have
+
+`\[f_{N/2-1}=\frac{1}{2\Delta_t}-\frac{1}{N\Delta_t},\quad f_{N/2}=\frac{1}{2\Delta_t}, \quad f_{N/2+1}=\frac{1}{2\Delta_t}+\frac{1}{N\Delta_t},\ldots\]`
+
+but actually the first frequency higher than the Nyquist is the *highest negative frequency*
+
+`\[f_{N/2-1}=\frac{1}{2\Delta_t}-\frac{1}{N\Delta_t},\quad f_{N/2}=\frac{1}{2\Delta_t}, \ldots \]`
+
+`\[f_{N/2+1} = -f_{N/2-1} =-\left(\frac{1}{2\Delta_t}-\frac{1}{N\Delta_t}\right),\ldots.\]`
+
+Thus the positive frequencies and negative frequencies are both increasing *toward the middle* of the Fourier transform array.
+
+For this reason Matlab provides <tt>fftshift</tt>, to shifts the zero frequency, *not* the Nyquist, to be in the middle of the array.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Conjugate Pairs
+
+Let's examine individual terms in the discrete-time Fourier series
+
+`\[x_n=\frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi m n/N}.\]`
+
+The second (`$m=1$`) term is `$X_1 e^{i2\pi n/N }$`.  The final (`$m=N-1$`) term is
+
+`\[X_{N-1} e^{i2\pi n(N-1)/N }=X_{N-1} e^{i2\pi n} e^{-i2\pi n/N } =X_{N-1} e^{-i2\pi n/N} \]`
+
+which rotates at the same rate as the second  (`$m=1$`) term, but in the opposite direction!  Assuming $N$ is even-valued, we have
+
+`\begin{multline}
+ (N\Delta_t) x_n = X_0 + \left[X_{1} e^{i2\pi n/N }+X_{N-1}  e^{-i2\pi n/N } \right] +
+\left[X_{2} e^{i2\pi n (2/N) }+X_{N-2}  e^{-i2\pi n(2/N) } \right] \\
++\left[X_{3} e^{i2\pi n (3/N) }+X_{N-3} e^{-i2\pi n(3/N) } \right] \ldots + X_{N/2} e^{i\pi n}.
+\end{multline}`
+
+For `$x_n$` to be real-valued, we **must** have `$X_1=X_{N-1}^*$`, `$X_2=X_{N-2}^*$`, etc.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#One-Sided Representation
+
+The discrete Fourier transform represents a time series as a sum of *positively-rotating* and *negatively-rotating* contributions.
+
+When `$x_n$` is real-valued, these contributions *cancel*.
+
+In the usual form of the DFT, the negatively-rotating contributions are represented by *aliasing* frequencies higher than the Nyquist!
+
+We can write the DFT in the *one-sided* form, for even `$N$`,
+
+`\[x_n= \frac{1}{N\Delta_t}X_0 +  \frac{2}{N\Delta_t}\sum_{m=1}^{N/2-1} A_m \cos\left(2\pi f_m n\Delta_t +\Phi_m\right)+ X_{N/2} (-1)^n\]`
+
+where  `$A_m$` and  `$\Phi_m$` are an *amplitude* and *phase*, with `$X_m = A_m e^{i \Phi_m}$`.
+
+The first and last contributions are the *mean* and the *Nyquist*.  Their coefficients  must be real-valued, as there is nothing to cancel them.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#One-Sided vs. Two-Sided
+
+The two-sided and one-sided representations of the discrete Fourier transform are entirely equivalent.
+
+`\begin{eqnarray}
+  x_n&=&\frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi m n/N}\\
+x_n&=& \frac{1}{N\Delta_t}X_0 + \frac{2}{N\Delta_t}\sum_{m=1}^{N/2-1} A_m \cos\left(2\pi m n/N +\Phi_m\right) + X_{N/2} (-1)^n
+  \end{eqnarray}`
+
+The two-sided representation is more compact mathematically.
+
+For real-valued `$x_n$`, the one-sided representation is more intuitive as it expresses `$x_n$` as a sum of *phase-shifted* cosinusoids.
+--
+
+A price of the one-sided form is that even and odd `$N$` are somewhat different!  This expression is for even-valued `$N$`.
+<!--For a *complex-valued* discrete times series $z_n$ is *complex-valued*,  there is no one-sided form, and the two-sided form is exactly what you want.-->
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Forward DFT
+
+So? How do we know the values of the Fourier coefficients `$X_n$`? It can be shown that:
+
+`\[X_m \equiv  \Delta_t \sum_{n=0}^{N-1}x_n e^{-i2\pi m n/N}\]`
+
+This is called the *discrete Fourier transform* of `$x_n$`.  It *transforms* `$x_n$` from the time domain to the frequency domain. The DFT *defines* a sequence of `$N$` complex-valued numbers, `$X_m$`,  , for `$m=0,1,2,\ldots N-1$`, which are termed the *Fourier coefficients.*
+
+In Matlab, the discrete Fourier transform defined above is computed by <tt>fft(x)</tt>`$\times \Delta_t $`.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Inverse DFT
+
+In fact,
+
+`\[x_n \equiv  \frac{1}{N\Delta_t}\sum_{m=0}^{N-1}X_m e^{i2\pi m n/N}\]`
+
+is called the *inverse discrete Fourier transform.* It expresses how `$x_n$` may be *constructed* using the Fourier coefficients multiplying complex exponentials&mdash;or, as we saw earlier, phase-shifted sinusoids.
+
+It can be shown that the *Parseval theorem* takes the form
+
+`\[\Delta_t \sum_{n=0}^{N-1} |x_n|^2 = \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |X_m|^2,\]`
+
+which, if `$\overline{x}=0$`, decomposes the **variance** of `$x_n$` as a sum of absolute Fourier coefficients squared.
+
+---
+class: center, .toc[[&#10023;](#toc)]
+#The Spectrum
+
+Thus, **one of several** definitions of the spectrum, or *spectral density function* is
+
+`\[S(f_m) \equiv \lim_{N \rightarrow \infty} E\left\{ \frac{|X_m|^2}{N} \right\}\]`
+
+However, `$N \rightarrow \infty$` is not achievable ...
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Continuous Fourier case
+
+The Fourier transform equations for a time series `$x(t)$` that is a function of *continuous* time are:
+
+`\begin{equation}
+  x(t) = \int_{-\infty}^{+\infty} X(f)\, e^{i2\pi f t} d f \quad \Leftrightarrow \quad X(f)\equiv  \int_{-\infty}^{+\infty} x(t)\, e^{-i2\pi f t}  d t.
+\end{equation}`
+
+`$x(t)$` and `$X(f)$` are said to be *Fourier Transform pair*. It is the continous extension of the discrete case. The Parseval theorem takes the form
+
+`\[\int_{-\infty}^{+\infty}  |x(t)|^2 dt = \int_{-\infty}^{+\infty}  |X(f)|^2 d f.\]`
+
+The function `$|X(f)|^2$` is called the *energy spectral density function*. `$|X(f)|^2 d f$` represents the contribution to the energy (variance) from the components in `$x(t)$` whose frequencies lies between `$f$` and `$f+df$`.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Spectral Estimates
+
+The simplest way to estimate the *spectrum* `$S(f)$` function of frequency `$f$` is to simply take the modulus squared of the Fourier transform,
+`\[\widehat{S}(f_m) = \widehat{S}_m\equiv \frac{1}{N}\left|X_m\right|^2,\quad\quad m=0, 1, 2, \ldots,(N-1).\]`
+This quantity is known as the *periodogram*.
+
+Note that the Matlab <tt>fft(x)</tt> command assumes `$\Delta_t = 1$` so you need to plot <tt>abs(fft(x))</tt>`$^2\times  \Delta_t /N$`.
+
+As we shall see, the periodogram is *not* the spectrum!  It is an *estimate* of the spectrum&mdash;and generally speaking, a very poor one.
+
+It is also said to be the *naive* spectral estimate, meaning it is the spectral estimate that you get if you don't know that there is something better. Please do not use the periodogram in your publications.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Multitaper Method
+
+An alternate spectral estimate called the *multitaper* method.  Here is a quick sketch of this method, with details to follow.
+
+We will form a set of `$K$` different sequences the same length as the data, that is, having `$N$` points in time.  These sequences are chosen from a special family of functions that is closely related to familiar orthogonal functions, e.g. the Hermite functions.
+
+These `$K$` different sequences are denoted as `$\psi_n^{\{k\}}$` for `$k=1,2,\ldots K$.`  For each of these sequence, we form a spectral estimate as
+
+`\[\widehat S_m^{\{k\}}\equiv \left|\Delta_t \sum_{n=0}^{N-1} \psi_n x_n\, e^{-i 2\pi m n/N}\right|^2,\quad\quad n=0, 1, 2, \ldots,(N-1).\]`
+
+which involves *multiplying* the data by the sequence `$\psi_n^{\{k\}}$` *before* taking the Fourier transform.
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Multitaper Method
+
+The action of multiplying the data by some sequence before Fourier transforming it, as in
+`\[\widehat S_m^{\{k\}}\equiv \left|\Delta_t \sum_{n=0}^{N-1} \psi_n x_n\, e^{-i 2\pi m n/N}\right|^2,\quad\quad n=0, 1, 2, \ldots,(N-1)\]`
+is called *tapering*.  The motivation for this will be seen shortly.
+
+These `$K$` different individual estimates, sometimes known as the *eigenspectra*, are combined into one *average* spectral estimate
+
+`\[\widehat S_m^{\psi}\equiv \frac{1}{K}\sum_{k=1}^K\widehat S_m^{\{k\}}.\]`
+
+The multitaper method therefore involves: (i)  *tapering* the data, and (ii) *averaging* over multiple individual spectral estimates.
+---
+class:center, .toc[[&#10023;](#toc)]
+#The Taper Functions
+<img style="width:85%"  src="./figures/tapers.png">
+
+`Here $K=5$` *Slepian* tapers are shown.  These are orthogonal functions that become more oscillatory for increasing `$k$.`
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Multitaper Method
+The multitaper method controls the degrees of spectral *smoothing* and *averaging* through changing the properties of the tapers.
+
+The multitaper method is generally the favorite spectral analysis method among those researchers who have thought the most about spectral analysis.
+
+It is recommended because (i) it avoids the deficiencies of the periodogram, (ii) it has, in a certain sense, provable optimal properties, (iii) it is very easy to implement and adjust, (iv) it allows an estimate of the spectrum for the period equal to the length of your time series (no need to divide up your time series as for the Welch's method!).
+
+This method was developed by David Thomson in an seminar paper in 1982. It is explored in great detail in Percival and Walden's book, *Spectral Analysis for Physical Applications*.
+
+<!-- A very nice introductory paper is Park et al. (1987), &ldquo;Frequency-dependent polarization analysis of high-frequency seismograms&rdquo;, *Journal of Geophysical Research C*. -->
+
+<!--.cite[Thomson (1982), Park et al. (1987a) ] -->
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Multitaper example:
+
+---
+
+name: bivariate
+class: center, middle, .toc[[&#10023;](#toc)]
+
+# 4. Bivariate time series
+
+---
+class: left, .toc[[&#10023;]
+#Vector and complex notations
+
+What if your process of interest is composed of two time series, let's say `$x(t)$` and `$y(t)$`? As in the vector components of ocean currents or atmospheric winds:
+
+`\begin{eqnarray}
+\mathbf{z}(t) = \left[ \begin{matrix} x(t) \\ y(t) \end{matrix}\right]
+\end{eqnarray}`
+
+Often, a *bivariate* time series is conveniently written as a complex-valued time series:
+
+`\[ z(t) = x(t) + i y(t) = |z(t)| e^{i \arg{(z)}},\]`
+
+where `$i = \sqrt{-1}$` and `$\arg{(z)}$` is the *complex argument* (or polar angle) of `$z$` in the interval `$[-\pi,+\pi]$`.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#The Mean of Bivariate Data
+
+The sample mean of the vector time series `$\mathbf{z}_n$` is also a vector,
+  
+`\[\overline{\mathbf{z}} \equiv \frac{1}{N}\sum_{n=0}^{N-1}\mathbf{z}_n=\begin{bmatrix} \overline{x} \\ \,\overline{y}\,\end{bmatrix}\]`
+
+that consists of the *sample means* of the `$x_n$` and `$y_n$` components of `$\mathbf{z}_n$`.
+
+  
+---
+class: left, .toc[[&#10023;](#toc)]
+#Variance of Bivariate Data
+
+The *variance* of the vector-valued times series `$\mathbf{z}_n$` is not a scalar or a vector, it is a `$2\times 2$` *matrix*
+  
+`\[\mathbf{\Sigma}\equiv \frac{1}{N}\sum_{n=0}^{N-1}\left(\mathbf{z}_n-\overline{\mathbf{z}}\right)\left(\mathbf{z}_n-\overline{\mathbf{z}}\right)^T \]`
+
+where &ldquo;`$T$`&rdquo; is the *matrix transpose*, `$\mathbf{z}_n =\begin{bmatrix} x_n \\ y_n \end{bmatrix}$`, `$\mathbf{z}_n^T  =\begin{bmatrix} x_n & y_n \end{bmatrix}$`.
+  
+Carrying out the matrix multiplication leads to 
+  
+`\[\mathbf{\Sigma}= \frac{1}{N}\sum_{n=0}^{N-1}
+\begin{bmatrix} \left(x_n-\overline{x}\right)^2 & \left(x_n-\overline{x}\right)\left(y_n-\overline{y}\right)\\ \left(x_n-\overline{x}\right)\left(y_n-\overline{y}\right) &\left(y_n-\overline{y}\right)^2 \end{bmatrix}
+\]`
+
+The diagonal elements of `$\mathbf{\Sigma}$` are the sample variances `$\sigma_x^2$` and `$\sigma_y^2$`, while the off-diagonal gives the *covariance* between `$x_n$` and `$y_n$`.  Note that the two off-diagonal elements are identical.   
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Fourier transform
+
+The Fourier theory presented earlier for *scalar* time series is completely applicable to complex-valued time series:
+`\begin{equation}
+  z(t) = \int_{-\infty}^{+\infty} Z(f)\, e^{i2\pi f t} d f = \int_{0}^{+\infty} Z(f)\, e^{i2\pi f t} d f + \int_{-\infty}^{0} Z(f)\, e^{i2\pi f t} d f.
+\end{equation}`
+
+--
+With discrete form (for `$N$` even):
+`\begin{eqnarray}
+z_n & = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} Z_m e^{i2\pi  m n/N} & = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=N/2+1}^{N-1} Z_m e^{i2\pi  m n/N}\\
+& & = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
+\end{eqnarray}`
+
+The first sum corresponds to **positive** frequencies, and the second sum to the associated **negative** frequencies (except the zero and Nyquist frequencies for `$m=0,N/2$`).
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Rotary Spectra
+
+`\begin{equation}
+z_n  = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
+\end{equation}`
+
+This introduces the concept of *rotary spectrum*. As an example the periodogram estimate of the rotary spectrum can be obtained as
+`\begin{eqnarray}
+\widehat{S}^+_m & \equiv & \frac{1}{N}\left|Z^+_m\right|^2 \quad \text{positive, counterclockwise, rotary spectrum,}\\
+\widehat{S}^-_m & \equiv  & \frac{1}{N}\left|Z^-_m\right|^2 \quad \text{negative, clockwise, rotary spectrum.}\\
+\end{eqnarray}`
+
+This is particularly interesting in geophysical fluid mechanics because counterclockwise rotation is *cyclonic* in the northern hemisphere and clockwise rotation is *anticyclonic*, and vice-versa in the southern hemisphere.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Cartesian Spectra
+
+Rotary and Cartesian spectra are two alternate representation of the variance of the complex time series:
+`\begin{equation}
+z_n  = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
+\end{equation}`
+
+`\begin{equation}
+\widehat{S}^+_m \equiv \frac{1}{N}\left|Z^+_m\right|^2, \quad \widehat{S}^-_m \equiv  \frac{1}{N}\left|Z^-_m\right|^2
+\end{equation}`
+
+`\begin{equation}
+z_n  = x_n+ i y_n = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N} + i \left\{ \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} Y_m e^{i2\pi  m n/N}\right\}.
+\end{equation}`
+
+`\begin{equation}
+\widehat{S}^x_m \equiv \frac{1}{N}\left|X_m\right|^2, \quad \widehat{S}^y_m \equiv  \frac{1}{N}\left|Y_m\right|^2
+\end{equation}`
+
+`$\widehat{S}^x_m$` and `$\widehat{S}^y_m$` are estimates of the Cartesian spectra.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example 1
+
+An example of the bravo mooring rcm data showing the u,v Cartesian spectra and the rotary spectra.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example 2
+
+Elipot's diagram of global rotary spectra from Elipot et al. 2016.
+
+---
+name: epilogue
+class: left, .toc[[&#10023;](#toc)]
+#Epilogue
+
+Many important topic of time series analyses were not discussed, namely the topics of *aliasing*, spectral blurring, filtering, and uncertainties in spectral estimates. Some of these are covered in JML's Oslo lecture which can be viewed online at [{www.jmlilly.net/talks/oslo/index.html}](http://www.jmlilly.net/talks/oslo/index.html).
+
+During the practical session this afternoon we will cover the material presented this morning, as well cover some of the topic of filtering.
+
+Thank you!
+
+Shane Elipot
+
+email: <tt>selipot@rsmas.miami</tt>
+
+The slides of this presentation are available at [{rsmas.miami.edu/users/selipot/}](http://rsmas.miami.edu) or  [{selipot.github.io}](http://selipot.github.io)
+
+ </textarea>
+ <!-- This is the link to the local copy of Remark -->
+ <script src="./javascript/remark-latest.min.js" type="text/javascript"></script>
+ <!-- See discussion at https://github.com/gnab/remark/issues/222-->
+ <!-- You could alternately use the libraries from remote location -->
+ <!--<script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>-->
+
+ <!-- This is the link to the remote MathJax libraries -->
+ <!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script> -->
+ <!-- If you want to run your presentation offline, you need to download the MathJax -->
+ <!-- libraries, then uncomment the line below and comment out the one above.-->
+ <script src="./javascript/MathJax/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured,local/local" type="text/javascript"></script>
+ <!-- Note: see comment at http://stackoverflow.com/questions/19208536/mathjax-not-working-if-loaded-from-local-js-file-or-if-the-source-code-is-includ-->
+
+ <script type="text/javascript">
+var slideshow = remark.create({navigation: {click: false}, properties: {class: "center, middle"},countIncrementalSlides: false});
+
+// Setup MathJax
+MathJax.Hub.Config({
+ tex2jax: {
+  inlineMath: [['$','$'], ['\\(','\\)']],
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+MathJax.Hub.Queue(function() {
+ $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+  return(elem.SourceElement());
+ }).parent().addClass('has-jax');
+});
+
+MathJax.Hub.Configured();
+ </script>
+  </body>
+</html>

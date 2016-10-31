@@ -35,6 +35,9 @@
 <loc>/tags/</loc>
 </url>
 <url>
+<loc>/talks/</loc>
+</url>
+<url>
 <loc>/vitae/</loc>
 </url>
 <url>
@@ -50,6 +53,10 @@
 <url>
 <loc>/images/site-logo.pdf</loc>
 <lastmod>2016-09-19T11:16:35-04:00</lastmod>
+</url>
+<url>
+<loc>/talks/tromso/javascript/MathJax/docs/html/index.html</loc>
+<lastmod>2016-10-14T08:37:20-04:00</lastmod>
 </url>
 <url>
 <loc>/vitae/latest-cv.pdf</loc>
