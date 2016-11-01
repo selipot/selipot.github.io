@@ -2,10 +2,10 @@
 layout: page
 title: Talks
 image:
-  feature:
-  credit:
+  feature: capetown.jpg
+  credit: View of Cape Town from Table Mountain, photo by Cobi Christiansen
 ---
 
 ---
 
-The Tromso lecture is available [here](tromso/index.html) or can be downloaded [here](tromso.zip).
+The lecture I gave in Tromso in Novemver 2016 is available [here](tromso/index.html).

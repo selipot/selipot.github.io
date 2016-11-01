@@ -88,21 +88,6 @@ class: center, middle
 .footnote[Created with [{Remark.js}](http://remarkjs.com/) using [{Markdown}](https://daringfireball.net/projects/markdown/) +  [{MathJax}](https://www.mathjax.org/)]
 
 ---
-name: toc
-class: left, .toc[[&#10023;](#toc)]
-
-
-# Outline
-
-1.     [Foreword](#foreword)
-1.	[Descriptive statistics (the time domain)](#timedomain)
-2.	[Stationarity, non-stationarity, and trends](#stationarity)
-3.	[Fourier Spectral analysis](#spectral)
-4.	[Bivariate time series](#bivariate)
-4.	[Epilogue](#epilogue)
-
-
----
 name: foreword
 class: left, .toc[[&#10023;](#toc)]
 
@@ -115,6 +100,19 @@ This current Troms&oslash; lecture is available for download on my website at [{
 The practical session this afternoon will be conducted using the [{Matlab}](https://www.mathworks.com/products/matlab/) computational software and the freely available Matlab toolbox **jLab** written by Jonathan Lilly and freely available [{here}](http://www.jmlilly.net/jmlsoft.html). Please download, install, and test the toolbox before the practical session.
 
 In addition, we will be using the code and data I have made available for download [{here}]().
+
+---
+name: toc
+class: left, .toc[[&#10023;](#toc)]
+
+# Outline
+
+1.	[Descriptive statistics (the time domain)](#timedomain)
+2.	[Stationarity, non-stationarity, and trends](#stationarity)
+3.	[Fourier Spectral analysis](#spectral)
+4.	[Bivariate time series](#bivariate)
+4.	[Epilogue](#epilogue)
+
 
 ---
 name: timedomain
@@ -200,7 +198,7 @@ The second point of view regards `$x_n$` as being built up of sinusoids: purely 
 
 This is the domain of *Fourier spectral analysis*.
 
-In between these two extremes is wavelet analysis.
+In between these two extremes is wavelet analysis which is not covered here, see the Oslo lectures.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
@@ -225,7 +223,8 @@ class: left, .toc[[&#10023;](#toc)]
 
 # Example
 
-22-year time series of Agulhas current transport (Beal and Elipot, 2016):
+22-year time series of Agulhas current transport:
+<!-- .cite[Beal and Elipot (2016), &ldquo;Broadening not intensification of the Agulhas Current since the 1990s&rdquo;, in press]: -->
 
 Sample mean is -95 Sverdrup (1 Sv = $10^6$ m$^3$ s$^{-1}$)
 
@@ -238,7 +237,7 @@ class: left, .toc[[&#10023;](#toc)]
 #  Histogram
 The mean, variance, skewness, and kurtosis (seen next) describe aspects of the *histogram*: the observed distribution of data values.
 
-<center><img style="width:50%"  src="./figures/agulhas_histogram.png"></center>
+<center><img style="width:60%"  src="./figures/agulhas_histogram.png"></center>
 
 Here is the histogram of *all* Agulhas Jet transport (blue), versus Gaussian noise having the same mean and variance (orange).
 
@@ -262,7 +261,7 @@ The *kurtosis* is said to either measure *peakedness* (concentration near `$\ove
 
 `\[\kappa_x \equiv \frac{1}{\sigma_x^4}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\overline{x}\right)^4\]`
 
- Actually, it measures both. Kurtosis is a measure of the spread of `$x_n$` about the *two points*  `$\overline{x} \pm \sigma_x$`.  This can happen *either* for peakness *or* for long tails!  .cite[See Moors (1986), &ldquo;The Meaning of Kurtosis&rdquo;.]
+ Actually, it measures both. Kurtosis is a measure of the spread of `$x_n$` about the *two points*  `$\overline{x} \pm \sigma_x$`.  This can happen *either* for peakness *or* for long tails!  .cite[See Moors (1986), &ldquo;The Meaning of Kurtosis: Darlington Reexamined&rdquo;.]
 
 Because the value of kurtosis for a Gaussian process can be shown to be equal to 3, one sometimes encounters the *excess kurtosis*
 
@@ -371,7 +370,7 @@ class: left, .toc[[&#10023;](#toc)]
 
 --
 
-This is a record of daily atmospheric CO$_2$ measured at Mauna Loa in Hawaii at an altitude of 3400 m. *(Data from Dr. Pieter Tans, NOAA/ESRL (www.esrl.noaa.gov/gmd/ccgg/trends/) and Dr. Ralph Keeling, Scripps Institution of Oceanography (scrippsco2.ucsd.edu/))*
+This is a record of daily atmospheric CO$_2$ measured at Mauna Loa in Hawaii at an altitude of 3400 m. Data from Dr. Pieter Tans, NOAA/ESRL ([{www.esrl.noaa.gov/gmd/ccgg/trends/}](http://www.esrl.noaa.gov/gmd/ccgg/trends/)) and Dr. Ralph Keeling, Scripps Institution of Oceanography ([{scrippsco2.ucsd.edu}](http://scrippsco2.ucsd.edu/)).
 
 We will investigate further this time series during the practical session this afternoon.
 
@@ -379,7 +378,7 @@ We will investigate further this time series during the practical session this a
 class: left, .toc[[&#10023;](#toc)]
 # Non-stationarity
 
-The sample statistics may be changing with time because the underlying process (that is its statistics) is changing with time. The process is said to be &ldquo;non-stationary&rdquo; (not the formal definition).
+The sample statistics may be changing with time because the underlying process (that is its statistics) is changing with time. The process is said to be &ldquo;non-stationary&rdquo;.
 
 Sometimes we need to re-think our model for the underlying process. Let us hypothesized that the process `$x(t)$` is the sum of an unknown process $y(t)$, plus a linear trend $a$, plus noise:
 `$$x(t) = y(t) + a t + \epsilon(t),$$`
@@ -391,7 +390,7 @@ or maybe the trend is better described as being quadratic with time because of a
 
 --
 
-The goal is then to estimate the unknowns $a,b$, which consists of methods of analyses generally called &ldquo;parametric&rdquo;. It is a bit like the difference between just *looking* at data and *assuming* a form of the data.
+The goal is then to estimate the unknowns $a,b$, which consists of methods of analyses generally called &ldquo;parametric&rdquo;. It is a bit like analyzing the data in terms of its statistics (with no prior expectations) or assuming a form for the data.
 
 ---
 name: spectral
@@ -465,17 +464,15 @@ class: left, .toc[[&#10023;](#toc)]
 
 The discrete time series `$x_n$` can written as a sum of complex exponentials:
 
-`\[ x_n = \frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N}, \quad\quad\quad n=0,1,\ldots N-1  \]`
+`\[ x_n = \frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N} = \frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi n \Delta_t \cdot (m/N \Delta_t)}, \quad n=0,1,\ldots N-1  \]`
 
---
-
-`\[ x_n = \frac{1}{N \Delta_t} \left[ X_0  +  X_1 e^{i2\pi n \Delta_t \,(1/N \Delta_t)} +  X_2 e^{i2\pi n \Delta_t \,(2/N \Delta_t)}  +  X_3 e^{i2\pi n \Delta_t\, (3/N \Delta_t)}  +\ldots \right]. \]`
+<!-- `\[ x_n = \frac{1}{N \Delta_t} \left[ X_0  +  X_1 e^{i2\pi n \Delta_t \,(1/N \Delta_t)} +  X_2 e^{i2\pi n \Delta_t \,(2/N \Delta_t)}  +  X_3 e^{i2\pi n \Delta_t\, (3/N \Delta_t)}  +\ldots \right]. \]` -->
 
 --
 
 The  `$m$`th term behaves as `$ e^{i2\pi f_m n \Delta_t} =\cos(2\pi f_m n \Delta_t) +i \sin(2\pi f_m n \Delta_t) $`, where `$f_m\equiv m/N \Delta_t$`.
 
-Note that in the litterature, `$\Delta_t$` is often set to one, and thus omitted, leading to a lot of confusion (including for me!). 
+Note that in the literature, `$\Delta_t$` is often set to one, and thus omitted, leading to a lot of confusion (including for me!). 
 
 The quantity `$f_m\equiv m/N \Delta_t$` is called the `$m$`th *Fourier frequency*. The *period* associated with `$f_m$` is `$1/f_m=\Delta_t N/m$`.  Thus `$m$` tells us the *number of oscillations* contained in the length `$N \Delta_t$` time series.
 
@@ -507,12 +504,12 @@ class: center, .toc[[&#10023;](#toc)]
 
 The single most important frequency is the *highest resolvable* frequency, the *Nyquist frequency*.
 
-`$f^\mathcal{N} \equiv \frac{1}{2\Delta_t}\quad\quad \omega^\mathcal{N} \equiv \frac{2\pi}{2\Delta_t}=\frac{\pi}{\Delta_t}$`
+`$f^\mathcal{N} \equiv \frac{1}{2\Delta_t} = \frac{1}{2}\cdot\frac{1}{\Delta_t}\quad\quad \omega^\mathcal{N} \equiv \frac{1}{2}\cdot\frac{2\pi}{\Delta_t}=\frac{\pi}{\Delta_t}$`
 
-<img style="width:85%"  src="./figures/nyquistfrequency.png
+<img style="width:80%"  src="./figures/nyquistfrequency.png
 ">
 
-The highest resolvable frequency is *one cycle per two data points.*
+The highest resolvable frequency is *half* the *sampling rate* or *one cycle per two sampling intervals*.
 
 `$e^{i2\pi  f^{\mathcal{N}} n \Delta_t}=e^{i2\pi \cdot 1/(2\Delta_t) \cdot n\Delta_t}=e^{i\pi n} = (-1)^n = 1,-1,1,-1,\dots $`
 
@@ -540,7 +537,7 @@ The second most important frequency is the *lowest resolvable* frequency, the *R
 The lowest resolvable frequency is one cycle over the *entire record*.
 Here the sample interval `$\Delta_t=1$` and the number of points is `$N=10$`.
 
-If we think of the data as a vibrating string, the Rayleigh frequency is the *first overtone*.  The fundamental does not appear in the DFT.
+<!-- If we think of the data as a vibrating string, the Rayleigh frequency is the *first overtone*.  The fundamental does not appear in the DFT. -->
 ---
 class: left, .toc[[&#10023;](#toc)]
 #  Importance of Rayleigh
@@ -606,61 +603,23 @@ For this reason Matlab provides <tt>fftshift</tt>, to shifts the zero frequency,
 
 ---
 class: left, .toc[[&#10023;](#toc)]
-#  Conjugate Pairs
-
-Let's examine individual terms in the discrete-time Fourier series
-
-`\[x_n=\frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi m n/N}.\]`
-
-The second (`$m=1$`) term is `$X_1 e^{i2\pi n/N }$`.  The final (`$m=N-1$`) term is
-
-`\[X_{N-1} e^{i2\pi n(N-1)/N }=X_{N-1} e^{i2\pi n} e^{-i2\pi n/N } =X_{N-1} e^{-i2\pi n/N} \]`
-
-which rotates at the same rate as the second  (`$m=1$`) term, but in the opposite direction!  Assuming $N$ is even-valued, we have
-
-`\begin{multline}
- (N\Delta_t) x_n = X_0 + \left[X_{1} e^{i2\pi n/N }+X_{N-1}  e^{-i2\pi n/N } \right] +
-\left[X_{2} e^{i2\pi n (2/N) }+X_{N-2}  e^{-i2\pi n(2/N) } \right] \\
-+\left[X_{3} e^{i2\pi n (3/N) }+X_{N-3} e^{-i2\pi n(3/N) } \right] \ldots + X_{N/2} e^{i\pi n}.
-\end{multline}`
-
-For `$x_n$` to be real-valued, we **must** have `$X_1=X_{N-1}^*$`, `$X_2=X_{N-2}^*$`, etc.
-
----
-class: left, .toc[[&#10023;](#toc)]
-#One-Sided Representation
-
-The discrete Fourier transform represents a time series as a sum of *positively-rotating* and *negatively-rotating* contributions.
-
-When `$x_n$` is real-valued, these contributions *cancel*.
-
-In the usual form of the DFT, the negatively-rotating contributions are represented by *aliasing* frequencies higher than the Nyquist!
-
-We can write the DFT in the *one-sided* form, for even `$N$`,
-
-`\[x_n= \frac{1}{N\Delta_t}X_0 +  \frac{2}{N\Delta_t}\sum_{m=1}^{N/2-1} A_m \cos\left(2\pi f_m n\Delta_t +\Phi_m\right)+ X_{N/2} (-1)^n\]`
-
-where  `$A_m$` and  `$\Phi_m$` are an *amplitude* and *phase*, with `$X_m = A_m e^{i \Phi_m}$`.
-
-The first and last contributions are the *mean* and the *Nyquist*.  Their coefficients  must be real-valued, as there is nothing to cancel them.
-
----
-class: left, .toc[[&#10023;](#toc)]
 #One-Sided vs. Two-Sided
 
-The two-sided and one-sided representations of the discrete Fourier transform are entirely equivalent.
+There exists two strictly equivalent representations,  two-sided and one-sided, of the discrete Fourier transform:
 
 `\begin{eqnarray}
-  x_n&=&\frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi m n/N}\\
-x_n&=& \frac{1}{N\Delta_t}X_0 + \frac{2}{N\Delta_t}\sum_{m=1}^{N/2-1} A_m \cos\left(2\pi m n/N +\Phi_m\right) + X_{N/2} (-1)^n
+  x_n&=&\frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi m n/N},\\
+x_n&=& \frac{1}{N\Delta_t}X_0 + \frac{2}{N\Delta_t}\sum_{m=1}^{N/2-1} A_m \cos\left(2\pi m n/N +\Phi_m\right) + X_{N/2} (-1)^n,
   \end{eqnarray}`
+
+where  `$A_m$` and  `$\Phi_m$` are an *amplitude* and *phase*, with `$X_m = A_m e^{i \Phi_m}$`.
 
 The two-sided representation is more compact mathematically.
 
 For real-valued `$x_n$`, the one-sided representation is more intuitive as it expresses `$x_n$` as a sum of *phase-shifted* cosinusoids.
 --
 
-A price of the one-sided form is that even and odd `$N$` are somewhat different!  This expression is for even-valued `$N$`.
+A price of the one-sided form is that even and odd `$N$` are somewhat different!  The expression above is for even-valued `$N$`.
 <!--For a *complex-valued* discrete times series $z_n$ is *complex-valued*,  there is no one-sided form, and the two-sided form is exactly what you want.-->
 
 ---
@@ -671,7 +630,7 @@ So? How do we know the values of the Fourier coefficients `$X_n$`? It can be sho
 
 `\[X_m \equiv  \Delta_t \sum_{n=0}^{N-1}x_n e^{-i2\pi m n/N}\]`
 
-This is called the *discrete Fourier transform* of `$x_n$`.  It *transforms* `$x_n$` from the time domain to the frequency domain. The DFT *defines* a sequence of `$N$` complex-valued numbers, `$X_m$`,  , for `$m=0,1,2,\ldots N-1$`, which are termed the *Fourier coefficients.*
+This is called the *discrete Fourier transform* of `$x_n$`.  It *transforms* `$x_n$` from the time domain to the frequency domain. The DFT *defines* a sequence of `$N$` complex-valued numbers, `$X_m$`,  for `$m=0,1,2,\ldots N-1$`, which are termed the *Fourier coefficients.*
 
 In Matlab, the discrete Fourier transform defined above is computed by <tt>fft(x)</tt>`$\times \Delta_t $`.
 
@@ -692,14 +651,22 @@ It can be shown that the *Parseval theorem* takes the form
 which, if `$\overline{x}=0$`, decomposes the **variance** of `$x_n$` as a sum of absolute Fourier coefficients squared.
 
 ---
-class: center, .toc[[&#10023;](#toc)]
+class: left, .toc[[&#10023;](#toc)]
 #The Spectrum
 
 Thus, **one of several** definitions of the spectrum, or *spectral density function* is
 
-`\[S(f_m) \equiv \lim_{N \rightarrow \infty} E\left\{ \frac{|X_m|^2}{N} \right\}\]`
+`\[S(f_m) \equiv \lim_{N \rightarrow \infty} E\left\{ \frac{|X_m|^2}{N} \right\}.\]`
 
-However, `$N \rightarrow \infty$` is not achievable ...
+`$E\{\cdot\}$` is called the *expectation*, it is a conceptual &ldquo;average&rdquo; over a statistical ensemble, and it cannot obtained in practice.
+
+--
+
+In addition, `$N \rightarrow \infty$` is not achievable ...
+
+--
+
+Therefore, one aspect of spectral analysis is to find an acceptable &ldquo;estimate&rdquo; of the true, unknown, spectrum of the process `$x(t)$`.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
@@ -846,8 +813,8 @@ The Fourier theory presented earlier for *scalar* time series is completely appl
 --
 With discrete form (for `$N$` even):
 `\begin{eqnarray}
-z_n & = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} Z_m e^{i2\pi  m n/N} & = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=N/2+1}^{N-1} Z_m e^{i2\pi  m n/N}\\
-& & = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
+z_n & =  & \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=N/2+1}^{N-1} Z_m e^{i2\pi  m n/N}\\
+ & = & \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
 \end{eqnarray}`
 
 The first sum corresponds to **positive** frequencies, and the second sum to the associated **negative** frequencies (except the zero and Nyquist frequencies for `$m=0,N/2$`).
@@ -895,13 +862,69 @@ z_n  = x_n+ i y_n = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N} + 
 class: left, .toc[[&#10023;](#toc)]
 #Example 1
 
-An example of the bravo mooring rcm data showing the u,v Cartesian spectra and the rotary spectra.
+Hourly current meter record at 110 m depth from the Bravo mooring in the Labrador Sea, .cite[Lilly and Rhines (2002)]
+<center><img style="width:55%"  src="./figures/bravomap.tiff"></center>
 
 ---
 class: left, .toc[[&#10023;](#toc)]
-#Example 2
+#Example 1
 
-Elipot's diagram of global rotary spectra from Elipot et al. 2016.
+Hourly current meter record at 110 m depth from the Bravo mooring in the Labrador Sea, .cite[Lilly and Rhines (2002)]
+<center><img style="width:85%"  src="./figures/mybravo.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example 1
+
+Hourly current meter record at 110 m depth from the Bravo mooring in the Labrador Sea, .cite[Lilly and Rhines (2002)]
+<center><img style="width:85%"  src="./figures/mybravozoomed.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Observable Features
+1.  The data consists of two time series that are similar in character.
+1.  Both time series present a superposition of scales.
+1.  At the smallest scale, there is an apparently oscillatory roughness which changes its amplitude in time.
+1.  A larger scale presents itself either as localized features, or as wavelike in nature.
+1.  Several sudden transitions are associated with isolated events.
+1.  Zooming in, we see the small-scale oscillatory behavior is sometimes `$90^\circ$` degrees out of phase, and sometimes `$180^\circ$`.
+1.  The amplitude of this oscillatory variability changes with time.
+
+The fact that the oscillatory behavior is not consistently `$90^\circ$` out of phase removes the possibility of these features being purely inertial oscillations.  The amplitude modulation suggests tidal beating.  
+  
+--
+  
+The isolated events are  eddies, which cause the currents to suddenly rotate as they pass by.  The oscillations are due to tides and internal waves.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Cartesian vs Rotary Spectra
+
+<center><img style="width:100%"  src="./figures/bravospectraperiodogram.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Cartesian vs Rotary Spectra
+
+<center><img style="width:100%"  src="./figures/bravospectramultitaper.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Cartesian vs Rotary Spectra
+
+<center><img style="width:100%"  src="./figures/bravospectraperiodogramzoomed.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Cartesian vs Rotary Spectra
+
+<center><img style="width:100%"  src="./figures/bravospectramultitaperzoomed.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example
+Global zonally-averaged rotary spectra from hourly drifter velocities, see .cite[Elipot et al. 2016].
+<center><img style="width:50%"  src="./figures/elipotspectra2016.tiff"></center>
 
 ---
 name: epilogue
@@ -916,7 +939,7 @@ Thank you!
 
 Shane Elipot
 
-email: <tt>selipot@rsmas.miami</tt>
+email: <tt>selipot@rsmas.miami.edu</tt>
 
 The slides of this presentation are available at [{rsmas.miami.edu/users/selipot/}](http://rsmas.miami.edu) or  [{selipot.github.io}](http://selipot.github.io)
 
