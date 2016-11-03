@@ -208,13 +208,13 @@ A good place to start is with the very simplest tools.
 
 The *sample mean* describes a &ldquo;typical&rdquo; value:
 
-`\[\overline{x} \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n\]`
+`\[\hat{\mu}_x \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n\]`
 
 The *sample variance* gives the spread about the mean:
 
-`\[\sigma_x^2 \equiv \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\overline{x}\right)^2\]`
+`\[\hat{\sigma}_x^2 \equiv \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\hat{\mu}_x\right)^2\]`
 
-&ldquo;Sample&rdquo; here means that it is computed from the observed data, as opposed to being a property of the assumed underlying process `$x(t)$`.
+&ldquo;Sample&rdquo; here means that it is computed from the observed data, as opposed to being a property of the assumed underlying process `$x(t)$`. That's why we use `$\hat{\cdot}$`.
 
 The mean and variance are called the first two *moments* of the distribution of values associated with the process.
 
@@ -226,9 +226,9 @@ class: left, .toc[[&#10023;](#toc)]
 22-year time series of Agulhas current transport:
 <!-- .cite[Beal and Elipot (2016), &ldquo;Broadening not intensification of the Agulhas Current since the 1990s&rdquo;, in press]: -->
 
-Sample mean is -95 Sverdrup (1 Sv = $10^6$ m$^3$ s$^{-1}$)
+Sample mean `$\hat{\mu}_x$` is -95 Sverdrup (1 Sv = $10^6$ m$^3$ s$^{-1}$)
 
-Sample standard deviation is 20 Sv
+Sample standard deviation `$\sqrt{\hat{\sigma}^2_x}$` is 20 Sv
 
 <img style="width:100%"  src="./figures/agulhas_timeseries.png">
 
@@ -248,7 +248,7 @@ class: left, .toc[[&#10023;](#toc)]
 
 The *skewness* describes the tendency for an *asymmetry* between positive excursions and negative excursions:
 
-`\[\gamma_x \equiv \frac{1}{\sigma_x^3}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\overline{x}\right)^3\]`
+`\[\hat{\gamma}_x \equiv \frac{1}{\hat{\sigma}_x^3}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\hat{\mu}_x\right)^3\]`
 
 <center><img style="width:90%"  src="./figures/Negative_and_positive_skew_diagrams.svg"></center>
 
@@ -257,11 +257,11 @@ The *skewness* describes the tendency for an *asymmetry* between positive excurs
 class: left, .toc[[&#10023;](#toc)]
 #  Kurtosis
 
-The *kurtosis* is said to either measure *peakedness* (concentration near `$\overline{x}$`), or a tendency for *long tails* (concentration far from `$\overline{x}$`):
+The *kurtosis* is said to either measure *peakedness* (concentration near `$\hat{\mu}_x$`), or a tendency for *long tails* (concentration far from `$\hat{\mu}_x$`):
 
-`\[\kappa_x \equiv \frac{1}{\sigma_x^4}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\overline{x}\right)^4\]`
+`\[\hat{\kappa}_x \equiv \frac{1}{\hat{\sigma}_x^4}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\hat{\mu}_x\right)^4\]`
 
- Actually, it measures both. Kurtosis is a measure of the spread of `$x_n$` about the *two points*  `$\overline{x} \pm \sigma_x$`.  This can happen *either* for peakness *or* for long tails!  .cite[See Moors (1986), &ldquo;The Meaning of Kurtosis: Darlington Reexamined&rdquo;.]
+ Actually, it measures both. Kurtosis is a measure of the spread of `$x_n$` about the *two points*  `$\mu_x \pm \sigma_x$`.  This can happen *either* for peakness *or* for long tails!  .cite[See Moors (1986), &ldquo;The Meaning of Kurtosis: Darlington Reexamined&rdquo;.]
 
 Because the value of kurtosis for a Gaussian process can be shown to be equal to 3, one sometimes encounters the *excess kurtosis*
 
@@ -284,7 +284,7 @@ Positive excess kurtosis corresponds to long tails and peakedness.
 class: left, .toc[[&#10023;](#toc)]
 #  Example
 
-The skewness is -0.6, and the excess kurtosis is 1.14
+`$\hat{\gamma}_x - =0.6, \quad \hat{\kappa}_x - 3 = 1.14$`.
 
 <center><img style="width:50%"  src="./figures/agulhas_histogram.png"></center>
 
@@ -293,27 +293,22 @@ Here is the histogram of *all* Agulhas Jet transport (blue), versus Gaussian noi
 ---
 class: left, .toc[[&#10023;](#toc)]
 
-# Processes vs Estimates
+# Process stats vs Estimates
 
 How can we be sure that the *sample* statistics for `$x_n$` are the statistics of the process `$x(t)$`? We can't, but we can estimate an uncertainty for our estimates, also called an *error*.
 
-Here is an example for the estimate of the mean. Recall the sample mean:
+As an example recall the sample mean is  `$\hat{\mu}_x \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n.$`
 
-`$$\overline{x} \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n.$$`
+It can be shown that the theoretical variance of the sample mean is
 
-The *standard error of the mean* is
+`$$ \sigma^2_{\hat{\mu}_x} \equiv \frac{\sigma^2_x}{N}.$$`
 
-`$$ s_{\overline{x}} \equiv \frac{\sigma_x}{\sqrt{N}}$$`
-
-sometimes reported as `$\overline{x} \pm s_{\overline{x}}$`.
+so that **estimates** of the *standard error of the mean* can be calculated as $\frac{\hat{\sigma}_x}{\sqrt{N}}$. This is a general principle: abstract concepts or mathematical objects are estimated by *estimators*, which have errors (bias and variance).
 
 ---
 class: left, .toc[[&#10023;](#toc)]
 # Example
-<!-- Sample mean `$\overline{x} = \frac{1}{N}\sum_{n=0}^{N-1} x_n$` and variance `$\sigma_x^2 = \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\overline{x}\right)^2$`
- as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange). -->
- Sample mean `$\overline{x}$` with $\pm$ 1 standard error `$s_{\overline{x}}$` and variance `$\sigma_x^2$`
-  as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange).
+Plots of `$\hat{\mu}_x \pm \hat{\sigma}_{{\mu}_x}$`  and `$\hat{\sigma}_x^2$`  as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange).
 
 <center><img style="width:60%"  src="./figures/agulhas_mean_variance.png"></center>
 
@@ -580,7 +575,7 @@ while the last few are
 
 But notice that the last Fourier exponential term is
 
-`\[e^{i2\pi f_{N-1} n\Delta_t} = e^{i2\pi (N-1) n/N}=e^{i2\pi n (1-1/N) }=e^{i2\pi n}e^{-i2\pi n/N}=e^{-i2\pi n/N} = e^{-i2\pi f_1 n \Delta_t}\]`
+`\[e^{i2\pi f_{N-1} n\Delta_t} = e^{i2\pi (N-1) n/N}=e^{i2\pi n}e^{-i2\pi n/N}=e^{-i2\pi n/N} = e^{-i2\pi f_1 n \Delta_t}\]`
 
 because `$e^{i2\pi n}=1$` for all integers `$n$`!  Frequencies higher than the Nyquist cannot appear due to our sample rate.  Therefore, these terms instead specify terms that have a frequency *less than* the Nyquist but that rotate in the *negative* direction.
 ---
@@ -591,7 +586,7 @@ In the vicinity of `$m=N/2$`, for even `$N$`, we have
 
 `\[f_{N/2-1}=\frac{1}{2\Delta_t}-\frac{1}{N\Delta_t},\quad f_{N/2}=\frac{1}{2\Delta_t}, \quad f_{N/2+1}=\frac{1}{2\Delta_t}+\frac{1}{N\Delta_t},\ldots\]`
 
-but actually the first frequency higher than the Nyquist is the *highest negative frequency*
+but actually the first frequency higher than the Nyquist is the *highest negative frequency*:
 
 `\[f_{N/2-1}=\frac{1}{2\Delta_t}-\frac{1}{N\Delta_t},\quad f_{N/2}=\frac{1}{2\Delta_t}, \ldots \]`
 
@@ -605,7 +600,7 @@ For this reason Matlab provides <tt>fftshift</tt>, to shifts the zero frequency,
 class: left, .toc[[&#10023;](#toc)]
 #One-Sided vs. Two-Sided
 
-There exists two strictly equivalent representations,  two-sided and one-sided, of the discrete Fourier transform:
+There exists two strictly equivalent representations,  *two-sided* and *one-sided*, of the discrete Fourier transform:
 
 `\begin{eqnarray}
   x_n&=&\frac{1}{N\Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi m n/N},\\
@@ -626,11 +621,13 @@ A price of the one-sided form is that even and odd `$N$` are somewhat different!
 class: left, .toc[[&#10023;](#toc)]
 #The Forward DFT
 
-So? How do we know the values of the Fourier coefficients `$X_n$`? It can be shown that:
+So? How do we know the values of the Fourier coefficients `$X_m$`? It can be shown that:
 
-`\[X_m \equiv  \Delta_t \sum_{n=0}^{N-1}x_n e^{-i2\pi m n/N}\]`
+`\[X_m =  \Delta_t \sum_{n=0}^{N-1}x_n e^{-i2\pi m n/N}\]`
 
-This is called the *discrete Fourier transform* of `$x_n$`.  It *transforms* `$x_n$` from the time domain to the frequency domain. The DFT *defines* a sequence of `$N$` complex-valued numbers, `$X_m$`,  for `$m=0,1,2,\ldots N-1$`, which are termed the *Fourier coefficients.*
+This is called the *discrete Fourier transform* of `$x_n$`.
+
+The DFT *transforms* `$x_n$` from the time domain to the frequency domain. The DFT *defines* a sequence of `$N$` complex-valued numbers, `$X_m$`,  for `$m=0,1,2,\ldots N-1$`, which are termed the *Fourier coefficients.*
 
 In Matlab, the discrete Fourier transform defined above is computed by <tt>fft(x)</tt>`$\times \Delta_t $`.
 
@@ -644,17 +641,11 @@ In fact,
 
 is called the *inverse discrete Fourier transform.* It expresses how `$x_n$` may be *constructed* using the Fourier coefficients multiplying complex exponentials&mdash;or, as we saw earlier, phase-shifted sinusoids.
 
-It can be shown that the *Parseval theorem* takes the form
-
-`\[\Delta_t \sum_{n=0}^{N-1} |x_n|^2 = \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |X_m|^2,\]`
-
-which, if `$\overline{x}=0$`, decomposes the **variance** of `$x_n$` as a sum of absolute Fourier coefficients squared.
-
 ---
 class: left, .toc[[&#10023;](#toc)]
 #The Spectrum
 
-Thus, **one of several** definitions of the spectrum, or *spectral density function* is
+**One of several definitions** of the *spectrum*, or *spectral density function*, at frequency `$f_m$`, is:
 
 `\[S(f_m) \equiv \lim_{N \rightarrow \infty} E\left\{ \frac{|X_m|^2}{N} \right\}.\]`
 
@@ -662,27 +653,27 @@ Thus, **one of several** definitions of the spectrum, or *spectral density funct
 
 --
 
-In addition, `$N \rightarrow \infty$` is not achievable ...
+Formally, the function `$S$` is defined for all frequencies `$f$`, not only `$f_m$`, but as `$N \rightarrow \infty$`, the Rayleigh frequency `$1/N\Delta_t$` becomes infinitesimally small, and all frequencies are obtained.
 
 --
 
-Therefore, one aspect of spectral analysis is to find an acceptable &ldquo;estimate&rdquo; of the true, unknown, spectrum of the process `$x(t)$`.
+However, `$N \rightarrow \infty$` is not achievable ... Therefore, one aspect of spectral analysis is to find an acceptable **estimate** of the true, unknown, spectrum `$S(f)$` of the process `$x(t)$`.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
-# Continuous Fourier case
+#The Parseval Theorem
 
-The Fourier transform equations for a time series `$x(t)$` that is a function of *continuous* time are:
+A very important theorem is *Parseval's theorem* which takes  the following form for the discrete case:
 
-`\begin{equation}
-  x(t) = \int_{-\infty}^{+\infty} X(f)\, e^{i2\pi f t} d f \quad \Leftrightarrow \quad X(f)\equiv  \int_{-\infty}^{+\infty} x(t)\, e^{-i2\pi f t}  d t.
-\end{equation}`
+`\[\Delta_t \sum_{n=0}^{N-1} |x_n|^2 = \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |X_m|^2.\]`
 
-`$x(t)$` and `$X(f)$` are said to be *Fourier Transform pair*. It is the continous extension of the discrete case. The Parseval theorem takes the form
+When `$\hat{\mu}_x=0$`, this theorem shows that the total **variance** of `$x_n$` is recoverable from the sum of absolute Fourier coefficients squared.
 
-`\[\int_{-\infty}^{+\infty}  |x(t)|^2 dt = \int_{-\infty}^{+\infty}  |X(f)|^2 d f.\]`
-
-The function `$|X(f)|^2$` is called the *energy spectral density function*. `$|X(f)|^2 d f$` represents the contribution to the energy (variance) from the components in `$x(t)$` whose frequencies lies between `$f$` and `$f+df$`.
+Which can be interpreted as saying that the spectrum gives you the distribution of the variance as a function of frequency.
+<!-- The continuous-time, continuous-frequency, version of Parseval's theorem implies is -->
+<!-- `\begin{equation} -->
+<!-- \int_{-\infty}^{+\infty}|x(t)|^2\,dt = \int_{-\infty}^{+\infty}|X(f)|^2\,df \quad \text{for}\quad \int_{-\infty}^{+\infty}|x(t)|\,dt < \infty -->
+<!-- \end{equation}` -->
 
 ---
 class: left, .toc[[&#10023;](#toc)]
@@ -702,9 +693,9 @@ It is also said to be the *naive* spectral estimate, meaning it is the spectral 
 class: left, .toc[[&#10023;](#toc)]
 #The Multitaper Method
 
-An alternate spectral estimate called the *multitaper* method.  Here is a quick sketch of this method, with details to follow.
+An alternate spectral estimate called the *multitaper* method.  Here is a quick sketch of this method.
 
-We will form a set of `$K$` different sequences the same length as the data, that is, having `$N$` points in time.  These sequences are chosen from a special family of functions that is closely related to familiar orthogonal functions, e.g. the Hermite functions.
+We form a set of `$K$` different sequences the same length as the data, that is, having `$N$` points in time.  These sequences are chosen from a special family of functions that is closely related to familiar orthogonal functions, e.g. the Hermite functions.
 
 These `$K$` different sequences are denoted as `$\psi_n^{\{k\}}$` for `$k=1,2,\ldots K$.`  For each of these sequence, we form a spectral estimate as
 
@@ -717,19 +708,18 @@ class: left, .toc[[&#10023;](#toc)]
 
 The action of multiplying the data by some sequence before Fourier transforming it, as in
 `\[\widehat S_m^{\{k\}}\equiv \left|\Delta_t \sum_{n=0}^{N-1} \psi_n x_n\, e^{-i 2\pi m n/N}\right|^2,\quad\quad n=0, 1, 2, \ldots,(N-1)\]`
-is called *tapering*.  The motivation for this will be seen shortly.
-
-These `$K$` different individual estimates, sometimes known as the *eigenspectra*, are combined into one *average* spectral estimate
+is called *tapering*.  The goal is to reduce the **bias** (systematic error) of the spectral estimate.
+These `$K$` different individual estimates (aka *eigenspectra*), are combined into one *average* spectral estimate, in order to reduce the **variance** (random error) of the estimate
 
 `\[\widehat S_m^{\psi}\equiv \frac{1}{K}\sum_{k=1}^K\widehat S_m^{\{k\}}.\]`
 
-The multitaper method therefore involves: (i)  *tapering* the data, and (ii) *averaging* over multiple individual spectral estimates.
+The multitaper method therefore involves two steps: (i)  *tapering* the data, and (ii) *averaging* over multiple individual spectral estimates.
 ---
 class:center, .toc[[&#10023;](#toc)]
 #The Taper Functions
 <img style="width:85%"  src="./figures/tapers.png">
 
-`Here $K=5$` *Slepian* tapers are shown.  These are orthogonal functions that become more oscillatory for increasing `$k$.`
+`Here $K=5$` *Slepian* tapers are shown.  These are orthogonal functions that become more oscillatory for increasing `$K$.`
 ---
 class: left, .toc[[&#10023;](#toc)]
 #The Multitaper Method
@@ -737,9 +727,9 @@ The multitaper method controls the degrees of spectral *smoothing* and *averagin
 
 The multitaper method is generally the favorite spectral analysis method among those researchers who have thought the most about spectral analysis.
 
-It is recommended because (i) it avoids the deficiencies of the periodogram, (ii) it has, in a certain sense, provable optimal properties, (iii) it is very easy to implement and adjust, (iv) it allows an estimate of the spectrum for the period equal to the length of your time series (no need to divide up your time series as for the Welch's method!).
+It is recommended because **(i)** it avoids the deficiencies of the periodogram, **(ii)** it has, in a certain sense, provable optimal properties, **(iii)** it is very easy to implement and adjust, **(iv)** it allows an estimate of the spectrum for the period equal to the length of your time series (no need to divide up your time series as for the Welch's method!).
 
-This method was developed by David Thomson in an seminar paper in 1982. It is explored in great detail in Percival and Walden's book, *Spectral Analysis for Physical Applications*.
+See .cite[Thomson (1982)], .cite[Park et al. (1987)], and .cite[Percival and Walden, *Spectral Analysis for Physical Applications*].
 
 <!-- A very nice introductory paper is Park et al. (1987), &ldquo;Frequency-dependent polarization analysis of high-frequency seismograms&rdquo;, *Journal of Geophysical Research C*. -->
 
@@ -778,7 +768,7 @@ class: left, .toc[[&#10023;](#toc)]
 
 The sample mean of the vector time series `$\mathbf{z}_n$` is also a vector,
   
-`\[\overline{\mathbf{z}} \equiv \frac{1}{N}\sum_{n=0}^{N-1}\mathbf{z}_n=\begin{bmatrix} \overline{x} \\ \,\overline{y}\,\end{bmatrix}\]`
+`\[\mathbf{\mu}_\mathbf{z} \equiv \frac{1}{N}\sum_{n=0}^{N-1}\mathbf{z}_n=\begin{bmatrix} \hat{\mu}_x \\ \,\hat{\mu}_y\,\end{bmatrix}\]`
 
 that consists of the *sample means* of the `$x_n$` and `$y_n$` components of `$\mathbf{z}_n$`.
 
@@ -789,14 +779,14 @@ class: left, .toc[[&#10023;](#toc)]
 
 The *variance* of the vector-valued times series `$\mathbf{z}_n$` is not a scalar or a vector, it is a `$2\times 2$` *matrix*
   
-`\[\mathbf{\Sigma}\equiv \frac{1}{N}\sum_{n=0}^{N-1}\left(\mathbf{z}_n-\overline{\mathbf{z}}\right)\left(\mathbf{z}_n-\overline{\mathbf{z}}\right)^T \]`
+`\[\mathbf{\Sigma}\equiv \frac{1}{N}\sum_{n=0}^{N-1}\left(\mathbf{z}_n-\mathbf{\mu}_\mathbf{z}\right)\left(\mathbf{z}_n-\mathbf{\mu}_\mathbf{z}\right)^T \]`
 
 where &ldquo;`$T$`&rdquo; is the *matrix transpose*, `$\mathbf{z}_n =\begin{bmatrix} x_n \\ y_n \end{bmatrix}$`, `$\mathbf{z}_n^T  =\begin{bmatrix} x_n & y_n \end{bmatrix}$`.
   
 Carrying out the matrix multiplication leads to 
   
 `\[\mathbf{\Sigma}= \frac{1}{N}\sum_{n=0}^{N-1}
-\begin{bmatrix} \left(x_n-\overline{x}\right)^2 & \left(x_n-\overline{x}\right)\left(y_n-\overline{y}\right)\\ \left(x_n-\overline{x}\right)\left(y_n-\overline{y}\right) &\left(y_n-\overline{y}\right)^2 \end{bmatrix}
+\begin{bmatrix} \left(x_n-\hat{\mu}_x\right)^2 & \left(x_n-\hat{\mu}_x\right)\left(y_n-\hat{\mu}_y\right)\\ \left(x_n-\hat{\mu}_x\right)\left(y_n-\hat{\mu}_y\right) &\left(y_n-\hat{\mu}_y\right)^2 \end{bmatrix}
 \]`
 
 The diagonal elements of `$\mathbf{\Sigma}$` are the sample variances `$\sigma_x^2$` and `$\sigma_y^2$`, while the off-diagonal gives the *covariance* between `$x_n$` and `$y_n$`.  Note that the two off-diagonal elements are identical.   
@@ -805,13 +795,7 @@ The diagonal elements of `$\mathbf{\Sigma}$` are the sample variances `$\sigma_x
 class: left, .toc[[&#10023;](#toc)]
 # Fourier transform
 
-The Fourier theory presented earlier for *scalar* time series is completely applicable to complex-valued time series:
-`\begin{equation}
-  z(t) = \int_{-\infty}^{+\infty} Z(f)\, e^{i2\pi f t} d f = \int_{0}^{+\infty} Z(f)\, e^{i2\pi f t} d f + \int_{-\infty}^{0} Z(f)\, e^{i2\pi f t} d f.
-\end{equation}`
-
---
-With discrete form (for `$N$` even):
+The Fourier theory presented earlier for *scalar* time series is completely applicable to complex-valued time series, in discrete form (`$N$` even):
 `\begin{eqnarray}
 z_n & =  & \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=N/2+1}^{N-1} Z_m e^{i2\pi  m n/N}\\
  & = & \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} & + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
@@ -827,13 +811,43 @@ class: left, .toc[[&#10023;](#toc)]
 z_n  = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} + \frac{1}{N \Delta_t}\sum_{m=1}^{N/2-1} Z^-_m e^{-i2\pi  m n/N}.
 \end{equation}`
 
-This introduces the concept of *rotary spectrum*. As an example the periodogram estimate of the rotary spectrum can be obtained as
+This introduces the concept of *rotary spectrum*:
 `\begin{eqnarray}
-\widehat{S}^+_m & \equiv & \frac{1}{N}\left|Z^+_m\right|^2 \quad \text{positive, counterclockwise, rotary spectrum,}\\
-\widehat{S}^-_m & \equiv  & \frac{1}{N}\left|Z^-_m\right|^2 \quad \text{negative, clockwise, rotary spectrum.}\\
+S(f_m>0) \equiv S^+(f_m) & \equiv & \lim_{N \rightarrow \infty} E\left\{ \frac{|Z^+_m|^2}{N} \right\}  \quad \text{counterclockwise spectrum,}\\
+S(f_m<0) \equiv  S^-(-f_m) & \equiv & \lim_{N \rightarrow \infty} E\left\{ \frac{|Z^-_m|^2}{N} \right\} \quad \text{clockwise spectrum.}\\
 \end{eqnarray}`
+`\[f_m = \frac{m}{N\Delta_t}, \quad m = 0,\ldots,N/2\]`
 
-This is particularly interesting in geophysical fluid mechanics because counterclockwise rotation is *cyclonic* in the northern hemisphere and clockwise rotation is *anticyclonic*, and vice-versa in the southern hemisphere.
+This is very useful in geophysical fluid mechanics because counterclockwise motions are *cyclonic* in the northern hemisphere and clockwise motions are *anticyclonic*, and vice-versa in the southern hemisphere.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Rotary variance
+
+Imagine you have only two opposite components present in your time series at frequency `$f_k$`:
+`\begin{eqnarray}
+	 z_n & = & Z_k^+ e^{i2\pi k n /N} + Z_k^- e^{-i2\pi k n /N} \\
+	 & = & \left\{A^+ e^{i \phi^+} \right\} e^{i2\pi k n /N} + \left\{A^- e^{i \phi^-}\right\}e^{-i2\pi k n /N} \\
+	 & = & e^{i\theta}\left\{ A \cos (2\pi k n/N + \phi) + i B \sin(2\pi k n/N + \phi) \right\}
+\end{eqnarray}`
+	 where
+`\begin{eqnarray}
+	 \theta & = & (\phi^+-\phi^-)/2\\
+	 \phi & = & (\phi^++\phi^-)/2\\
+	 A&=& A^++A^-\\
+	 B &= & A^+-A^-.	\\
+ \end{eqnarray}`
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Elliptic variance
+`\[ z_n = e^{i\theta}\left\{ A \cos (2\pi k n/N + \phi) + i B \sin(2\pi k n/N + \phi) \right\}\]`
+
+This is the equation for an ellipse oriented at an angle `$\theta$` from the `$x$` axis, with semi-major and semi-minor axes $A$ and $B$, respectively, rotating at frequency $f_k = k/(N\Delta_t)$, in the direction given by the sign of `$B$`.	 
+
+<center><img style="width:30%"  src="./figures/ellipseschematic.png"></center>
+
+See more details about elliptic variance in JML's Oslo lectures.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
@@ -845,7 +859,7 @@ z_n  = \frac{1}{N \Delta_t}\sum_{m=0}^{N/2} Z^+_m e^{i2\pi  m n/N} + \frac{1}{N 
 \end{equation}`
 
 `\begin{equation}
-\widehat{S}^+_m \equiv \frac{1}{N}\left|Z^+_m\right|^2, \quad \widehat{S}^-_m \equiv  \frac{1}{N}\left|Z^-_m\right|^2
+\widehat{S}^+_m \equiv \frac{1}{N}\left|Z^+_m\right|^2, \quad \widehat{S}^-_m \equiv  \frac{1}{N}\left|Z^-_m\right|^2 \quad \text{Rotary spectra estimates}
 \end{equation}`
 
 `\begin{equation}
@@ -853,10 +867,21 @@ z_n  = x_n+ i y_n = \frac{1}{N \Delta_t}\sum_{m=0}^{N-1} X_m e^{i2\pi  m n/N} + 
 \end{equation}`
 
 `\begin{equation}
-\widehat{S}^x_m \equiv \frac{1}{N}\left|X_m\right|^2, \quad \widehat{S}^y_m \equiv  \frac{1}{N}\left|Y_m\right|^2
+\widehat{S}^x_m \equiv \frac{1}{N}\left|X_m\right|^2, \quad \widehat{S}^y_m \equiv  \frac{1}{N}\left|Y_m\right|^2 \quad \text{Cartesian spectra estimates}
 \end{equation}`
 
-`$\widehat{S}^x_m$` and `$\widehat{S}^y_m$` are estimates of the Cartesian spectra.
+---
+class: left, .toc[[&#10023;](#toc)]
+#Parseval theorem
+For bivariate data, the discrete form of the Parseval theorem takes the form:
+`\begin{eqnarray}
+\Delta_t \sum_{n=0}^{N-1} |z_n|^2 = \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |Z_m|^2 & = & \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |X_m|^2 + \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |Y_m|^2\\
+ & = & \frac{1}{N\Delta_t} \sum_{m=0}^{N/2} |Z^+_m|^2 + \frac{1}{N\Delta_t} \sum_{m=1}^{N/2-1} |Z^-_m|^2 \\
+\end{eqnarray}`
+
+--
+
+This shows that the total variance of the bivariate process is recovered completely by the Cartesian, or rotary Fourier representation.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
