@@ -8,4 +8,4 @@ image:
 
 ---
 
-The lecture I gave in Tromso in Novemver 2016 is available [here](tromso/index.html).
+The lecture on time series analyses I gave in Tromso in November 2016 is available [here](tromso/index.html). You can download it as a html file + libraries [here](tromso.zip).

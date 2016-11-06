@@ -112,7 +112,7 @@ class: left, .toc[[&#10023;](#toc)]
 3.	[Fourier Spectral analysis](#spectral)
 4.	[Bivariate time series](#bivariate)
 4.	[Epilogue](#epilogue)
-
+4.     [Practical](#practical)
 
 ---
 name: timedomain
@@ -737,7 +737,84 @@ See .cite[Thomson (1982)], .cite[Park et al. (1987)], and .cite[Percival and Wal
 
 ---
 class: left, .toc[[&#10023;](#toc)]
-#Multitaper example:
+#Example
+
+22-year time series of Agulhas current transport
+
+<center><img style="width:100%"  src="./figures/agulhas_timeseries.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: periodogram
+
+Linear plot
+<img style="width:90%"  src="./figures/agulhas_spectrum_periodogram_linlin.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: periodogram
+
+Log-log plot
+<img style="width:100%"  src="./figures/agulhas_spectrum_periodogram_loglog.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Effect of first taper
+<img style="width:100%"  src="./figures/agulhas_taper_1.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Second taper
+<img style="width:100%"  src="./figures/agulhas_taper_2.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Third taper
+<img style="width:100%"  src="./figures/agulhas_taper_3.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Fourth taper
+<img style="width:100%"  src="./figures/agulhas_taper_4.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Fifth taper
+<img style="width:100%"  src="./figures/agulhas_taper_5.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Fifth taper
+<img style="width:100%"  src="./figures/agulhas_taper_5.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: multitaper
+
+Eigen spectra (colors) and multitaper estimate (black)
+<img style="width:100%"  src="./figures/agulhas_spectrum_multitaper_loglog.png">
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Example: period. vs mt
+
+Periodogram (gray) vs multitaper (black)
+<img style="width:100%"  src="./figures/agulhas_spectrum_loglog.png">
+
+
+
 
 ---
 
@@ -885,7 +962,7 @@ This shows that the total variance of the bivariate process is recovered complet
 
 ---
 class: left, .toc[[&#10023;](#toc)]
-#Example 1
+#Example
 
 Hourly current meter record at 110 m depth from the Bravo mooring in the Labrador Sea, .cite[Lilly and Rhines (2002)]
 <center><img style="width:55%"  src="./figures/bravomap.tiff"></center>
@@ -968,6 +1045,222 @@ email: <tt>selipot@rsmas.miami.edu</tt>
 
 The slides of this presentation are available at [{rsmas.miami.edu/users/selipot/}](http://rsmas.miami.edu) or  [{selipot.github.io}](http://selipot.github.io)
 
+---
+name: Practical
+class: center, middle, .toc[[&#10023;](#toc)]
+#Slides for Pratical session
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Code and Data
+
+For the practical session this afternoon you will need some Matlab code and data to be downloaded from my GitHUb depository called *Tromso*.
+
+[https://github.com/selipot/tromso](https://github.com/selipot/tromso).
+
+Click on the green button &ldquo;Clone or download&rdquo; to download a zipped archive, expand it, and copy the directory where you want.
+
+Please do this before coming to the session this afternoon.
+
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Continuous Fourier
+
+We have considered the FT for a discrete time series `$x_n$` but it extends to continuous time series `$x(t)$`:
+  
+`\begin{equation}
+  x(t) =\frac{1}{2\pi} \int_{-\infty}^{\infty} X(\omega)\, e^{i\omega t} d\omega,\quad\quad X(\omega)\equiv  \int_{-\infty}^{\infty} x(t)\, e^{-i\omega t}  d t. 
+\end{equation}`  
+  
+Note that here we are using radian frequency `$\omega$`.
+
+--
+
+The continuous notation is easier to understand the mechanics of *filtering* a time series, as well as spectral *blurring*.
+
+--
+
+But first, we need to understand the concept of convolution.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  The Convolution Integral
+  
+The *convolution* `$h(t)$` of a function `$f(t)$` and `$g(t)$` is defined as:
+  
+`\[ h(t)\equiv  \int_{-\infty}^{\infty} f(\tau) g(t-\tau) d\tau.\]`  
+
+Note that in convolution, the order does not matter and we can show that
+
+`\[ h(t)\equiv  \int_{-\infty}^{\infty} g(\tau) f(t-\tau) d\tau\]`  
+
+This mathematical operation is actually what is being done when &ldquo;smoothing&rdquo; data.
+(It is like sliding the iron on the tablecloth, or pulling the tablecloth under a static iron).
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Convolution Theorem
+
+The *convolution theorem* states convolving `$f(t)$` and `$g(t)$` in the time domain is the same as a  *multiplication* in the frequency domain.
+  
+Let `$F(\omega)$` and `$G(\omega)$` be the Fourier transforms of `$f(t)$` and `$g(t)$`, respectively. It can be shown that if
+  
+`\[h(t)= \int_{-\infty}^{\infty} f(\tau) g(t-\tau) d\tau\]`
+
+then the fourier transform of `$h(t)$` is
+
+`\[ H(\omega) = F(\omega) G(\omega).\]`
+
+--
+This result is key to understand what happens in the Fourier domain when you perform a time-domain smoothing.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Smoothing
+  
+Now we consider what happens when we *smooth* the time series `$x(t)$` by the filter `$g(t)$` to obtain a smoothed version `$\widetilde x(t)$` of your time series:
+
+`\begin{eqnarray}
+\widetilde x(t)= \int_{-\infty}^{\infty} x(t-\tau) g(\tau) d\tau & \equiv & \frac{1}{2\pi} \int_{-\infty}^{\infty} \widetilde{X}(\omega) \, e^{i\omega t} d\omega.\\
+&=& \frac{1}{2\pi}\int_{-\infty}^{\infty} X(\omega) G(\omega) \, e^{i\omega t} d\omega,\\
+ \end{eqnarray}`
+by the convolution theorem.
+  
+When we perform simple smoothing, we are also reshaping the Fourier transform of the signal by *multiplying* its Fourier transform by that of the smoothing window.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Three Window examples
+
+<center><img style="width:100%"  src="./figures/smoothingwindowstime.png"></center>
+---
+class: left, .toc[[&#10023;](#toc)]
+#Three Tapering Windows
+
+<center><img style="width:100%"  src="./figures/smoothingwindowsfrequency.png"></center>
+---
+class: left, .toc[[&#10023;](#toc)]
+#Three Tapering Windows
+
+<center><img style="width:100%"  src="./figures/smoothingwindowslogfrequency.png"></center>
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Lowpass &amp; Highpass Filters 
+  
+From the convolution theorem, we understand that filtering will keep the frequencies near zero but reject higher frequencies.  For this reason they are called *low-pass filters*.  
+  
+The reverse type of filtration, rejecting the low frequencies but keeping the high frequencies, is called *high-pass filtering*.  
+
+The residual `$\breve x(t)\equiv x(t) -\widetilde x(t)$` is an example of a high-pass filtered time series.
+  
+In practice, to find the frequency form of your filter, you *pad it with zeros* so that it becomes the same length as your time series, and then you take its discrete Fourier transform.
+
+---
+class: middle, center, .toc[[&#10023;](#toc)]
+#  Back to practical!
+
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#  Convolution Theorem II
+
+This theorem is reciprocal: is your *multiply* in the time domain, you *convolve* in the Fourier domain.
+
+It can be shown that if
+
+`\[ h(t) = f(t) g(t)\]`
+
+then the fourier transform of `$h(t)$` is
+
+`\[ H(\omega) = \int_{-\infty}^{\infty} F(\nu) G(\omega -\nu) d\omega.\]`
+
+This result is key to understand what happens in the Fourier domain when you try to estimate spectra, i.e. *spectral bluring*.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+# Bandpass filtering
+
+We can use the convolution theorem to build a band-pass filter.
+
+We want to modify the lowpass filter `$g(t)$` so that its Fourier transform is localized not about zero, but about some non-zero frequency `$\omega_o$`. To do this, we multiply `$g(t)$` by a complex exponential.
+
+It can be shown (see Oslo lectures) that the Fourier transform of `$g(t) e^{i\omega_o t}$` is `$G(\omega-\omega_o)$`, which is localized around `$\omega_o$`.  
+  
+Thus, a convolution with `$g(t) e^{i\omega_o t}$` will *bandpass* the data in the vicinity of  `$\omega_o$.`
+  
+Note that a lowpass filter is a particular type of bandpass in which the center of the *pass band* has been chosen as zero frequency. 
+
+---
+class: middle, center, .toc[[&#10023;](#toc)]
+#  Back to practical!
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Effect of Truncation
+  
+Now imagine instead that we have a *continuously* sampled time series of length `$T$`, that is, we have `$z(t)$` but only between times `$-T/2$` and `$T/2$`. This is like multiplying `$z(t)$` by a function `$g(t)$` which is equal to one between `$-T/2$` and `$T/2$` and 0 otherwise:
+
+`\[ z_T(t) = g(t) \times z(t) \]`
+
+
+We will denote this truncted version of `$z(t)$` by `$z_T(t)$`.
+
+How does the spectrum compare of `$z_T(t)$` compare with that of  `$z(t)$`?
+  
+--
+  
+Q.  Using one of the windows encountered today, how can we express the relationship between `$z(t)$` and `$z_T(t)$`?
+  
+--
+  
+Q.  Therefore, using another theorem learned today, what is the difference between their spectra?
+---
+class: left, .toc[[&#10023;](#toc)]
+#Spectral Blurring
+  
+The spectrum of the truncated time series is *blurred* through smoothing with a function `$F_{T}(\omega)$` that is the *square* of the Fourier transform of a boxcar:
+  
+`\[\widetilde S(\omega) \equiv\frac{1}{2\pi}\int_{-\infty}^\infty S(\nu) \,F_{T}(\nu-\omega)\, d \nu.\]`
+
+The smoothing function, which is known as the *Fej&eacute;r kernel*
+`\[F_T(\omega)\equiv \int_{-T}^{T}\left(1-\frac{|\tau|}{T}\right) \, e^{i\omega\tau} \, d \tau 
+=\frac{1}{T}\frac{\sin^2(\omega T/2)}{(\omega/2)^2}\]`  
+is essentially a squared version of the &ldquo;sinc&rdquo; or `$\sin(x)/x$` function.
+  
+However, `$\sin(x)/x$` is not a very smooth function at all!
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Multitapering Revisited
+
+We can now understand the purpose of multitapering.
+  
+*Doing nothing* in your spectral estimate is equivalent to *truncating* your data, thus implicitly *smoothing* the true spectrum by an extremely undesirable function!
+  
+The Fej&eacute;r kernel has a major problem in that it is not *well concentrated*.  Its &ldquo;side lobes&rdquo; are large, leading to a kind of error called *broadband bias*.
+  
+This is the source of the error shown in the motivating example.
+  
+Next we take a look at three different tapering functions and their squared Fourier transforms.  The broadband bias is most clear if we use logarithmic scaling for the `$y$`-axis.
+
+---
+class: left, .toc[[&#10023;](#toc)]
+#Three Tapering Windows
+
+<center><img style="width:100%"  src="./figures/smoothingwindowstime.png"></center>
+---
+class: left, .toc[[&#10023;](#toc)]
+#Three Tapering Windows
+
+<center><img style="width:100%"  src="./figures/smoothingwindowsfrequency.png"></center>
+---
+class: left, .toc[[&#10023;](#toc)]
+#Three Tapering Windows
+
+<center><img style="width:100%"  src="./figures/smoothingwindowslogfrequency.png"></center>
+
  </textarea>
  <!-- This is the link to the local copy of Remark -->
  <script src="./javascript/remark-latest.min.js" type="text/javascript"></script>
@@ -976,10 +1269,10 @@ The slides of this presentation are available at [{rsmas.miami.edu/users/selipot
  <!--<script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>-->
 
  <!-- This is the link to the remote MathJax libraries -->
- <!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script> -->
+ <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
  <!-- If you want to run your presentation offline, you need to download the MathJax -->
  <!-- libraries, then uncomment the line below and comment out the one above.-->
- <script src="./javascript/MathJax/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured,local/local" type="text/javascript"></script>
+ <!-- <script src="./javascript/MathJax/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured,local/local" type="text/javascript"></script> -->
  <!-- Note: see comment at http://stackoverflow.com/questions/19208536/mathjax-not-working-if-loaded-from-local-js-file-or-if-the-source-code-is-includ-->
 
  <script type="text/javascript">

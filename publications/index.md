@@ -14,11 +14,18 @@ and
 
 ### Submitted
 
-**15.** **Elipot, S.** et al. (2016), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, submitted to J. Clim., Sept. 2016
+**16.** **Elipot, S.** et al. (2016), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, in revision for J. Clim., Nov. 2016
 
-**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Classification of Upwelling Events inshore of the Agulhas Current at 34ºS*, in revision for J. Phys. Oceanogr., Sept. 2016
+- In this paper, the response of the North Atlantic Meridional Overturning Circulation (MOC) to wind stress forcing is investigated from an observational standpoint, using four time series of overturning transports below and relative to 1000 m, overlapping by 3.6 years. These time series are derived from four mooring arrays located on the western boundary of the North Atlantic. We find that , on the timescales available for this study, the basin-scale variability of wind stress significantly drives the MOC, as determined from mode decompositions of the analytic cross-covariance applied to the four transport time series and wind stress. 
 
 ### Published
+
+**15.** Beal, L. M. and **S. Elipot**, *TBA*, in press, coming soon!
+
+**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., in press.
+
+- In this paper, we investigate upwelling events inshore of the Agulhas Current at 34S. These events exchange shelf and slope waters, potentially enhancing primary productivity along the shelf and advecting larvae offshore. Hydrographic observations of a wind-driven upwelling event nd a current-driven upwelling event show that they can advect central waters more than 130 m upward onto the continental shelf, resulting in a 9C cooling. We use satellite data to assess the frequency, strength and forcing mechanisms of cold events from January 2003
+11 through December 2011.
 
 **13.** **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
 J. Geophys. Res.-Oceans, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
