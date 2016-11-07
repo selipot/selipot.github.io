@@ -99,7 +99,7 @@ This current Troms&oslash; lecture is available for download on my website at [{
 
 The practical session this afternoon will be conducted using the [{Matlab}](https://www.mathworks.com/products/matlab/) computational software and the freely available Matlab toolbox **jLab** written by Jonathan Lilly and freely available [{here}](http://www.jmlilly.net/jmlsoft.html). Please download, install, and test the toolbox before the practical session.
 
-In addition, we will be using the code and data I have made available for download [{here}]().
+In addition, we will be using the code and data I have made available for download in a GitHub repository [{github.com/selipot/tromso}](https://github.com/selipot/tromso).
 
 ---
 name: toc
@@ -571,7 +571,7 @@ The first few Fourier frequencies `$f_m=m/(N\Delta_t)$` are:
 
 while the last few are
 
-`\[\ldots,f_{N-2}=\frac{N-2}{N\Delta_t}=1-\frac{2}{N\Delta_t},\quad f_{N-1}=\frac{N-1}{N\Delta_t}=1-\frac{1}{N\Delta_t}.\]`
+`\[\ldots,f_{N-2}=\frac{N-2}{N\Delta_t}=\frac{1}{\Delta_t}-\frac{2}{N\Delta_t},\quad f_{N-1}=\frac{N-1}{N\Delta_t}=\frac{1}{\Delta_t}-\frac{1}{N\Delta_t}.\]`
 
 But notice that the last Fourier exponential term is
 
@@ -1176,7 +1176,7 @@ then the fourier transform of `$h(t)$` is
 
 `\[ H(\omega) = \int_{-\infty}^{\infty} F(\nu) G(\omega -\nu) d\omega.\]`
 
-This result is key to understand what happens in the Fourier domain when you try to estimate spectra, i.e. *spectral bluring*.
+This result is key to understand what happens in the Fourier domain when you try to estimate spectra, i.e. *spectral bluring*, or to design band-pass filters.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
@@ -1184,13 +1184,13 @@ class: left, .toc[[&#10023;](#toc)]
 
 We can use the convolution theorem to build a band-pass filter.
 
-We want to modify the lowpass filter `$g(t)$` so that its Fourier transform is localized not about zero, but about some non-zero frequency `$\omega_o$`. To do this, we multiply `$g(t)$` by a complex exponential.
+We want to modify the lowpass filter `$g(t)$` so that its Fourier transform is localized not about zero, but about some non-zero frequency `$\omega_o$`. To do this, we multiply `$g(t)$` by a complex exponential `$g(t) e^{i\omega_o t}$`.
 
 It can be shown (see Oslo lectures) that the Fourier transform of `$g(t) e^{i\omega_o t}$` is `$G(\omega-\omega_o)$`, which is localized around `$\omega_o$`.  
   
 Thus, a convolution with `$g(t) e^{i\omega_o t}$` will *bandpass* the data in the vicinity of  `$\omega_o$.`
   
-Note that a lowpass filter is a particular type of bandpass in which the center of the *pass band* has been chosen as zero frequency. 
+In fact, a lowpass filter is a particular type of bandpass in which the center of the *pass band* has been chosen as zero frequency. 
 
 ---
 class: middle, center, .toc[[&#10023;](#toc)]
@@ -1270,6 +1270,7 @@ class: left, .toc[[&#10023;](#toc)]
 
  <!-- This is the link to the remote MathJax libraries -->
  <!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script> -->
+ <!-- This is for secure connections -->
  <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
