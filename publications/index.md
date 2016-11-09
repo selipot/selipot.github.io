@@ -16,11 +16,13 @@ and
 
 **16.** **Elipot, S.** et al. (2016), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, in revision for J. Clim., Nov. 2016
 
-- In this paper, the response of the North Atlantic Meridional Overturning Circulation (MOC) to wind stress forcing is investigated from an observational standpoint, using four time series of overturning transports below and relative to 1000 m, overlapping by 3.6 years. These time series are derived from four mooring arrays located on the western boundary of the North Atlantic. We find that , on the timescales available for this study, the basin-scale variability of wind stress significantly drives the MOC, as determined from mode decompositions of the analytic cross-covariance applied to the four transport time series and wind stress. 
+- In this paper, the response of the North Atlantic Meridional Overturning Circulation (MOC) to wind stress forcing is investigated from an observational standpoint, using four time series of overturning transports below and relative to 1000 m, overlapping by 3.6 years. These time series are derived from four mooring arrays located on the western boundary of the North Atlantic. We find that , on the timescales available for this study, the basin-scale variability of wind stress significantly drives the MOC, as determined from mode decompositions of the analytic cross-covariance applied to the four transport time series and wind stress.
 
 ### Published
 
-**15.** Beal, L. M. and **S. Elipot**, *TBA*, in press, coming soon!
+**15.** Beal, L. M. and **S. Elipot**, *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
+
+- In this paper we show that, despite expectations, the Agulhas Current has not intensified since the early 1990s. Instead, we find that it has broadened as a result of more eddy activity.
 
 **14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., in press.
 

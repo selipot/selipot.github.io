@@ -8,9 +8,14 @@ image:
 
 - - -
 
-**Since 2013---** [**The Rosenstiel School of Marine and Atmospheric Science**], [**University of Miami**], Miami, USA
+**Currently:** [**The Rosenstiel School of Marine and Atmospheric Science**], [**University of Miami**], Miami, USA
 
 Associate Scientist, since April 2014; Assistant Scientist, April 2013 - March 2014.
+
+**&** [**Carnegie Museum of Natural History**](http://www.carnegiemnh.org), Pittsburgh, Pennsylvania, USA.
+
+Research Associate, since October 2016.
+
 
 **2009---2013:** [**National Oceanography Centre**], [Natural Environment Research Council], Liverpool, UK
 
