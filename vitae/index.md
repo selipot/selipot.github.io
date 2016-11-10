@@ -25,7 +25,7 @@ Physical Oceanographer.
 
 Honorary Research Fellow.
 
-**2008:** [**Cooperative Institute for Marine and Atmospheric Studies**], [University of Miami], Miami, Florida, USA.
+**2008:** [**Cooperative Institute for Marine and Atmospheric Studies**], [**University of Miami**], Miami, Florida, USA.
 
 Postdoctoral Associate
 
