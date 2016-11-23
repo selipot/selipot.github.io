@@ -70,6 +70,14 @@
 
   
     ,{
+      "title"			: "Talks",
+      "link"			: "/talks/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Curriculum Vitae",
       "link"			: "/vitae/",
       "excerpt"		: ""
