@@ -25,6 +25,15 @@ and
 - In this paper, we investigate upwelling events inshore of the Agulhas Current at 34S. These events exchange shelf and slope waters, potentially enhancing primary productivity along the shelf and advecting larvae offshore. Hydrographic observations of a wind-driven upwelling event nd a current-driven upwelling event show that they can advect central waters more than 130 m upward onto the continental shelf, resulting in a 9C cooling. We use satellite data to assess the frequency, strength and forcing mechanisms of cold events from January 2003
 11 through December 2011.
 
+**15.** Beal, L. M. and **S. Elipot**, *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
+
+- In this paper we show that, despite expectations, the Agulhas Current has not intensified since the early 1990s. Instead, we find that it has broadened as a result of more eddy activity.
+
+**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., in press.
+
+- In this paper, we investigate upwelling events inshore of the Agulhas Current at 34S. These events exchange shelf and slope waters, potentially enhancing primary productivity along the shelf and advecting larvae offshore. Hydrographic observations of a wind-driven upwelling event nd a current-driven upwelling event show that they can advect central waters more than 130 m upward onto the continental shelf, resulting in a 9C cooling. We use satellite data to assess the frequency, strength and forcing mechanisms of cold events from January 2003
+11 through December 2011.
+
 **13.** **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
 J. Geophys. Res.-Oceans, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
 
