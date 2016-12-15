@@ -8,11 +8,10 @@ image:
 
 - - -
 
-Links to my [google scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en)
-and
-[ORCID registry](http://orcid.org/0000-0001-6051-5426)
+Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
+[ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**16.** **Elipot, S.**,  E. Frajka-Williams, C. W. Hughes, S. Olhede, and M. Lankhorst (2016), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, J. Clim., in press.
+**16.** **Elipot, S.**,  E. Frajka-Williams, C. W. Hughes, S. Olhede, and M. Lankhorst (2016), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, J. Clim., [doi:10.1175/JCLI-D-16-0664.1](http://dx.doi.org/10.1038/nature19853), early online view.
 
 - This paper explores the spatiotemporal covariance and forcing mechanisms of observed variability in the Atlantic meridional overturning circulation. We developed a novel statistical method (analytic SVD) to investigate the relation between overturning transports from four arrays in the North Atlantic (RAPID WAVE, LINE W, RAPID MOC/MOCHA and MOVE) and patterns of wind stress and its curl over the basin. We identify two significant modes of variability in the overturning circulation driven by surface winds. The first mode manifests on seasonal time scales and is interpreted in terms of Ekman transports and barotropic return flows. The second mode is evident on nonseasonal time scales and is interpreted in terms of horizontal gyre circulation anomalies, which couple to the variable bottom topography to yield overturning circulation changes.
 
@@ -20,7 +19,7 @@ and
 
 - In this paper we show that, despite expectations, the Agulhas Current has not intensified since the early 1990s. Instead, we find that it has broadened as a result of more eddy activity.
 
-**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., [doi:10.1175/JPO-D-16-0079.1](http://dx.doi.org/10.1175/JPO-D-16-0079.1), in press.
+**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., [doi:10.1175/JPO-D-16-0079.1](http://dx.doi.org/10.1175/JPO-D-16-0079.1), early online view.
 
 - In this paper, we investigate upwelling events inshore of the Agulhas Current at 34S. These events exchange shelf and slope waters, potentially enhancing primary productivity along the shelf and advecting larvae offshore. Hydrographic observations of a wind-driven upwelling event nd a current-driven upwelling event show that they can advect central waters more than 130 m upward onto the continental shelf, resulting in a 9C cooling. We use satellite data to assess the frequency, strength and forcing mechanisms of cold events from January 2003
 11 through December 2011.
