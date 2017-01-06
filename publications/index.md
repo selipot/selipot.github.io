@@ -15,21 +15,21 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - This paper explores the spatiotemporal covariance and forcing mechanisms of observed variability in the Atlantic meridional overturning circulation. We developed a novel statistical method (analytic SVD) to investigate the relation between overturning transports from four arrays in the North Atlantic (RAPID WAVE, LINE W, RAPID MOC/MOCHA and MOVE) and patterns of wind stress and its curl over the basin. We identify two significant modes of variability in the overturning circulation driven by surface winds. The first mode manifests on seasonal time scales and is interpreted in terms of Ekman transports and barotropic return flows. The second mode is evident on nonseasonal time scales and is interpreted in terms of horizontal gyre circulation anomalies, which couple to the variable bottom topography to yield overturning circulation changes.
 
-**15.** Beal, L. M. and **S. Elipot**, *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
+**15.** Beal, L. M. and **S. Elipot**, *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, 540, 570573, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
 
 - In this paper we show that, despite expectations, the Agulhas Current has not intensified since the early 1990s. Instead, we find that it has broadened as a result of more eddy activity.
 
-**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., [doi:10.1175/JPO-D-16-0079.1](http://dx.doi.org/10.1175/JPO-D-16-0079.1), early online view.
+**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., 47, 123-134, [doi:10.1175/JPO-D-16-0079.1](http://dx.doi.org/10.1175/JPO-D-16-0079.1), early online view.
 
 - In this paper, we investigate upwelling events inshore of the Agulhas Current at 34S. These events exchange shelf and slope waters, potentially enhancing primary productivity along the shelf and advecting larvae offshore. Hydrographic observations of a wind-driven upwelling event nd a current-driven upwelling event show that they can advect central waters more than 130 m upward onto the continental shelf, resulting in a 9C cooling. We use satellite data to assess the frequency, strength and forcing mechanisms of cold events from January 2003
 11 through December 2011.
 
 **13.** **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
-J. Geophys. Res.-Oceans, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
+J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
 
 - This paper describes how we created a new [hourly surface drifter dataset](http://www.aoml.noaa.gov/phod/dac/hourly_data.php), now available publicly through the [Data Assembly Center](http://www.aoml.noaa.gov/phod/dac/dacdata.php) of the Global Drifter Program hosted at the [Atlantic Oceanographic & Meteorological Laboratory](http://www.aoml.noaa.gov)
 
-**12.** **Elipot, S.** and L.M. Beal (2015), *Characteristics, Energetics, and Origins of Agulhas Current Meanders and their Limited Influence on Ring Shedding*, J. Phys. Oceanogr., [doi:10.1175/JPO-D-14-0254.1](http://dx.doi.org/10.1175/JPO-D-14-0254.1)
+**12.** **Elipot, S.** and L.M. Beal (2015), *Characteristics, Energetics, and Origins of Agulhas Current Meanders and their Limited Influence on Ring Shedding*, J. Phys. Oceanogr.,  45, 2294-2314, [doi:10.1175/JPO-D-14-0254.1](http://dx.doi.org/10.1175/JPO-D-14-0254.1)
 
 - In this study we investigate in detail the variance of the Agulhas Current velocity field from the [ACT](http://act.rsmas.miami.edu) array, especially focussing on what is happening during meanders, the so-called Natal Pulses. For this we lay out the details of a method of analysis of rotary variance, dubbed Rotary EOF (REOF). We also combined in-situ data from the ACT array with altimetry data to research the origins, and fate, of meanders.   
 
