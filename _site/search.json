@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Hourly drifter product version 1.01 released",
+      "link"			: "/blog/hourly-dataset-ver-1.01/",
+      "excerpt"		: "We are pleased to announce the release of version 1.01 of the hourly drifter product. Now available to download from the Global drifter program DAC website. The methods of interpolation implemented to generate this product are the same as for version 1.00 of the dataset released in mid-2016, see Elipot et al. 2016, doi:10.1002/2016JC011716. See the release notes."
+    }
+  
+
+  
+    ,{
       "title"			: "Colors of the <strike>Wind</strike> Ocean",
       "link"			: "/blog/colors-of-the-ocean/",
       "excerpt"		: "You can own the earth and still"
