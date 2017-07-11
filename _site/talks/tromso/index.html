@@ -208,13 +208,13 @@ A good place to start is with the very simplest tools.
 
 The *sample mean* describes a &ldquo;typical&rdquo; value:
 
-`\[\hat{\mu}_x \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n\]`
+`\[\widehat{\mu}_x \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n\]`
 
 The *sample variance* gives the spread about the mean:
 
-`\[\hat{\sigma}_x^2 \equiv \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\hat{\mu}_x\right)^2\]`
+`\[\widehat{\sigma}_x^2 \equiv \frac{1}{N}\sum_{n=0}^{N-1} \left(x_n-\widehat{\mu}_x\right)^2\]`
 
-&ldquo;Sample&rdquo; here means that it is computed from the observed data, as opposed to being a property of the assumed underlying process `$x(t)$`. That's why we use `$\hat{\cdot}$`.
+&ldquo;Sample&rdquo; here means that it is computed from the observed data, as opposed to being a property of the assumed underlying process `$x(t)$`. That's why we use `$\widehat{\cdot}$`.
 
 The mean and variance are called the first two *moments* of the distribution of values associated with the process.
 
@@ -226,9 +226,9 @@ class: left, .toc[[&#10023;](#toc)]
 22-year time series of Agulhas current transport:
 <!-- .cite[Beal and Elipot (2016), &ldquo;Broadening not intensification of the Agulhas Current since the 1990s&rdquo;, in press]: -->
 
-Sample mean `$\hat{\mu}_x$` is -95 Sverdrup (1 Sv = $10^6$ m$^3$ s$^{-1}$)
+Sample mean `$\widehat{\mu}_x$` is -95 Sverdrup (1 Sv = $10^6$ m$^3$ s$^{-1}$)
 
-Sample standard deviation `$\sqrt{\hat{\sigma}^2_x}$` is 20 Sv
+Sample standard deviation `$\sqrt{\widehat{\sigma}^2_x}$` is 20 Sv
 
 <img style="width:100%"  src="./figures/agulhas_timeseries.png">
 
@@ -248,7 +248,7 @@ class: left, .toc[[&#10023;](#toc)]
 
 The *skewness* describes the tendency for an *asymmetry* between positive excursions and negative excursions:
 
-`\[\hat{\gamma}_x \equiv \frac{1}{\hat{\sigma}_x^3}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\hat{\mu}_x\right)^3\]`
+`\[\widehat{\gamma}_x \equiv \frac{1}{\widehat{\sigma}_x^3}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\widehat{\mu}_x\right)^3\]`
 
 <center><img style="width:90%"  src="./figures/Negative_and_positive_skew_diagrams.svg"></center>
 
@@ -257,9 +257,9 @@ The *skewness* describes the tendency for an *asymmetry* between positive excurs
 class: left, .toc[[&#10023;](#toc)]
 #  Kurtosis
 
-The *kurtosis* is said to either measure *peakedness* (concentration near `$\hat{\mu}_x$`), or a tendency for *long tails* (concentration far from `$\hat{\mu}_x$`):
+The *kurtosis* is said to either measure *peakedness* (concentration near `$\widehat{\mu}_x$`), or a tendency for *long tails* (concentration far from `$\widehat{\mu}_x$`):
 
-`\[\hat{\kappa}_x \equiv \frac{1}{\hat{\sigma}_x^4}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\hat{\mu}_x\right)^4\]`
+`\[\widehat{\kappa}_x \equiv \frac{1}{\widehat{\sigma}_x^4}\frac{1}{N}\sum_{n=0}^{N-1}\left(x_n-\widehat{\mu}_x\right)^4\]`
 
  Actually, it measures both. Kurtosis is a measure of the spread of `$x_n$` about the *two points*  `$\mu_x \pm \sigma_x$`.  This can happen *either* for peakness *or* for long tails!  .cite[See Moors (1986), &ldquo;The Meaning of Kurtosis: Darlington Reexamined&rdquo;.]
 
@@ -284,7 +284,7 @@ Positive excess kurtosis corresponds to long tails and peakedness.
 class: left, .toc[[&#10023;](#toc)]
 #  Example
 
-`$\hat{\gamma}_x - =0.6, \quad \hat{\kappa}_x - 3 = 1.14$`.
+`$\widehat{\gamma}_x - =0.6, \quad \widehat{\kappa}_x - 3 = 1.14$`.
 
 <center><img style="width:50%"  src="./figures/agulhas_histogram.png"></center>
 
@@ -297,18 +297,18 @@ class: left, .toc[[&#10023;](#toc)]
 
 How can we be sure that the *sample* statistics for `$x_n$` are the statistics of the process `$x(t)$`? We can't, but we can estimate an uncertainty for our estimates, also called an *error*.
 
-As an example recall the sample mean is  `$\hat{\mu}_x \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n.$`
+As an example recall the sample mean is  `$\widehat{\mu}_x \equiv \frac{1}{N}\sum_{n=0}^{N-1} x_n.$`
 
 It can be shown that the theoretical variance of the sample mean is
 
-`$$ \sigma^2_{\hat{\mu}_x} \equiv \frac{\sigma^2_x}{N}.$$`
+`$$ \sigma^2_{\widehat{\mu}_x} \equiv \frac{\sigma^2_x}{N}.$$`
 
-so that **estimates** of the *standard error of the mean* can be calculated as $\frac{\hat{\sigma}_x}{\sqrt{N}}$. This is a general principle: abstract concepts or mathematical objects are estimated by *estimators*, which have errors (bias and variance).
+so that **estimates** of the *standard error of the mean* can be calculated as $\frac{\widehat{\sigma}_x}{\sqrt{N}}$. This is a general principle: abstract concepts or mathematical objects are estimated by *estimators*, which have errors (bias and variance).
 
 ---
 class: left, .toc[[&#10023;](#toc)]
 # Example
-Plots of `$\hat{\mu}_x \pm \hat{\sigma}_{{\mu}_x}$`  and `$\hat{\sigma}_x^2$`  as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange).
+Plots of `$\widehat{\mu}_x \pm \widehat{\sigma}_{{\mu}_x}$`  and `$\widehat{\sigma}_x^2$`  as a function of increasing $N$ in chronological order (blue) or reverse chronological order (orange).
 
 <center><img style="width:60%"  src="./figures/agulhas_mean_variance.png"></center>
 
@@ -467,7 +467,7 @@ The discrete time series `$x_n$` can written as a sum of complex exponentials:
 
 The  `$m$`th term behaves as `$ e^{i2\pi f_m n \Delta_t} =\cos(2\pi f_m n \Delta_t) +i \sin(2\pi f_m n \Delta_t) $`, where `$f_m\equiv m/N \Delta_t$`.
 
-Note that in the literature, `$\Delta_t$` is often set to one, and thus omitted, leading to a lot of confusion (including for me!). 
+Note that in the literature, `$\Delta_t$` is often set to one, and thus omitted, leading to a lot of confusion (including for me!).
 
 The quantity `$f_m\equiv m/N \Delta_t$` is called the `$m$`th *Fourier frequency*. The *period* associated with `$f_m$` is `$1/f_m=\Delta_t N/m$`.  Thus `$m$` tells us the *number of oscillations* contained in the length `$N \Delta_t$` time series.
 
@@ -667,7 +667,7 @@ A very important theorem is *Parseval's theorem* which takes  the following form
 
 `\[\Delta_t \sum_{n=0}^{N-1} |x_n|^2 = \frac{1}{N\Delta_t} \sum_{m=0}^{N-1} |X_m|^2.\]`
 
-When `$\hat{\mu}_x=0$`, this theorem shows that the total **variance** of `$x_n$` is recoverable from the sum of absolute Fourier coefficients squared.
+When `$\widehat{\mu}_x=0$`, this theorem shows that the total **variance** of `$x_n$` is recoverable from the sum of absolute Fourier coefficients squared.
 
 Which can be interpreted as saying that the spectrum gives you the distribution of the variance as a function of frequency.
 <!-- The continuous-time, continuous-frequency, version of Parseval's theorem implies is -->
@@ -844,29 +844,29 @@ class: left, .toc[[&#10023;](#toc)]
 #The Mean of Bivariate Data
 
 The sample mean of the vector time series `$\mathbf{z}_n$` is also a vector,
-  
-`\[\mathbf{\mu}_\mathbf{z} \equiv \frac{1}{N}\sum_{n=0}^{N-1}\mathbf{z}_n=\begin{bmatrix} \hat{\mu}_x \\ \,\hat{\mu}_y\,\end{bmatrix}\]`
+
+`\[\mathbf{\mu}_\mathbf{z} \equiv \frac{1}{N}\sum_{n=0}^{N-1}\mathbf{z}_n=\begin{bmatrix} \widehat{\mu}_x \\ \,\widehat{\mu}_y\,\end{bmatrix}\]`
 
 that consists of the *sample means* of the `$x_n$` and `$y_n$` components of `$\mathbf{z}_n$`.
 
-  
+
 ---
 class: left, .toc[[&#10023;](#toc)]
 #Variance of Bivariate Data
 
 The *variance* of the vector-valued times series `$\mathbf{z}_n$` is not a scalar or a vector, it is a `$2\times 2$` *matrix*
-  
+
 `\[\mathbf{\Sigma}\equiv \frac{1}{N}\sum_{n=0}^{N-1}\left(\mathbf{z}_n-\mathbf{\mu}_\mathbf{z}\right)\left(\mathbf{z}_n-\mathbf{\mu}_\mathbf{z}\right)^T \]`
 
 where &ldquo;`$T$`&rdquo; is the *matrix transpose*, `$\mathbf{z}_n =\begin{bmatrix} x_n \\ y_n \end{bmatrix}$`, `$\mathbf{z}_n^T  =\begin{bmatrix} x_n & y_n \end{bmatrix}$`.
-  
-Carrying out the matrix multiplication leads to 
-  
+
+Carrying out the matrix multiplication leads to
+
 `\[\mathbf{\Sigma}= \frac{1}{N}\sum_{n=0}^{N-1}
-\begin{bmatrix} \left(x_n-\hat{\mu}_x\right)^2 & \left(x_n-\hat{\mu}_x\right)\left(y_n-\hat{\mu}_y\right)\\ \left(x_n-\hat{\mu}_x\right)\left(y_n-\hat{\mu}_y\right) &\left(y_n-\hat{\mu}_y\right)^2 \end{bmatrix}
+\begin{bmatrix} \left(x_n-\widehat{\mu}_x\right)^2 & \left(x_n-\widehat{\mu}_x\right)\left(y_n-\widehat{\mu}_y\right)\\ \left(x_n-\widehat{\mu}_x\right)\left(y_n-\widehat{\mu}_y\right) &\left(y_n-\widehat{\mu}_y\right)^2 \end{bmatrix}
 \]`
 
-The diagonal elements of `$\mathbf{\Sigma}$` are the sample variances `$\sigma_x^2$` and `$\sigma_y^2$`, while the off-diagonal gives the *covariance* between `$x_n$` and `$y_n$`.  Note that the two off-diagonal elements are identical.   
+The diagonal elements of `$\mathbf{\Sigma}$` are the sample variances `$\sigma_x^2$` and `$\sigma_y^2$`, while the off-diagonal gives the *covariance* between `$x_n$` and `$y_n$`.  Note that the two off-diagonal elements are identical.
 
 ---
 class: left, .toc[[&#10023;](#toc)]
@@ -920,7 +920,7 @@ class: left, .toc[[&#10023;](#toc)]
 #Elliptic variance
 `\[ z_n = e^{i\theta}\left\{ A \cos (2\pi k n/N + \phi) + i B \sin(2\pi k n/N + \phi) \right\}\]`
 
-This is the equation for an ellipse oriented at an angle `$\theta$` from the `$x$` axis, with semi-major and semi-minor axes $A$ and $B$, respectively, rotating at frequency $f_k = k/(N\Delta_t)$, in the direction given by the sign of `$B$`.	 
+This is the equation for an ellipse oriented at an angle `$\theta$` from the `$x$` axis, with semi-major and semi-minor axes $A$ and $B$, respectively, rotating at frequency $f_k = k/(N\Delta_t)$, in the direction given by the sign of `$B$`.
 
 <center><img style="width:30%"  src="./figures/ellipseschematic.png"></center>
 
@@ -992,10 +992,10 @@ class: left, .toc[[&#10023;](#toc)]
 1.  Zooming in, we see the small-scale oscillatory behavior is sometimes `$90^\circ$` degrees out of phase, and sometimes `$180^\circ$`.
 1.  The amplitude of this oscillatory variability changes with time.
 
-The fact that the oscillatory behavior is not consistently `$90^\circ$` out of phase removes the possibility of these features being purely inertial oscillations.  The amplitude modulation suggests tidal beating.  
-  
+The fact that the oscillatory behavior is not consistently `$90^\circ$` out of phase removes the possibility of these features being purely inertial oscillations.  The amplitude modulation suggests tidal beating.
+
 --
-  
+
 The isolated events are  eddies, which cause the currents to suddenly rotate as they pass by.  The oscillations are due to tides and internal waves.
 
 ---
@@ -1068,11 +1068,11 @@ class: left, .toc[[&#10023;](#toc)]
 #  Continuous Fourier
 
 We have considered the FT for a discrete time series `$x_n$` but it extends to continuous time series `$x(t)$`:
-  
+
 `\begin{equation}
-  x(t) =\frac{1}{2\pi} \int_{-\infty}^{\infty} X(\omega)\, e^{i\omega t} d\omega,\quad\quad X(\omega)\equiv  \int_{-\infty}^{\infty} x(t)\, e^{-i\omega t}  d t. 
-\end{equation}`  
-  
+  x(t) =\frac{1}{2\pi} \int_{-\infty}^{\infty} X(\omega)\, e^{i\omega t} d\omega,\quad\quad X(\omega)\equiv  \int_{-\infty}^{\infty} x(t)\, e^{-i\omega t}  d t.
+\end{equation}`
+
 Note that here we are using radian frequency `$\omega$`.
 
 --
@@ -1086,14 +1086,14 @@ But first, we need to understand the concept of convolution.
 ---
 class: left, .toc[[&#10023;](#toc)]
 #  The Convolution Integral
-  
+
 The *convolution* `$h(t)$` of a function `$f(t)$` and `$g(t)$` is defined as:
-  
-`\[ h(t)\equiv  \int_{-\infty}^{\infty} f(\tau) g(t-\tau) d\tau.\]`  
+
+`\[ h(t)\equiv  \int_{-\infty}^{\infty} f(\tau) g(t-\tau) d\tau.\]`
 
 Note that in convolution, the order does not matter and we can show that
 
-`\[ h(t)\equiv  \int_{-\infty}^{\infty} g(\tau) f(t-\tau) d\tau\]`  
+`\[ h(t)\equiv  \int_{-\infty}^{\infty} g(\tau) f(t-\tau) d\tau\]`
 
 This mathematical operation is actually what is being done when &ldquo;smoothing&rdquo; data.
 (It is like sliding the iron on the tablecloth, or pulling the tablecloth under a static iron).
@@ -1103,9 +1103,9 @@ class: left, .toc[[&#10023;](#toc)]
 # Convolution Theorem
 
 The *convolution theorem* states convolving `$f(t)$` and `$g(t)$` in the time domain is the same as a  *multiplication* in the frequency domain.
-  
+
 Let `$F(\omega)$` and `$G(\omega)$` be the Fourier transforms of `$f(t)$` and `$g(t)$`, respectively. It can be shown that if
-  
+
 `\[h(t)= \int_{-\infty}^{\infty} f(\tau) g(t-\tau) d\tau\]`
 
 then the fourier transform of `$h(t)$` is
@@ -1118,7 +1118,7 @@ This result is key to understand what happens in the Fourier domain when you per
 ---
 class: left, .toc[[&#10023;](#toc)]
 #Smoothing
-  
+
 Now we consider what happens when we *smooth* the time series `$x(t)$` by the filter `$g(t)$` to obtain a smoothed version `$\widetilde x(t)$` of your time series:
 
 `\begin{eqnarray}
@@ -1126,7 +1126,7 @@ Now we consider what happens when we *smooth* the time series `$x(t)$` by the fi
 &=& \frac{1}{2\pi}\int_{-\infty}^{\infty} X(\omega) G(\omega) \, e^{i\omega t} d\omega,\\
  \end{eqnarray}`
 by the convolution theorem.
-  
+
 When we perform simple smoothing, we are also reshaping the Fourier transform of the signal by *multiplying* its Fourier transform by that of the smoothing window.
 
 ---
@@ -1147,14 +1147,14 @@ class: left, .toc[[&#10023;](#toc)]
 
 ---
 class: left, .toc[[&#10023;](#toc)]
-#Lowpass &amp; Highpass Filters 
-  
-From the convolution theorem, we understand that filtering will keep the frequencies near zero but reject higher frequencies.  For this reason they are called *low-pass filters*.  
-  
-The reverse type of filtration, rejecting the low frequencies but keeping the high frequencies, is called *high-pass filtering*.  
+#Lowpass &amp; Highpass Filters
+
+From the convolution theorem, we understand that filtering will keep the frequencies near zero but reject higher frequencies.  For this reason they are called *low-pass filters*.
+
+The reverse type of filtration, rejecting the low frequencies but keeping the high frequencies, is called *high-pass filtering*.
 
 The residual `$\breve x(t)\equiv x(t) -\widetilde x(t)$` is an example of a high-pass filtered time series.
-  
+
 In practice, to find the frequency form of your filter, you *pad it with zeros* so that it becomes the same length as your time series, and then you take its discrete Fourier transform.
 
 ---
@@ -1186,11 +1186,11 @@ We can use the convolution theorem to build a band-pass filter.
 
 We want to modify the lowpass filter `$g(t)$` so that its Fourier transform is localized not about zero, but about some non-zero frequency `$\omega_o$`. To do this, we multiply `$g(t)$` by a complex exponential `$g(t) e^{i\omega_o t}$`.
 
-It can be shown (see Oslo lectures) that the Fourier transform of `$g(t) e^{i\omega_o t}$` is `$G(\omega-\omega_o)$`, which is localized around `$\omega_o$`.  
-  
+It can be shown (see Oslo lectures) that the Fourier transform of `$g(t) e^{i\omega_o t}$` is `$G(\omega-\omega_o)$`, which is localized around `$\omega_o$`.
+
 Thus, a convolution with `$g(t) e^{i\omega_o t}$` will *bandpass* the data in the vicinity of  `$\omega_o$.`
-  
-In fact, a lowpass filter is a particular type of bandpass in which the center of the *pass band* has been chosen as zero frequency. 
+
+In fact, a lowpass filter is a particular type of bandpass in which the center of the *pass band* has been chosen as zero frequency.
 
 ---
 class: middle, center, .toc[[&#10023;](#toc)]
@@ -1199,7 +1199,7 @@ class: middle, center, .toc[[&#10023;](#toc)]
 ---
 class: left, .toc[[&#10023;](#toc)]
 #Effect of Truncation
-  
+
 Now imagine instead that we have a *continuously* sampled time series of length `$T$`, that is, we have `$z(t)$` but only between times `$-T/2$` and `$T/2$`. This is like multiplying `$z(t)$` by a function `$g(t)$` which is equal to one between `$-T/2$` and `$T/2$` and 0 otherwise:
 
 `\[ z_T(t) = g(t) \times z(t) \]`
@@ -1208,27 +1208,27 @@ Now imagine instead that we have a *continuously* sampled time series of length 
 We will denote this truncted version of `$z(t)$` by `$z_T(t)$`.
 
 How does the spectrum compare of `$z_T(t)$` compare with that of  `$z(t)$`?
-  
+
 --
-  
+
 Q.  Using one of the windows encountered today, how can we express the relationship between `$z(t)$` and `$z_T(t)$`?
-  
+
 --
-  
+
 Q.  Therefore, using another theorem learned today, what is the difference between their spectra?
 ---
 class: left, .toc[[&#10023;](#toc)]
 #Spectral Blurring
-  
+
 The spectrum of the truncated time series is *blurred* through smoothing with a function `$F_{T}(\omega)$` that is the *square* of the Fourier transform of a boxcar:
-  
+
 `\[\widetilde S(\omega) \equiv\frac{1}{2\pi}\int_{-\infty}^\infty S(\nu) \,F_{T}(\nu-\omega)\, d \nu.\]`
 
 The smoothing function, which is known as the *Fej&eacute;r kernel*
-`\[F_T(\omega)\equiv \int_{-T}^{T}\left(1-\frac{|\tau|}{T}\right) \, e^{i\omega\tau} \, d \tau 
-=\frac{1}{T}\frac{\sin^2(\omega T/2)}{(\omega/2)^2}\]`  
+`\[F_T(\omega)\equiv \int_{-T}^{T}\left(1-\frac{|\tau|}{T}\right) \, e^{i\omega\tau} \, d \tau
+=\frac{1}{T}\frac{\sin^2(\omega T/2)}{(\omega/2)^2}\]`
 is essentially a squared version of the &ldquo;sinc&rdquo; or `$\sin(x)/x$` function.
-  
+
 However, `$\sin(x)/x$` is not a very smooth function at all!
 
 ---
@@ -1236,13 +1236,13 @@ class: left, .toc[[&#10023;](#toc)]
 #Multitapering Revisited
 
 We can now understand the purpose of multitapering.
-  
+
 *Doing nothing* in your spectral estimate is equivalent to *truncating* your data, thus implicitly *smoothing* the true spectrum by an extremely undesirable function!
-  
+
 The Fej&eacute;r kernel has a major problem in that it is not *well concentrated*.  Its &ldquo;side lobes&rdquo; are large, leading to a kind of error called *broadband bias*.
-  
+
 This is the source of the error shown in the motivating example.
-  
+
 Next we take a look at three different tapering functions and their squared Fourier transforms.  The broadband bias is most clear if we use logarithmic scaling for the `$y$`-axis.
 
 ---
@@ -1267,18 +1267,11 @@ class: left, .toc[[&#10023;](#toc)]
  <!-- See discussion at https://github.com/gnab/remark/issues/222-->
  <!-- You could alternately use the libraries from remote location -->
  <!--<script src="https://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>-->
-
- <!-- This is the link to the remote MathJax libraries -->
- <!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script> -->
- <!-- This is for secure connections -->
- <script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
- <!-- If you want to run your presentation offline, you need to download the MathJax -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+<!-- If you want to run your presentation offline, you need to download the MathJax -->
  <!-- libraries, then uncomment the line below and comment out the one above.-->
  <!-- <script src="./javascript/MathJax/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured,local/local" type="text/javascript"></script> -->
  <!-- Note: see comment at http://stackoverflow.com/questions/19208536/mathjax-not-working-if-loaded-from-local-js-file-or-if-the-source-code-is-includ-->
-
  <script type="text/javascript">
 var slideshow = remark.create({navigation: {click: false}, properties: {class: "center, middle"},countIncrementalSlides: false});
 

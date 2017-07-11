@@ -33,21 +33,21 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 - In this study we investigate in detail the variance of the Agulhas Current velocity field from the [ACT](http://act.rsmas.miami.edu) array, especially focussing on what is happening during meanders, the so-called Natal Pulses. For this we lay out the details of a method of analysis of rotary variance, dubbed Rotary EOF (REOF). We also combined in-situ data from the ACT array with altimetry data to research the origins, and fate, of meanders.   
 
-**11.** Beal, L. M., **S. Elipot**, A. Houk, and G. Leber (2015), *Capturing the Transport Variability of a Western Boundary Jet: Results from the Agulhas Current Time-series experiment (ACT)*, J. Phys. Oceanogr., 45, 1302-1324,  [doi:10.1175/JPO-D-14-0119.1](http://dx.doi.org/10.1175/JPO-D-14-0119.1)
+**11.** Beal, L. M., **S. Elipot**, A. Houk, and G. Leber (2015), *Capturing the Transport Variability of a Western Boundary Jet: Results from the Agulhas Current Time-series experiment (ACT)*, J. Phys. Oceanogr., 45, 1302-1324,  [doi:10.1175/JPO-D-14-0119.1](http://dx.doi.org/10.1175/JPO-D-14-0119.1) (Open Access)
 
 - This paper presents the first results from the velocity moorings deployed as part of the Agulhas Current Time-Series Experiment, or [ACT](http://act.rsmas.miami.edu), that took place between 2010 and 2013 in the Indian Ocean. We provide the longest in-situ record to date of the Agulhas Current Jet transport.
 
-**10.** **Elipot, S.**, E. Frajka-Williams, C. Hughes and J. Willis (2014), *The Observed North Atlantic Meridional Overturning Circulation, its Meridional Coherence and Ocean Bottom Pressure*,  J. Phys. Oceanogr., 44, 517-537, [doi:10.1175/JPO-D-13-026.1](http://dx.doi.org/10.1175/JPO-D-13-026.1)
+**10.** **Elipot, S.**, E. Frajka-Williams, C. Hughes and J. Willis (2014), *The Observed North Atlantic Meridional Overturning Circulation, its Meridional Coherence and Ocean Bottom Pressure*,  J. Phys. Oceanogr., 44, 517-537, [doi:10.1175/JPO-D-13-026.1](http://dx.doi.org/10.1175/JPO-D-13-026.1) (Open Access)
 
-**9.** Polton, J., Y.-D. Lenn, *S. Elipot*, T. K. Chereskin and J. Sprintall (2013), *Can Drake Passage observations match Ekman's classic theory?* J. Phys. Oceanogr., 43, 1733-1740, [doi:10.1175/JPO-D-13-034.1](http://dx.doi.org/10.1175/JPO-D-13-034.1).
+**9.** Polton, J., Y.-D. Lenn, *S. Elipot*, T. K. Chereskin and J. Sprintall (2013), *Can Drake Passage observations match Ekman's classic theory?* J. Phys. Oceanogr., 43, 1733-1740, [doi:10.1175/JPO-D-13-034.1](http://dx.doi.org/10.1175/JPO-D-13-034.1) (Open Access)
 
 - Ekman’s theory of the wind-driven ocean surface boundary layer assumes a constant eddy viscosity and predicts that the current rotates with depth at the same rate as it decays in amplitude. This study presents a method for estimating ageostrophic currents from shipboard acoustic Doppler current profiler data in Drake Passage and finds that observations are consistent with Ekman’s theory.
 
-**8.** **Elipot, S.**, C. Hughes, S. Olhede and J. Toole (2013), *Coherence of western boundary pressure at the RAPID WAVE array: boundary wave adjustements or deep western boundary current advection?*, J. Phys. Oceanogr., 43, 744-765, [doi:10.1175/JPO-D-12-067.1](http://dx.doi.org/10.1175/JPO-D-12-067.1).
+**8.** **Elipot, S.**, C. Hughes, S. Olhede and J. Toole (2013), *Coherence of western boundary pressure at the RAPID WAVE array: boundary wave adjustements or deep western boundary current advection?*, J. Phys. Oceanogr., 43, 744-765, [doi:10.1175/JPO-D-12-067.1](http://dx.doi.org/10.1175/JPO-D-12-067.1) (Open Access)
 
 - This study investigates the coherence between ocean bottom pressure signals at the Rapid Climate Change programme (RAPID) West Atlantic Variability Experiment (WAVE) array on the western North Atlantic continental slope, including the Woods Hole Oceanographic Institution Line W. We find several types of coherent signals: barotropic kelvin-like waves that propagates at speeds in excess of \\( 128\, m s^{-1} \\), and pressure-difference signals propagating at about \\( 1\, m s^{-1} \\), roughly consistent iwth coastally-trapped waves. These last signals are expected to be associated with depth-dependent basinwide meridional transport variations or an overturning circulation.
 
-**7.** Hughes, C., **S. Elipot**, M.A. Morales Maqueda, and J. Loder (2013) *Test of a Method for Monitoring the Geostrophic Meridional Overturning Circulation Using Only Boundary Measurements*, J. Atmosph. Ocean. Techn., 30,789--809, [doi:10.1175/JTECH-D-12-00149.1](http://dx.doi.org/10.1175/JTECH-D-12-00149.1).
+**7.** Hughes, C., **S. Elipot**, M.A. Morales Maqueda, and J. Loder (2013) *Test of a Method for Monitoring the Geostrophic Meridional Overturning Circulation Using Only Boundary Measurements*, J. Atmosph. Ocean. Techn., 30,789--809, [doi:10.1175/JTECH-D-12-00149.1](http://dx.doi.org/10.1175/JTECH-D-12-00149.1) (Open Access)
 
 **6.** Lumpkin, R. and **S. Elipot**, (2010), *Surface Drifter Pair Spreading in the North Atlantic*, J. Geophys. Res.-Oceans, 115, C12017, [doi:10.1029/2010JC006338](http://dx.doi.org/10.1029/2010JC006338).
 
