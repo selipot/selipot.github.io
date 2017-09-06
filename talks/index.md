@@ -12,15 +12,18 @@ Shane Elipot, "Methods of Data Analysis in Oceanic and Atmospheric Sciences".
 
 This is a series of five lectures I gave during my visit in the Department of Oceanography at the University of Cape Town in summer 2017. Many thanks to Juliet Hermes from SAEON for making this visit possible and Isabelle Ansorge for hosting me.
 
-Lecture 1: "Essential Statistics" [{Live Presentation}](lecture1/index.html).
+Lecture 1: "Essential Statistics" [{Live Presentation}](lecture1/index.html) or [{download}](lecture1.pdf).
 
-Lecture 2: "Covariance and correlation" [{Live Presentation}](lecture2/index.html).
+Lecture 2: "Covariance and correlation" [{Live Presentation}](lecture2/index.html) or [{download}](lecture2.pdf).
 
-Lecture 3: "Regression analysis & model fitting" [{Live Presentation}](lecture3/index.html).
+Lecture 3: "Regression analysis & model fitting" [{Live Presentation}](lecture3/index.html) or [{download}](lecture3.pdf).
 
-Lecture 4: "Time Series Analyses" [{Live Presentation}](lecture4/index.html).
+Lecture 4: "Time Series Analyses" [{Live Presentation}](lecture4/index.html) or [{download}](lecture4.pdf).
 
-Lecture 5: "Eigen Methods" [{Live Presentation}](lecture5/index.html).
+Lecture 5: "Eigen Methods" [{Live Presentation}](lecture5/index.html) or [{download}](lecture5.pdf).
+
+These lectures were followed by practical sessions using the Matlab software. The scripts used for these sessions are available at this [link](https://drive.google.com/open?id=0B5UwZFhQ8OhvWXFSY19YcGZMZEU).
+
 
 The above lecture on time series analysis was originally based on the Tromso lecture given by Jonathan Lilly. Please see the latest version of his course [here](http://www.jmlilly.net/jmltalks.html).
 
