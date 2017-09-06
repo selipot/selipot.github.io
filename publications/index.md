@@ -11,11 +11,15 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**16.** **Elipot, S.**,  E. Frajka-Williams, C. W. Hughes, S. Olhede, and M. Lankhorst (2016), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, J. Clim., 30, 2029-2054, [doi:10.1175/JCLI-D-16-0664.1](http://dx.doi.org/10.1175/JCLI-D-16-0664.1). (Open access; if you download the PDF file, figures of this paper are best rendered in Adobe Acrobat or Adobe Reader).
+**17.** **S. Elipot**  and L. M. Beal (2017), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, Submitted to the Journal of Climate.
+
+- This paper studies the interannual variability of the Agulhas jet transport based on the altimeter proxy derived in [Beal and Elipot (2016)](http://dx.doi.org/10.1038/nature19853).
+
+**16.** **Elipot, S.**,  E. Frajka-Williams, C. W. Hughes, S. Olhede, and M. Lankhorst (2017), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, J. Clim., 30, 2029-2054, [doi:10.1175/JCLI-D-16-0664.1](http://dx.doi.org/10.1175/JCLI-D-16-0664.1). (Open access; if you download the PDF file, figures of this paper are best rendered in Adobe Acrobat or Adobe Reader).
 
 - This paper explores the spatiotemporal covariance and forcing mechanisms of observed variability in the Atlantic meridional overturning circulation. We developed a novel statistical method (analytic SVD) to investigate the relation between overturning transports from four arrays in the North Atlantic (RAPID WAVE, LINE W, RAPID MOC/MOCHA and MOVE) and patterns of wind stress and its curl over the basin. We identify two significant modes of variability in the overturning circulation driven by surface winds. The first mode manifests on seasonal time scales and is interpreted in terms of Ekman transports and barotropic return flows. The second mode is evident on nonseasonal time scales and is interpreted in terms of horizontal gyre circulation anomalies, which couple to the variable bottom topography to yield overturning circulation changes.
 
-**15.** Beal, L. M. and **S. Elipot**, *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, 540, 570573, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
+**15.** Beal, L. M. and **S. Elipot** (2016), *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, 540, 570573, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
 
 - In this paper we show that, despite expectations, the Agulhas Current has not intensified since the early 1990s. Instead, we find that it has broadened as a result of more eddy activity.
 

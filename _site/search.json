@@ -3,7 +3,7 @@
   
     {
       "title"			: "Hourly drifter product version 1.01 released",
-      "link"			: "/blog/hourly-dataset-ver-1.01/",
+      "link"			: "http://localhost:4000/blog/hourly-dataset-ver-1.01/",
       "excerpt"		: "We are pleased to announce the release of version 1.01 of the hourly drifter product. Now available to download from the Global drifter program DAC website. The methods of interpolation implemented to generate this product are the same as for version 1.00 of the dataset released in mid-2016, see Elipot et al. 2016, doi:10.1002/2016JC011716. See the release notes."
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Colors of the <strike>Wind</strike> Ocean",
-      "link"			: "/blog/colors-of-the-ocean/",
+      "link"			: "http://localhost:4000/blog/colors-of-the-ocean/",
       "excerpt"		: "You can own the earth and still"
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "Things reviewers say",
-      "link"			: "/blog/things-reviews-say/",
+      "link"			: "http://localhost:4000/blog/things-reviews-say/",
       "excerpt"		: "I found somehow reassuring to read in a blog post of  EOS that the Editor in Chief of Geophysical Research Letters, no less, recently had a manuscript rejected for publication. He wrote that “this rejection was particularly deflating, both because I had invested two years in the science, and because two of the three reviewers dismissed the very conception of the analysis.” I see this as being told that your paper sucks because your analysis sucks in the first place. Ouch. We’ve all had at least one terrible story about a particular set of reviews. It turns out that last week was Peer Review Week! Who knew?"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "On the new standard of sharing your code",
-      "link"			: "/blog/the-new-standard-of-sharing-code/",
+      "link"			: "http://localhost:4000/blog/the-new-standard-of-sharing-code/",
       "excerpt"		: "Scientists in general, and oceanographers in particular, have been used for many years to sharing “their” data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies."
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "Launch of new personal site on GitHub",
-      "link"			: "/blog/shane-elipot-site-launched/",
+      "link"			: "http://localhost:4000/blog/shane-elipot-site-launched/",
       "excerpt"		: "I finally got around to put my new professional website together! It is powered by Jekyll and currently hosted, for free, on GitHub. I browsed many resources to approximately understand how this works, and learned to use git at a basic level with the online tutorial tryGit. I followed the simple tutorial by Jonathan Mcglone, but then opted for the free Jekyll theme So Simple.  In the process, I downloaded a free text editor called Atom which I find very neat, at least on Mac OS X. You can easily download a package for Atom that will allow you to use Emacs keybindings, which I am used to."
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "Past Projects",
-      "link"			: "/projects/old/",
+      "link"			: "http://localhost:4000/projects/old/",
       "excerpt"		: ""
     }
   
@@ -59,7 +59,7 @@
   
     ,{
       "title"			: "Projects",
-      "link"			: "/projects/",
+      "link"			: "http://localhost:4000/projects/",
       "excerpt"		: ""
     }
   
@@ -67,7 +67,7 @@
   
     ,{
       "title"			: "Publications",
-      "link"			: "/publications/",
+      "link"			: "http://localhost:4000/publications/",
       "excerpt"		: ""
     }
   
@@ -79,7 +79,7 @@
   
     ,{
       "title"			: "Talks",
-      "link"			: "/talks/",
+      "link"			: "http://localhost:4000/talks/",
       "excerpt"		: ""
     }
   
@@ -87,7 +87,7 @@
   
     ,{
       "title"			: "Curriculum Vitae",
-      "link"			: "/vitae/",
+      "link"			: "http://localhost:4000/vitae/",
       "excerpt"		: ""
     }
   
@@ -95,7 +95,7 @@
   
     ,{
       "title"			: "About & Contact",
-      "link"			: "/about/",
+      "link"			: "http://localhost:4000/about/",
       "excerpt"		: ""
     }
   
@@ -103,9 +103,15 @@
   
     ,{
       "title"			: "Abstracts",
-      "link"			: "/abstracts/",
+      "link"			: "http://localhost:4000/abstracts/",
       "excerpt"		: ""
     }
+  
+
+  
+
+  
+
   
 
   
