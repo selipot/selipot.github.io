@@ -11,9 +11,9 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**17.** **S. Elipot**  and L. M. Beal (2017), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, Submitted to the Journal of Climate.
+**17.** **S. Elipot**  and L. M. Beal (2017), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, Online Early Release [doi: 10.1175/JCLI-D-17-0597.1](http://dx.doi.org/10.1175/JCLI-D-17-0597.1).
 
-- This paper studies the interannual variability of the Agulhas jet transport based on the altimeter proxy derived in [Beal and Elipot (2016)](http://dx.doi.org/10.1038/nature19853).
+- This paper studies the atmosphere-driven interannual variability of the Agulhas jet transport based on the altimeter proxy derived in [Beal and Elipot (2016)](http://dx.doi.org/10.1038/nature19853). We find that 29% of the interannual variance of the Agulhas Current transport can be linearly related to six modes of Southern Hemisphere atmospheric variability, including ENSO and a SAM-related mode.
 
 **16.** **Elipot, S.**,  E. Frajka-Williams, C. W. Hughes, S. Olhede, and M. Lankhorst (2017), *Observed basin-scale response of the North Atlantic Meridional Overturning Circulation to wind stress forcing*, J. Clim., 30, 2029-2054, [doi:10.1175/JCLI-D-16-0664.1](http://dx.doi.org/10.1175/JCLI-D-16-0664.1). (Open access; if you download the PDF file, figures of this paper are best rendered in Adobe Acrobat or Adobe Reader).
 
