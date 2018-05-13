@@ -11,9 +11,11 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**17.** **S. Elipot**  and L. M. Beal (2017), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, J. Clim., Online Early Release [doi: 10.1175/JCLI-D-17-0597.1](http://dx.doi.org/10.1175/JCLI-D-17-0597.1).
+**18.** **S. Elipot** (2018), *Measuring global mean sea level changes with surface drifting buoys*, submitted to [Scientific Reports](https://www.nature.com/srep/).
 
-**This paper has been selected as a research highlight for Nature Climate Change:** G. Simpkins (2018), *Nature Climate Change* **8**, 188, [doi:10.1038/s41558-018-0111-3](http://dx.doi.org/10.1038/s41558-018-0111-3). 
+**17.** **S. Elipot**  and L. M. Beal (2017), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, J. Clim., 31, 3077-3098, [doi: 10.1175/JCLI-D-17-0597.1](http://dx.doi.org/10.1175/JCLI-D-17-0597.1).
+
+**This paper has been selected as a research highlight for Nature Climate Change:** G. Simpkins (2018), *Nature Climate Change* **8**, 188, [doi:10.1038/s41558-018-0111-3](http://dx.doi.org/10.1038/s41558-018-0111-3).
 
 - This paper studies the atmosphere-driven interannual variability of the Agulhas jet transport based on the altimeter proxy derived in [Beal and Elipot (2016)](http://dx.doi.org/10.1038/nature19853). We find that 29% of the interannual variance of the Agulhas Current transport can be linearly related to six modes of Southern Hemisphere atmospheric variability, including ENSO and a SAM-related mode. The Agulhas transport proxy time series can be downloaded via the [ACT website](http://http://act.rsmas.miami.edu) [here](http://http://act.rsmas.miami.edu/media/publications/).
 
@@ -45,7 +47,7 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 **10.** **Elipot, S.**, E. Frajka-Williams, C. Hughes and J. Willis (2014), *The Observed North Atlantic Meridional Overturning Circulation, its Meridional Coherence and Ocean Bottom Pressure*,  J. Phys. Oceanogr., 44, 517-537, [doi:10.1175/JPO-D-13-026.1](http://dx.doi.org/10.1175/JPO-D-13-026.1) (Open Access)
 
-**9.** Polton, J., Y.-D. Lenn, *S. Elipot*, T. K. Chereskin and J. Sprintall (2013), *Can Drake Passage observations match Ekman's classic theory?* J. Phys. Oceanogr., 43, 1733-1740, [doi:10.1175/JPO-D-13-034.1](http://dx.doi.org/10.1175/JPO-D-13-034.1) (Open Access)
+**9.** Polton, J., Y.-D. Lenn, **S. Elipot**, T. K. Chereskin and J. Sprintall (2013), *Can Drake Passage observations match Ekman's classic theory?* J. Phys. Oceanogr., 43, 1733-1740, [doi:10.1175/JPO-D-13-034.1](http://dx.doi.org/10.1175/JPO-D-13-034.1) (Open Access)
 
 - Ekman’s theory of the wind-driven ocean surface boundary layer assumes a constant eddy viscosity and predicts that the current rotates with depth at the same rate as it decays in amplitude. This study presents a method for estimating ageostrophic currents from shipboard acoustic Doppler current profiler data in Drake Passage and finds that observations are consistent with Ekman’s theory.
 
