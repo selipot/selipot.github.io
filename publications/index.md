@@ -11,13 +11,13 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**20.** P. L’Hégaret, L. M. Beal, **S. Elipot**, and L. Laurindo (2018), *Pathlines reveal cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, submitted to [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
+**20.** L’Hégaret, P., L. M. Beal, **S. Elipot**, and L. Laurindo (2018), *Pathlines reveal cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, submitted to [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
 
 **19.** Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot** (2018), *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, submitted to [Journal of Marine Systems](https://www.journals.elsevier.com/journal-of-marine-systems)
 
-**18.** **S. Elipot** (2018), *Measuring global mean sea level changes with surface drifting buoys*, submitted to [Scientific Reports](https://www.nature.com/srep/).
+**18.** **Elipot, S.** (2018), *Measuring global mean sea level changes with surface drifting buoys*, submitted to [Scientific Reports](https://www.nature.com/srep/).
 
-**17.** **S. Elipot**, and L. M. Beal (2018), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, J. Clim., 31, 3077-3098, [doi: 10.1175/JCLI-D-17-0597.1](http://dx.doi.org/10.1175/JCLI-D-17-0597.1).
+**17.** **Elipot, S.**, and L. M. Beal (2018), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, J. Clim., 31, 3077-3098, [doi: 10.1175/JCLI-D-17-0597.1](http://dx.doi.org/10.1175/JCLI-D-17-0597.1).
 
 **This paper has been selected as a research highlight for Nature Climate Change:**
 G. Simpkins (2018), *Nature Climate Change* **8**, 188, [doi:10.1038/s41558-018-0111-3](http://dx.doi.org/10.1038/s41558-018-0111-3).
