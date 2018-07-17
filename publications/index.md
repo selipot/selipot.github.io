@@ -11,10 +11,9 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**20.** Pierre L’Hégaret, Lisa M. Beal, **Shane Elipot**, and Lucas Laurindo, *Pathlines reveal cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, submitted to [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
+**20.** P. L’Hégaret, L. M. Beal, **S. Elipot**, and L. Laurindo, *Pathlines reveal cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, submitted to [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
 
-**19.** Estee Vermeulen, Björn Backeberg, Juliet Hermes, and **Shane Elipot**, *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, submitted to [Journal of Marine Systems](https://www.journals.elsevier.com/journal-of-marine-systems)
-
+**19.** Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot**, *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, submitted to [Journal of Marine Systems](https://www.journals.elsevier.com/journal-of-marine-systems)
 
 **18.** **S. Elipot** (2018), *Measuring global mean sea level changes with surface drifting buoys*, submitted to [Scientific Reports](https://www.nature.com/srep/).
 
@@ -29,16 +28,16 @@ G. Simpkins (2018), *Nature Climate Change* **8**, 188, [doi:10.1038/s41558-018-
 
 - This paper explores the spatiotemporal covariance and forcing mechanisms of observed variability in the Atlantic meridional overturning circulation. We developed a novel statistical method (analytic SVD) to investigate the relation between overturning transports from four arrays in the North Atlantic (RAPID WAVE, LINE W, RAPID MOC/MOCHA and MOVE) and patterns of wind stress and its curl over the basin. We identify two significant modes of variability in the overturning circulation driven by surface winds. The first mode manifests on seasonal time scales and is interpreted in terms of Ekman transports and barotropic return flows. The second mode is evident on nonseasonal time scales and is interpreted in terms of horizontal gyre circulation anomalies, which couple to the variable bottom topography to yield overturning circulation changes.
 
-**15.** Beal, L. M. and **S. Elipot** (2016), *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, 540, 570573, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
+**15.** Beal, L. M., and **S. Elipot** (2016), *Broadening not strengthening of the Agulhas Current since the early 1990s*, Nature, 540, 570573, [doi:10.1038/nature19853](http://dx.doi.org/10.1038/nature19853).
 
 - In this paper we show that, despite expectations, the Agulhas Current has not intensified since the early 1990s. Instead, we find that it has broadened as a result of more eddy activity.
 
-**14.** Leber, G. M., L. M. Beal and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., 47, 123-134, [doi:10.1175/JPO-D-16-0079.1](http://dx.doi.org/10.1175/JPO-D-16-0079.1).
+**14.** Leber, G. M., L. M. Beal, and **S. Elipot** (2016), *Wind and current forcing combine to drive strong upwelling in the Agulhas Current*, J. Phys. Oceanogr., 47, 123-134, [doi:10.1175/JPO-D-16-0079.1](http://dx.doi.org/10.1175/JPO-D-16-0079.1).
 
 - In this paper, we investigate upwelling events inshore of the Agulhas Current at 34S. These events exchange shelf and slope waters, potentially enhancing primary productivity along the shelf and advecting larvae offshore. Hydrographic observations of a wind-driven upwelling event nd a current-driven upwelling event show that they can advect central waters more than 130 m upward onto the continental shelf, resulting in a 9C cooling. We use satellite data to assess the frequency, strength and forcing mechanisms of cold events from January 2003
 11 through December 2011.
 
-**13.** **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
+**13.** **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, and A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
 J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
 
 - This paper describes how we created a new [hourly surface drifter dataset](http://www.aoml.noaa.gov/phod/dac/hourly_data.php), now available publicly through the [Data Assembly Center](http://www.aoml.noaa.gov/phod/dac/dacdata.php) of the Global Drifter Program hosted at the [Atlantic Oceanographic & Meteorological Laboratory](http://www.aoml.noaa.gov)
