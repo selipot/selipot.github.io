@@ -11,7 +11,7 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**20.** L’Hégaret, P., L. M. Beal, **S. Elipot**, and L. Laurindo (2018), *Pathlines reveal cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, submitted to [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
+**20.** L’Hégaret, P., L. M. Beal, **S. Elipot**, and L. Laurindo (2018), *Shallow cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, revised for [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
 
 **19.** Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot** (2018), *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, submitted to [Journal of Marine Systems](https://www.journals.elsevier.com/journal-of-marine-systems)
 
