@@ -11,9 +11,9 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-**20.** Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot** (2018), *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, submitted to [Ocean Science](https://www.ocean-science.net/index.html)
+**20.** Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot** (2019), *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, revised for [Ocean Science](https://www.ocean-science.net/index.html)
 
-**19.** **Elipot, S.** (2018), *Measuring global mean sea level changes with surface drifting buoys*, revised for [Scientific Reports](https://www.nature.com/srep/).
+**19.** **Elipot, S.** (2019), *Measuring global mean sea level changes with surface drifting buoys*, revised for [Scientific Reports](https://www.nature.com/srep/).
 
 **18.** L’Hégaret, P., L. M. Beal, **S. Elipot**, and L. Laurindo (2018), *Shallow cross-equatorial gyres of the Indian Ocean driven by seasonally reversing monsoon winds*, accepted for [J. Geophys. Res.-Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291)
 
