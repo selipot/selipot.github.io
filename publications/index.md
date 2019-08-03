@@ -13,9 +13,17 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 In preparation:
 
-**20.** **Elipot, S.** (2019), *Measuring global mean sea level changes with surface drifting buoys*, revised for [Scientific Reports](https://www.nature.com/srep/).
+**22.** **Elipot, S.** (2019), *Measuring global mean sea level changes with surface drifting buoys*, in prep.
 
 Published:
+
+**21.** Frajka-Williams, E. [...], Elipot, S., [...] (2019), *Atlantic Meridional Overturning Circulation: Observed Transport and Variability*, [Front. Mar. Sci.](https://www.frontiersin.org), 6:260. [doi:10.3389/fmars.2019.00260](https://doi.org/10.3389/fmars.2019.00260)
+
+- This is an open-access [OceanObs19](http://www.oceanobs19.net) community white paper. What is the Atlantic MOC and how is it observed? In this paper led by [Eleanor Frajka-Williams](https://www.noc.ac.uk/people/eefw1u08), we outline the different approaches used to observe the AMOC and summarize the key results to date. We also discuss alternate approaches for capturing AMOC variability including direct estimates (e.g., using sea level, bottom pressure, and hydrography from autonomous profiling floats), indirect estimates applying budgetary approaches, state estimates or ocean reanalyses, and proxies. Based on the existing observations and their results, and the potential of new observational and formal synthesis approaches, we make suggestions as to how to evaluate a comprehensive, future-proof observational network of the AMOC to deepen our understanding of the AMOC.
+
+**20.** Howe, B. M., [...], Elipot, S., [...] (2019), *SMART Cables for Observing the Global Ocean: Science and Implementation*,[Front. Mar. Sci.](https://www.frontiersin.org), 6:424, [doi:10.3389/fmars.2019.00424](https://doi.org/10.3389/fmars.2019.00424)
+
+- This is an open-access [OceanObs19](http://www.oceanobs19.net) community white paper. Did you know that the majority of internet traffic takes place on a multitude of undersea communication cables that crisscross the ocean seafloor? In this paper led by [Bruce M. Howe](http://www.soest.hawaii.edu/ore/people/faculty/bruce-m-howe/) we describe the mission of the SMART subsea cables initiative ([Science Monitoring And Reliable Telecommunications](https://www.itu.int/en/ITU-T/climatechange/task-force-sc/Pages/default.aspx)). SMART sensors would “piggyback” on the power and communications infrastructure of a million kilometers of undersea fiber optic cable and thousands of repeaters, creating the potential for seafloor-based global ocean observing at a modest incremental cost.
 
 **19.** Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot** (2019), *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, [Ocean Sci.](https://www.ocean-science.net/index.html), 15, 513-526, [doi:10.5194/os-15-513-2019](https://doi.org/10.5194/os-15-513-2019)
 
