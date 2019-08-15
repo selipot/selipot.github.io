@@ -10,7 +10,7 @@ image:
 
 **Currently:** [**The Rosenstiel School of Marine and Atmospheric Science**], [**University of Miami**], Miami, USA
 
-Associate Scientist, since April 2014; Assistant Scientist, April 2013 - March 2014.
+Research Assistant Professor, since August 2019; Associate Scientist, April 2014 - July 2019; Assistant Scientist, April 2013 - March 2014.
 
 **&** [**Carnegie Museum of Natural History**](http://www.carnegiemnh.org), Pittsburgh, Pennsylvania, USA.
 

@@ -8,6 +8,12 @@ image:
 
 * * *
 
+## Mapping the kinematics and dynamics of tidal ocean currents with surface drifters
+
+I am the lead-PI of this NSF-funded project, in collaboration with [Ed Zaron](http://web.cecs.pdx.edu/~zaron/pub/Index.html) from Portland State University, and [Rick Lumpkin](https://www.aoml.noaa.gov/phod/people/lumpkin/) from the NOAA [Atlantic Oceanographic Meteorological Laboratory](https://www.aoml.noaa.gov). This project will generate new knowledge concerning tidal currents in order to better understand tidal dynamics and their role in the maintenance of the global thermohaline ocean circulation. The drifter dataset that will be utilized to investigate baroclinic tidal phenomena is both large enough and unique (in terms of time span, geographic coverage, and accuracy) to provide a quantitative description of tidal properties. In addition, qualitative and potentially new assessments of tidal/non-tidal interactions will be obtained, including their seasonal and longer temporal variability. A novel decomposition of the tidal energy budget, which separates processes primarily affecting phase-locked and non-phase-locked tidal signals, is proposed to guide the analysis and interpretation of not-only the drifter observations, but also observations from altimetry and numerical simulations which will be used alongside the drifter data.
+
+* * *
+
 ## The Agulhas System Climate Array (ASCA)
 
 ![Alt text](/images/algoa.jpg)
