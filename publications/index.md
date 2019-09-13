@@ -11,9 +11,9 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-Coming soon:
+Submitted:
 
-**23.** **Elipot, S.** (2019), *Measuring global mean sea level changes with surface drifting buoys*, in prep.
+**23.** **Elipot, S.** (2019), *Measuring global mean sea level changes with surface drifting buoys*, submitted to Geophysical Research Letters, arXiv.org [preprint](https://arxiv.org/abs/1909.03269).
 
 Published:
 
