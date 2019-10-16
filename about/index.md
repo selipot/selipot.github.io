@@ -6,7 +6,7 @@ image:
   credit: Launching a surface drifter in the Gulf Stream in 2012 onboard the NOAA ship Ronald H. Brown
 ---
 
-I am a Research Assistant Professor in the [Department of Ocean Sciences](http://www.rsmas.miami.edu/research/departments/ocean-sciences/) at the [Rosenstiel School of Marine and Atmospheric Science](http://rsmas.miami.edu) of [the University of Miami](http://www.miami.edu).
+I am a Research Assistant Professor in the [Department of Ocean Sciences](https://ocean-sciences.rsmas.miami.edu/index.html) at the [Rosenstiel School of Marine and Atmospheric Science](http://rsmas.miami.edu) of [the University of Miami](http://www.miami.edu).
 
 I conduct research in physical oceanography, and specifically in atmosphere-ocean interactions, oceanic surface boundary layer dynamics, meridional overturning circulation dynamics, and Agulhas Current System dynamics. I am interested in the nature of oceanic and atmospheric observations, and more generally in time series and covariance analyses of environmental data.
 
