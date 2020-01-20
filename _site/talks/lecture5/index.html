@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOC
 <html>
   <head>
  <title>Data Analyses - Elipot - Lecture 5</title>
@@ -152,6 +152,7 @@ class: left, .toc[[&#10023;](#toc)]
 2.	[Two variate example](#bivariate)
 3.	[N-variate case: that's Empirical Orthogonal Functions analysis (EOF)](#nvariate)
 4.	[Two N-variate case: that's Singular Value Decomposition (SVD)](#svd)
+5.  [Epilogue: EOF analysis by SVD](#eofsvd)
 
 ---
 name: introduction
@@ -281,8 +282,8 @@ X_2(N)
 }\right],
 \mathbf{X} =
 \left[\matrix{
-X_1(1) & X_1(1) \cr
-X_1(2) & X_1(1)\cr
+X_1(1) & X_2(1) \cr
+X_1(2) & X_2(2)\cr
 \vdots & \vdots \cr
 X_1(N) & X_2(N)
 }\right]$`
@@ -303,8 +304,8 @@ With the matrix notation, we can assemble covariance terms into the *sample cova
  & = & \frac{1}{N-1} \left[\matrix{ X_1(1), X_1(2),\cdots,X_1(N) \cr X_2(1), X_2(2),\cdots,X_2(N)
 }\right]
 \left[\matrix{
-X_1(1) & X_1(1) \cr
-X_1(2) & X_1(1)\cr
+X_1(1) & X_2(1) \cr
+X_1(2) & X_2(2)\cr
 \vdots & \vdots \cr
 X_1(N) & X_2(N)
 }\right]\cr
@@ -913,7 +914,7 @@ U_{P1} & U_{P2} & \cdots & U_{PM} \cr
 \mathbf{V} = \left[ \matrix{V_{11} & V_{12} & \cdots & V_{1M} \cr
 V_{21} & V_{22} & \cdots & V_{2M} \cr
 \vdots & \vdots & \dots & \vdots \cr
-V_{P1} & V_{P2} & \cdots & V_{MM} \cr
+V_{M1} & V_{M2} & \cdots & V_{MM} \cr
 }\right]$$`
 
 `$$\mathbf{\Lambda} = \left[ \matrix{\lambda_1 & 0 & \cdots & 0 \cr
@@ -935,9 +936,9 @@ class: left, .toc[[&#10023;](#toc)]
 
 ## SVD : Interpretation
 
-A SVD analysis decomposes the cross covariance into modes, the first of which maximizes the cross covariance as `$\lambda_1/\sum_k \lambda_k$` with a spatial structure given by the pair of singular vectors `$\mathbf{U}_1$` and `$\mathbf{V}_1$`.
+A SVD analysis decomposes the cross covariance into modes, the first of which maximizes the cross covariance as `$\lambda^2_1/\sum_k \lambda^2_k$` with a spatial structure given by the pair of singular vectors `$\mathbf{U}_1$` and `$\mathbf{V}_1$`.
 
-The second mode generates the second biggest fraction of cross covariance as `$\lambda_2/\sum_k\lambda_k$` with the spatial structure of the second pair of vectors `$\mathbf{U}_2$` and `$\mathbf{V}_2$` but with these ones orthogonal to the vectors of the first mode, and so forth.
+The second mode generates the second biggest fraction of cross covariance as `$\lambda^2_2/\sum_k\lambda^2_k$` with the spatial structure of the second pair of vectors `$\mathbf{U}_2$` and `$\mathbf{V}_2$` but with these ones orthogonal to the vectors of the first mode, and so forth.
 
 The `$n$`-th ratio `$\lambda^2_n/\sum_k\lambda_k^2$` is called the *squared fraction covariance* of mode `$n$` and is usually expressed as a percentage. It is usually interpreted as the amount of the total cross (co)variance which is captured by each coupled mode.
 
@@ -1018,6 +1019,61 @@ SVD3
 .center[<img style="width:80%"  src="./figures/sst_u10_svd3.png">]
 
 ---
+name: eofsvd
+class: center, middle, .toc[[&#10023;](#toc)]
+
+# 5. EOF analysis by SVD
+
+---
+class: left, .toc[[&#10023;](#toc)]
+
+Why is calculating the SVD of a data matrix the same as calculating the eigen decomposition of its associated autocovariance matrix?
+
+The data matrix `$\mathbf{X}$` of dimension `$N \times P$` can be factored as
+`$$
+\mathbf{X} = \mathbf{P} \mathbf{L} \mathbf{Q}^\mathrm{T}
+$$`
+where `$\mathbf{P}$` is `$N \times N$`, `$\mathbf{L}$` is `$N \times P$`, and `$\mathbf{Q}$` is `$P \times P$`.
+
+--
+
+Now, the associated *sample auto-covariance matrix* is
+`$$
+  \begin{split}
+    \widehat{\mathbf{C}}_{XX} & = \mathbf{X}^\mathrm{H} \mathbf{X}/(N-1) \\
+                           & = (\mathbf{P} \mathbf{L} \mathbf{Q}^\mathrm{H})^\mathrm{H} (\mathbf{P} \mathbf{L} \mathbf{Q}^\mathrm{H}) /(N-1) \\
+                           & =  \mathbf{Q} \mathbf{L}^\mathrm{H} \mathbf{L} \mathbf{Q}^\mathrm{H}/(N-1).
+  \end{split}
+$$`
+--
+Alternatively, `$\widehat{\mathbf{C}}_{XX}$` has an eigen decomposition, i.e.
+`$$
+\widehat{\mathbf{C}}_{XX}  = \mathbf{U} \mathbf{\Gamma} \mathbf{U}^\mathrm{T}
+$$`
+where `$\mathbf{U}$` and `$\mathbf{\Gamma}$` are both `$P \times P$`
+
+---
+class: left, .toc[[&#10023;](#toc)]
+Since we have
+`$$
+\widehat{\mathbf{C}}_{XX}  = \mathbf{U} \mathbf{\Gamma} \mathbf{U}^\mathrm{T} =  \mathbf{Q} \mathbf{L}^\mathrm{H} \mathbf{L} \mathbf{Q}^\mathrm{H}/(N-1),
+$$`
+by identification we have:
+`$$
+\mathbf{U} \equiv \mathbf{Q} \quad \text{and}\quad \mathbf{\Gamma} \equiv \mathbf{L}^\mathrm{H} \mathbf{L}/(N-1)
+$$`
+
+--
+
+As a consequence, for an EOF analysis there is actually no need to compute the auto covariance matrix to obtain the eigen vectors and the eigen values. It suffices to compute the SVD of the original data matrix:
+
+`$$
+\mathbf{X} = \mathbf{P} \mathbf{L} \mathbf{Q}^\mathrm{T} = \mathbf{A}\mathbf{U}^\mathrm{T}
+$$`
+
+The PC matrix is `$\mathbf{A} = \mathbf{P} \mathbf{L}$` and the eigen matrix is `$\mathbf{\Gamma} = \mathbf{L}^\mathrm{H} \mathbf{L}/(N-1)$`
+
+---
 class: middle, center, .toc[[&#10023;](#toc)]
 
 # THE END
@@ -1036,13 +1092,12 @@ email: <tt>selipot@rsmas.miami.edu</tt>
  <!-- This is the link to the remote MathJax libraries -->
  <!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script> -->
  <!-- This is for secure connections -->
-  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
-</script> -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+</script>
  <!-- If you want to run your presentation offline, you need to download the MathJax -->
  <!-- libraries, then uncomment the line below and comment out the one above.-->
-  <!-- Note: see comment at http://stackoverflow.com/questions/19208536/mathjax-not-working-if-loaded-from-local-js-file-or-if-the-source-code-is-includ-->
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
-     </script>
+ <!-- Note: see comment at http://stackoverflow.com/questions/19208536/mathjax-not-working-if-loaded-from-local-js-file-or-if-the-source-code-is-includ-->
+
  <script type="text/javascript">
 var slideshow = remark.create({navigation: {click: false}, properties: {class: "center, middle"},countIncrementalSlides: false});
 

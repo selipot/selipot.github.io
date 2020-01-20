@@ -1,0 +1,300 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>On the inappropriate use of variance-preserving spectra &#8211; Shane Elipot</title>
+<meta name="description" content="Again and again I am dismayed by the habit of using variance-preserving spectra to diagnose periodicities in time series. This habit is crawling steadily in the observational oceanographic literature (not so much in climate science, they know better). The reasons I can see for this serious problem are twofold: 1) the repeat of analyses from published papers which unfortunately passed the review process, and 2) the lack of statistical training of physical oceanographers. This last reason is unfortunate and should be corrected. Statistics is the science of collecting and analyzing numerical data so we should get on board.  Now, I am not claiming to be a statistician, but I humbly think that I spend more time than others thinking about statistics.
+
+">
+<meta name="keywords" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="On the inappropriate use of variance-preserving spectra">
+<meta name="twitter:description" content="Again and again I am dismayed by the habit of using variance-preserving spectra to diagnose periodicities in time series. This habit is crawling steadily in the observational oceanographic literature (not so much in climate science, they know better). The reasons I can see for this serious problem are twofold: 1) the repeat of analyses from published papers which unfortunately passed the review process, and 2) the lack of statistical training of physical oceanographers. This last reason is unfortunate and should be corrected. Statistics is the science of collecting and analyzing numerical data so we should get on board.  Now, I am not claiming to be a statistician, but I humbly think that I spend more time than others thinking about statistics.
+
+">
+<meta name="twitter:site" content="@ShaneKahn">
+<meta name="twitter:creator" content="@ShaneKahn">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/bio-photo3.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="On the inappropriate use of variance-preserving spectra">
+<meta property="og:description" content="Again and again I am dismayed by the habit of using variance-preserving spectra to diagnose periodicities in time series. This habit is crawling steadily in the observational oceanographic literature (not so much in climate science, they know better). The reasons I can see for this serious problem are twofold: 1) the repeat of analyses from published papers which unfortunately passed the review process, and 2) the lack of statistical training of physical oceanographers. This last reason is unfortunate and should be corrected. Statistics is the science of collecting and analyzing numerical data so we should get on board.  Now, I am not claiming to be a statistician, but I humbly think that I spend more time than others thinking about statistics.
+
+">
+<meta property="og:url" content="http://localhost:4000/blog/variance-preserving-spectra/">
+<meta property="og:site_name" content="Shane Elipot">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/variance-preserving-spectra/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Shane Elipot Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		    <li><a href="http://localhost:4000/" >Home</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/about/" >About & Contact</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/projects/" >Current Projects</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/publications/" >Publications</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/vitae/" >Vitae</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/projects/old/" >Past Projects</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/talks/" >Talks & Lectures</a></li>
+		  
+		    
+		    <li><a href="http://localhost:4000/blog/" >Blog</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      
+  		<a href="http://localhost:4000/" class="site-logo" rel="home" title="Shane Elipot"><img src="http://localhost:4000/images/bio-photo3.jpg" width="200" height="200" alt="Shane Elipot logo" class="animated fadeInDown"></a>
+      
+      <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">Shane Elipot</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">Research Assist. Professor of Ocean Sciences at the University of Miami. Navigate above to know more.</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <ul class="entry-tags">
+          
+        </ul>
+        
+          <h1 class="entry-title">On the inappropriate use of variance-preserving spectra</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+          <img src="http://localhost:4000/images/bio-photo-alt.jpg" class="bio-photo" alt="Shane Elipot bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Shane Elipot</span></span>
+        <span class="entry-date date published"><time datetime="2020-01-20T00:00:00-05:00"><i class="fa fa-calendar-o"></i> January 20, 2020</time></span>
+        
+        <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
+        
+        
+      </footer>
+      <div class="entry-content">
+        <p>Again and again I am dismayed by the habit of using <em>variance-preserving spectra</em> to diagnose periodicities in time series. This habit is crawling steadily in the observational oceanographic literature (not so much in climate science, they know better). The reasons I can see for this serious problem are twofold: 1) the repeat of analyses from published papers which unfortunately passed the review process, and 2) the lack of statistical training of physical oceanographers. This last reason is unfortunate and should be corrected. Statistics is the science of collecting and analyzing numerical data so we should get on board.  Now, I am not claiming to be a statistician, but I humbly think that I spend more time than others thinking about statistics.</p>
+
+<p>Since I often talk with a couple of statisticians that deal with time series, I have casually asked them: “Why do you think people use variance-preserving spectra?”. Their answer was revealing: they did not even know what a variance-preserving spectrum was! Once I explained to them (see below), they were even more confused. They also wondered what was wrong with us (oceanographers). Besides that, what personally makes me sad is that we collectively spend millions of tax-payer dollars to obtain invaluable time series of oceanographic variables (such as oceanic volume transport), only to analyze them with the wrong tools.</p>
+
+<p>Rather than ranting without purpose, I have decided to write a little note to demonstrate why variance-preserving spectra should not be used to infer <strong>anything</strong> about periodicity in a time series, and to suggest alternative methods. I have just become an assistant professor, yet one with the epithet <em>research</em> in front, which means I do not teach (nor do I get paid for teaching). Don’t get me wrong, I am thrilled by this new position, but wish I could also teach. So here you go, I am putting out there a little lecture for whoever is interested. Let me know if I am doing it all wrong at <a href="mailto:selipot@rsmas.miami.edu">selipot@rsmas.miami.edu</a> or comment below.</p>
+
+<p>One definition of the frequency spectrum <script type="math/tex">S(f)</script> (there are several) is that it is the Fourier transform of the autocovariance function <script type="math/tex">R(\tau)</script>, or in other words, that the spectrum and the autocovariance function are <em>Fourier transform pairs</em>:</p>
+
+<script type="math/tex; mode=display">S(f) \equiv   \int_{-\infty}^{+\infty} e^{-i 2 \pi f \tau}  R(\tau) d\tau , \quad\quad R (\tau) = \int_{-\infty}^\infty e^{i 2 \pi f \tau}  S(f) \, df .</script>
+
+<p>This is called the <a href="http://mathworld.wolfram.com/Wiener-KhinchinTheorem.html"><em>Wiener–Khintchine theorem</em></a>. When the expression above is evaluated at zero lag <script type="math/tex">(\tau=0)</script>, one obtains that the variance of your time series, <script type="math/tex">\sigma^2</script>, is the integral of the frequency spectrum:</p>
+
+<script type="math/tex; mode=display">\sigma^2 \equiv R (0) = \int_{-\infty}^{+\infty} S(f) \, df .</script>
+
+<p>This is why I think estimating a spectrum is the most useful: it shows the frequency decomposition of the variance of your time series. It allows you to state something about where the energy of your signal resides. If you are new to spectral analysis you could start with <a href="https://selipot.github.io/talks/lecture4/index.html">my lecture on time series analysis</a> or <a href="http://jmlilly.net/course.html">the entire course on the subject by my colleague oceanographer Jonathan Lilly</a>. At the bottom of this post you will find also some good book references including the excellent <a href="https://doi.org/10.1017/CBO9780511622762">Percival and Walden (1993)</a> <em>Spectral Analysis for Physical Applications</em>.</p>
+
+<p>Now to the topic of this post: another typical use of spectral (or harmonic) analysis in physical oceanography is to look for quasi-periodic signals in a time series, such as a <em>seasonal</em> or an <em>annual</em> cycle. People are looking for “peaks”, which amounts to looking for patterns in a time series. This seems to be a very human trait because in oceanography exactly periodic signals are actually rare, and purely monochromatic signals (one frequency) even more so. As a side note, a typical and erroneous interpretation of a spectrum I often hear is about a semi-annual peak (6-month period). Typically the reason for such a peak is not that there is a physical process at that specific frequency, but more likely that it is a harmonic of the annual, and lower, frequency. In other words you have a periodic signal with a 1-year period but it is not a pure sinusoid, and more than one frequency is needed to describe the periodic process (<a href="http://mathworld.wolfram.com/FourierSeries.html">Fourier series</a> anyone?).</p>
+
+<p>Here I want to show a synthetic example of a time series that is not unlike many published oceanographic time series, and show how a variance-preserving spectral estimate of this time series can lead to misidentifying <em>peaks</em>. Below is shown a randomly generated real-valued time series with <script type="math/tex">1000</script> points. I generated and scaled this time series so that its variance is <script type="math/tex">0.01</script> and thus its standard deviation is <script type="math/tex">0.1</script>. With a trained eye you could almost see that staring at the plot:</p>
+
+<p><img src="../../images/timeseries.pdf" alt="Matern process with N=1000" /></p>
+
+<p>This time series is actually one realization of a <a href="https://www.nonlin-processes-geophys.net/24/481/2017/">Matérn process</a> with a spectrum given by</p>
+
+<!--- S(\omega) = \frac{\sigma^2 }{ (\omega^2+\lambda^2)^\alpha} \times \lambda^{(2\alpha-1)/C} $$ -->
+
+<script type="math/tex; mode=display">S(f) = C \frac{A^2}{[(2\pi f)^2+\lambda^2]^\alpha}</script>
+
+<p>where <script type="math/tex">C</script> is just a normalizing constant. To generate this time series I used a freely accessible Matlab toolbox called <a href="https://github.com/jonathanlilly/jLab">jLab</a> written by <a href="http://www.jmlilly.net">Jonathan Lilly</a>. I like this model because it fits nicely a lot of oceanographic time series I have looked at, including Lagrangian time series and time series of oceanic transports. In fact, I have used that model to model and test statistics of transport time series of the AMOC in my <a href="http://dx.doi.org/10.1175/JCLI-D-16-0664.1">Elipot et al. 2017 paper</a>. The point of using this model is that there is absolutely no periodicity in this signal; it has a continuous spectrum with no peak. What does a peak in a spectrum mean anyway? That the spectral power at a single frequency is much greater than neighboring frequencies, or that it is much more than what you would expect under the hypothesis that your observed process (i.e. time series) is representative of some noise-like process, white or colored. There is nothing wrong with a noise-like process by the way, on the contrary it tells you a lot about your observations.</p>
+
+<p>Now, how does a spectral estimate of this time series look like? The next figure shows a <a href="https://ieeexplore.ieee.org/abstract/document/1456701">multitaper spectral estimate</a> which is really one of the best methods around to estimate a spectrum in a non parametric way (i.e. not knowing its shape, see <a href="https://selipot.github.io/talks/lecture4/index.html#50">my lecture</a> as an example on how to implement it practically). The estimate is shown in blue, the non-symmetric 95% confidence intervals are shown in lighter blue, and the theoretical spectrum is shown in red.</p>
+
+<p><img src="../../images/spectra_linlin.pdf" alt="Multitaper spectral estimate on linear scales" /></p>
+
+<p>You may say that the <em>estimate</em> in blue is very different from the <em>true</em> spectrum in red. That is however the nature of spectral estimation using finite time series and there is no added noise in the time series, only the process described by the theoretical spectrum. From finite data, the true spectrum is not accessible, it can only be estimated, sometimes poorly. By the way, with this plot, <a href="https://selipot.github.io/talks/lecture4/index.html#49">if you have scaled your spectrum properly</a>, you can probably estimate the variance of the signal since it is the area under the curve according to the Wiener–Khintchine theorem given above (Here I would say that the area under the spectral estimate is about the area of the drawn triangle so approximately <script type="math/tex">\frac{1}{2} \times (0.08 \times 0.3) \approx 0.01</script> which is the variance I specified above).</p>
+
+<p>Now, because the variance of a typical time series in oceanography spans a very wide range of magnitude over a wide range of temporal scales, it is typical to plot a spectrum on a so-called log-log plot, that is with the two axes shown on a logarithm base 10 scale:</p>
+
+<p><img src="../../images/spectra_loglog.pdf" alt="Multitaper spectral estimate on base 10 logarithmic scales" /></p>
+
+<p>I am sure this type of spectrum looks very familiar to many: a plateau towards the zero frequency, a shoulder break at mid-frequencies, and a power-law behavior at higher frequencies that manifests itself as a linear slope in this log-log representation. One issue with such log-log plot is that it really emphasizes the lowest frequencies which are nothing special compared to all the other ones in a statistical sense. However, we care about the lowest frequencies because we are often interested in long time scale processes. We typically received funding to collect an oceanographic time series for as long as we could and really would like to know about the period as long at the length of our experiment (hence use the multitaper that can achieve that, not the Welch’s method or anything like that!). Cool, now, see any peaks? Maybe, but really, there are NONE.</p>
+
+<p>So now, let’s do like many do and plot a <em>variance-preserving spectrum</em> instead (sometimes also called an <em>area-preserving plot</em>). Such plot has nothing to do with the estimation of the spectrum itself, it’s just a different kind of plot. A google search leads to a note written by my PhD advisor (who knows a lot about statistics) about what that animal is. I think it is also described in <a href="https://www.sciencedirect.com/book/9780123877826/data-analysis-methods-in-physical-oceanography">Emery and Thompson</a>, as well as in <a href="http://nrs.harvard.edu/urn-3:HUL.InstRepos:15217585">Carl Wunsch’s primer on time series analysis</a>. Now, using the fact that <script type="math/tex">d(\ln(f)) = df/f</script>, one can rewrite</p>
+
+<script type="math/tex; mode=display">\sigma^2 = \int^{+\infty}_{-\infty} S(f) df = \int^{+\infty}_{-\infty} S(f)\, f d(\ln(f))</script>
+
+<p>Here, <script type="math/tex">\ln</script> is the natural logarithm (logarithm base <script type="math/tex">e</script>) not the common logarithm (base 10). The idea behind this transformation is that when one plots <script type="math/tex">S(f) \times f</script> on the “y axis” versus <script type="math/tex">\ln(f)</script> on the “x axis”, the area under the curve between two frequencies is proportional to the variance in the range of frequencies defined by these two frequencies. It compensates for the “squeezing” of the high frequencies and the “stretching” of the low frequencies in the previous plot above. So now a variance preserving version of the previous plots is:</p>
+
+<p><img src="../../images/variancespectra.pdf" alt="&quot;Variance-preserving spectral estimate&quot;" /></p>
+
+<p>In this plot the y-axis is in units of variance of your variable, and the x-axis is this weird logarithm unit (I am suspecting that the papers I have seen using this type of plots did not even pay attention to the distinction between logarithm base <script type="math/tex">10</script> and logarithm base <script type="math/tex">e</script> in their calculations and potentially have a factor <script type="math/tex">\log 10</script> error for their variance estimates).</p>
+
+<p>So now, see any peaks? Well, if you did not know better, you would say that yeah perhaps there are peaks between <script type="math/tex">-2</script> and <script type="math/tex">-3</script>. Hey, even the theoretical spectrum suggests that there is a “hill” near that range … wouldn’t that be a peak? No, but nevertheless, the frequencies near that hill are the frequencies for which the process represented by the Matérn spectrum transitions from a “white” (flat) type of spectrum to a power-law (self-similar) type of spectrum. This range of “transition” frequencies is actually controlled by the <em>damping</em> parameter <script type="math/tex">\lambda</script> of the theoretical spectrum. Go read <a href="https://doi.org/10.5194/npg-24-481-2017">Lilly et al. 2017</a> to know more!</p>
+
+<p>But in the end, there are no peaks! Unfortunately, I have seen too many papers arbitrarily claiming that peaks existed based on a plot just like the one above. I bet that in most cases such erroneous diagnostics are the result of the misleading characteristics of the variance-preserving spectrum representation. I have actually not read any paper that use this representation for its alleged use of using the area under the curve to relatively quantify the distribution of variance. If you have, let me know, I’d be glad to be wrong.</p>
+
+<p>So, in the end, how does one look for peaks? Well, this is actually not simple and this should be the subject of another post. One could start however by using the confidence intervals! Given the confidence intervals displayed in the linear or logarithmic plots above, one would be hard-pressed to state that there are any peaks in this example. Otherwise, I personally use a statistical test for periodicity in colored noise given by <a href="https://ieeexplore.ieee.org/abstract/document/1456701">Thomson (1982)</a> and described nicely in <a href="https://doi.org/10.1017/CBO9780511622762">Percival and Walden, (1993)</a>. Peaks in colored noise is the most common situation I have encountered in physical oceanography. I have coded it in Matlab, send me an <a href="mailto:selipot@rsmas.miami.edu">email</a> and I’d be happy to share.</p>
+
+<p>The Matlab script to generate the figures above is available at a <a href="https://github.com/selipot/laughing-doodle">GitHub repository</a>.</p>
+
+<p><strong>References</strong></p>
+
+<p>[1] <a href="https://doi.org/10.1017/CBO9780511622762">Percival, D. B. and Walden, A. T. (1993), <em>Spectral Analysis for ddPhysical Applications</em>, Cambridge University Press</a></p>
+
+<p>[2] <a href="https://www.wiley.com/en-us/Random+Data%3A+Analysis+and+Measurement+Procedures%2C+4th+Edition-p-9781118210826">Bendat, J. S., &amp; Piersol, A. G. (2011), <em>Random data: analysis and measurement procedures</em> (Vol. 729), John Wiley &amp; Sons</a>.</p>
+
+<p>[3] Jenkins, G.M. and Watts, D. G. (1968), <em>Spectral Analysis and its Applications</em>, Holden-Days.</p>
+
+        
+          <div id="disqus_thread"></div><!-- /#disqus_thread -->
+          
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'selipot'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/blog/statistics-lectures/" class="btn" title="Lectures on Methods of Data Analysis">Previous</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2020 Shane Elipot. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="https://twitter.com/ShaneKahn" title="Shane Elipot on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/shane-elipot-9b600b34" title="Shane Elipot on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	
+	
+	
+	<a href="https://github.com/selipot" title="Shane Elipot on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	
+  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://localhost:4000';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>

@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "On the inappropriate use of variance-preserving spectra",
+      "link"			: "http://localhost:4000/blog/variance-preserving-spectra/",
+      "excerpt"		: "Again and again I am dismayed by the habit of using variance-preserving spectra to diagnose periodicities in time series. This habit is crawling steadily in the observational oceanographic literature (not so much in climate science, they know better). The reasons I can see for this serious problem are twofold: 1) the repeat of analyses from published papers which unfortunately passed the review process, and 2) the lack of statistical training of physical oceanographers. This last reason is unfortunate and should be corrected. Statistics is the science of collecting and analyzing numerical data so we should get on board.  Now, I am not claiming to be a statistician, but I humbly think that I spend more time than others thinking about statistics."
+    }
+  
+
+  
+    ,{
       "title"			: "Lectures on Methods of Data Analysis",
       "link"			: "http://localhost:4000/blog/statistics-lectures/",
       "excerpt"		: "I just spent 3 very intense but delightful weeks in Cape Town, the mother city of South Africa. Aside from attending the IAPSO-IAMAS-IAGA 2017 meeting which was a lot of fun, I visited for two weeks the Department of Oceanography at the University of Cape Town in order to deliver a series of lectures on methods of data analysis in oceanic and atmospheric sciences. I am very grateful to the Head of Department Prof. Isabelle Ansorge and Dr. Juliet Hermes from the South African Environmental Observation Network for making my visit possible."
@@ -55,8 +63,6 @@
   
 
   
-
-  
     ,{
       "title"			: "Past Projects",
       "link"			: "http://localhost:4000/projects/old/",
@@ -74,28 +80,8 @@
 
   
     ,{
-      "title"			: "Publications",
-      "link"			: "http://localhost:4000/publications/",
-      "excerpt"		: ""
-    }
-  
-
-  
-
-  
-
-  
-    ,{
       "title"			: "Talks & Lectures",
       "link"			: "http://localhost:4000/talks/",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Curriculum Vitae",
-      "link"			: "http://localhost:4000/vitae/",
       "excerpt"		: ""
     }
   
@@ -109,9 +95,31 @@
   
 
   
+
+  
+    ,{
+      "title"			: "Curriculum Vitae",
+      "link"			: "http://localhost:4000/vitae/",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
     ,{
       "title"			: "Abstracts",
       "link"			: "http://localhost:4000/abstracts/",
+      "excerpt"		: ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"			: "Publications",
+      "link"			: "http://localhost:4000/publications/",
       "excerpt"		: ""
     }
   
