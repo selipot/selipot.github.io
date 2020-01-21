@@ -28,7 +28,7 @@ Now to the topic of this post: another typical use of spectral (or harmonic) ana
 
 Here I want to show a synthetic example of a time series that is not unlike many published oceanographic time series, and show how a variance-preserving spectral plot of this time series can lead to misidentifying *peaks*. Below is shown a randomly generated real-valued time series with $$1000$$ points. I generated and scaled this time series so that its variance is $$0.01$$ and thus its standard deviation is $$0.1$$:
 
-![Matern process with N=1000](../../images/timeseries.pdf)
+![Matern process with N=1000](../../images/timeseries.png)
 
 This time series is actually one realization of a [Mat&eacute;rn process](https://www.nonlin-processes-geophys.net/24/481/2017/) with a spectrum given by
 
@@ -40,13 +40,13 @@ where $$C$$ is just a normalizing constant. To generate this time series I used 
 
 Now, how does a spectral estimate of this time series look like? The next figure shows a [multitaper spectral estimate](https://ieeexplore.ieee.org/abstract/document/1456701) which is really one of the best methods around to estimate a spectrum in a non parametric way (i.e. not knowing its shape, see [my lecture](https://selipot.github.io/talks/lecture4/index.html#50) as an example on how to implement it practically). The estimate is shown in blue, the non-symmetric 95% confidence intervals are shown in lighter blue, and the theoretical spectrum is shown in red.
 
-![Multitaper spectral estimate on linear scales](../../images/spectra_linlin.pdf)
+![Multitaper spectral estimate on linear scales](../../images/spectra_linlin.png)
 
 You may say that the *estimate* in blue is very different from the *true* spectrum in red. That is however the nature of spectral estimation using finite time series. There is no added noise in the time series, only the process described by the theoretical spectrum. From discrete and limited data, the true spectrum is not accessible, it can only be estimated, sometimes poorly. By the way, with this plot, [if you have scaled your spectrum properly](https://selipot.github.io/talks/lecture4/index.html#49), you can probably estimate the variance of the signal since it is the area under the curve according to the Wiener–Khintchine theorem given above (Here I would eyeball that the area under the spectral estimate is about the area of the drawn triangle so approximately $$\frac{1}{2} \times (0.08 \times 0.3) \approx 0.01$$ which is the variance I specified above).
 
 Now, because the variance of a typical time series in oceanography spans a very wide range of magnitude over a wide range of temporal scales, it is typical to plot a spectrum on a so-called log-log plot, that is with the two axes shown on a logarithm base 10 scale:
 
-![Multitaper spectral estimate on base 10 logarithmic scales](../../images/spectra_loglog.pdf)
+![Multitaper spectral estimate on base 10 logarithmic scales](../../images/spectra_loglog.png)
 
 I am sure this type of spectrum looks very familiar to many: a plateau towards the zero frequency, a shoulder break at mid-frequencies, and a power-law behavior at higher frequencies that manifests itself as a linear slope in this log-log representation. One issue with such log-log plot is that it really emphasizes the lowest frequencies which are nothing special compared to all the other ones in a statistical sense. However, we care about the lowest frequencies because we are often interested in long time-scale processes. We typically received funding to collect an oceanographic time series for as long as we could and really would like to know about the period as long at the length of our experiment (hence I suggest the use of the multitaper that can achieve that, and not the Welch's method or any method that chop your time series in segments). Cool, now, see any peaks? Maybe, but really, there are none by construction.
 
@@ -56,7 +56,7 @@ $$ \sigma^2 = \int^{+\infty}_{-\infty} S(f) df = \int^{+\infty}_{-\infty} S(f)\,
 
 Here, $$\ln$$ is the natural logarithm (logarithm base $$e$$) not the common logarithm (base 10). The idea behind this transformation is that when one plots $$S(f) \times f$$ on the "y axis" versus $$\ln(f)$$ on the "x axis", the area under the curve between two frequencies is proportional to the variance in the range of frequencies defined by these two frequencies. It compensates for the "squeezing" of the high frequencies and the "stretching" of the low frequencies in the previous plot above. So now a variance-preserving version of the previous plots is:
 
-!["Variance-preserving spectral estimate"](../../images/variancespectra.pdf)
+!["Variance-preserving spectral estimate"](../../images/variancespectra.png)
 
 In this plot the y-axis is in units of variance of your variable, and the x-axis is this weird logarithm unit. So now, see any peaks? Well, maybe there are peaks between $$-2$$ and $$-3$$? Even the theoretical spectrum would suggest that there is a "hill" near that range of frequencies ... wouldn't that be a peak? Nope. Nevertheless, the frequencies near that hill are the frequencies for which the Mat&eacute;rn process transitions from a "white" (flat) type of spectrum to a power-law (self-similar) type of spectrum. This range of "transition" frequencies is actually controlled by the *damping parameter* $$\lambda$$ of the theoretical spectrum (see equation above). If you'd like to know more, you could read [Lilly et al. 2017](https://doi.org/10.5194/npg-24-481-2017).
 
