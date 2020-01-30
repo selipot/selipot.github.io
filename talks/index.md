@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks & Lectures
+title: Courses & Lectures
 image:
   feature: capetown.jpg
   credit: View of Cape Town from Table Mountain, photo by Cobi Christiansen
