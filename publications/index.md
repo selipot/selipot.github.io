@@ -13,7 +13,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 Submitted:
 
-**23.** **Elipot, S.** (2019), *Measuring global mean sea level changes with surface drifting buoys*, submitted to Geophysical Research Letters, arXiv.org [preprint](https://arxiv.org/abs/1909.03269).
+**24.** **Elipot, S.** (2020), *Measuring global mean sea level changes with surface drifting buoys*, submitted to Geophysical Research Letters, arXiv.org [preprint](https://arxiv.org/abs/1909.03269).
+
+**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Observed Modes of Agulhas Current Temperature Variability on its Temperature Transport*, submitted to Journal of Physical Oceanography.
 
 Published:
 
