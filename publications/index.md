@@ -11,7 +11,7 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-Submitted:
+#### Submitted:
 
 **26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk, *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, submitted to Journal of Physical Oceanography.
 
@@ -21,7 +21,7 @@ Submitted:
 
 **23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Observed Modes of Agulhas Current Temperature Variability on its Temperature Transport*, submitted to Journal of Physical Oceanography.
 
-Published:
+#### Published:
 
 **22.** Xiaolong Yu, Aurélien L. Ponte, **Shane Elipot**, Dimitris Menemenlis, Edward D. Zaron, Ryan Abernathey (2019), *Surface kinetic energy distributions in the global oceans from a high-resolution numerical model and surface drifter observations*, [Geophys. Res. Lett.](https://agupubs.onlinelibrary.wiley.com/journal/19448007), in press, [doi:10.1029/2019GL083074](https://doi.org/10.1029/2019GL083074)
 
