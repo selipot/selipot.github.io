@@ -25,8 +25,6 @@ Lecture 5: "Eigen Methods" [{Live Presentation}](lecture5/index.html) or [{downl
 These lectures were followed by practical sessions using the Matlab software. The scripts used for these sessions are available at this [link](https://drive.google.com/open?id=0B5UwZFhQ8OhvWXFSY19YcGZMZEU).
 
 
-The above lecture on time series analysis was originally based on the Tromso lecture given by Jonathan Lilly. Please see the latest version of his course [here](http://www.jmlilly.net/jmltalks.html).
-
 ---
 
 **Shane Elipot and Jonathan Lilly, "Time Series Analysis in a Changing Climate"**, invited lecture for "Time-series analysis in environmental science and applications to climate change", Tromso, Norway, 8-11 November 2016. [{Live Presentation}](tromso/index.html) or [{download (11 MB)}](tromso_elipot.pdf).
