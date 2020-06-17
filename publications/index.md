@@ -13,7 +13,7 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk, *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, submitted to Journal of Physical Oceanography.
+**26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, submitted to Journal of Physical Oceanography.
 
 **25.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, submitted to Journal of Physical Oceanography.
 
