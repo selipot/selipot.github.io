@@ -3,7 +3,7 @@
   
     {
       "title"			: "On the inappropriate use of variance-preserving spectra",
-      "link"			: "https://selipot.github.io/blog/variance-preserving-spectra/",
+      "link"			: "http://localhost:4000/blog/variance-preserving-spectra/",
       "excerpt"		: "I have been surprised by the continuing use of variance-preserving spectra in the oceanographic literature as a tool to diagnose periodicities in time series (this does not seem to happen in the purely climate literature … we, oceanographers, are often a bit behind). Since I don’t think I know much, I often seek out the help of a couple of statistician friends that deal with time series (like all the time). I have casually asked them: “Why do you think people use variance-preserving spectra?”. Their answer was revealing: they did not even know what a variance-preserving spectrum was! Once I explained to them (see below), they were even more confused. They also wondered what was wrong with us (oceanographers). On a more serious note, what concerns me is that we collectively spend millions of tax-payer dollars to obtain amazing time series of oceanographic variables (such as oceanic volume transport), and sometimes analyze them with the wrong tools, unfortunately. We need to collectively do better."
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Lectures on Methods of Data Analysis",
-      "link"			: "https://selipot.github.io/blog/statistics-lectures/",
+      "link"			: "http://localhost:4000/blog/statistics-lectures/",
       "excerpt"		: "I just spent 3 very intense but delightful weeks in Cape Town, the mother city of South Africa. Aside from attending the IAPSO-IAMAS-IAGA 2017 meeting which was a lot of fun, I visited for two weeks the Department of Oceanography at the University of Cape Town in order to deliver a series of lectures on methods of data analysis in oceanic and atmospheric sciences. I am very grateful to the Head of Department Prof. Isabelle Ansorge and Dr. Juliet Hermes from the South African Environmental Observation Network for making my visit possible."
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "Hourly drifter product version 1.01 released",
-      "link"			: "https://selipot.github.io/blog/hourly-dataset-ver-1.01/",
+      "link"			: "http://localhost:4000/blog/hourly-dataset-ver-1.01/",
       "excerpt"		: "We are pleased to announce the release of version 1.01 of the hourly drifter product. Now available to download from the Global drifter program DAC website. The methods of interpolation implemented to generate this product are the same as for version 1.00 of the dataset released in mid-2016, see Elipot et al. 2016, doi:10.1002/2016JC011716. See the release notes."
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Colors of the <strike>Wind</strike> Ocean",
-      "link"			: "https://selipot.github.io/blog/colors-of-the-ocean/",
+      "link"			: "http://localhost:4000/blog/colors-of-the-ocean/",
       "excerpt"		: "You can own the earth and still"
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "Things reviewers say",
-      "link"			: "https://selipot.github.io/blog/things-reviews-say/",
+      "link"			: "http://localhost:4000/blog/things-reviews-say/",
       "excerpt"		: "I found somehow reassuring to read in a blog post of  EOS that the Editor in Chief of Geophysical Research Letters, no less, recently had a manuscript rejected for publication. He wrote that “this rejection was particularly deflating, both because I had invested two years in the science, and because two of the three reviewers dismissed the very conception of the analysis.” I see this as being told that your paper sucks because your analysis sucks in the first place. Ouch. We’ve all had at least one terrible story about a particular set of reviews. It turns out that last week was Peer Review Week! Who knew?"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "On the new standard of sharing your code",
-      "link"			: "https://selipot.github.io/blog/the-new-standard-of-sharing-code/",
+      "link"			: "http://localhost:4000/blog/the-new-standard-of-sharing-code/",
       "excerpt"		: "Scientists in general, and oceanographers in particular, have been used for many years to sharing “their” data. A few whine about how difficult it is to obtain funding and acquire the data, and as such should keep their exclusivity. They can for a few years, but in the end it is not really their data anyway, since they most likely originate from projects funded by tax payers, through governmental funding agencies."
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "Launch of new personal site on GitHub",
-      "link"			: "https://selipot.github.io/blog/shane-elipot-site-launched/",
+      "link"			: "http://localhost:4000/blog/shane-elipot-site-launched/",
       "excerpt"		: "I finally got around to put my new professional website together! It is powered by Jekyll and currently hosted, for free, on GitHub. I browsed many resources to approximately understand how this works, and learned to use git at a basic level with the online tutorial tryGit. I followed the simple tutorial by Jonathan Mcglone, but then opted for the free Jekyll theme So Simple.  In the process, I downloaded a free text editor called Atom which I find very neat, at least on Mac OS X. You can easily download a package for Atom that will allow you to use Emacs keybindings, which I am used to."
     }
   
@@ -65,7 +65,7 @@
   
     ,{
       "title"			: "Past Projects",
-      "link"			: "https://selipot.github.io/projects/old/",
+      "link"			: "http://localhost:4000/projects/old/",
       "excerpt"		: ""
     }
   
@@ -73,7 +73,7 @@
   
     ,{
       "title"			: "Projects",
-      "link"			: "https://selipot.github.io/projects/",
+      "link"			: "http://localhost:4000/projects/",
       "excerpt"		: ""
     }
   
@@ -81,7 +81,7 @@
   
     ,{
       "title"			: "Courses & Lectures",
-      "link"			: "https://selipot.github.io/talks/",
+      "link"			: "http://localhost:4000/talks/",
       "excerpt"		: ""
     }
   
@@ -89,7 +89,7 @@
   
     ,{
       "title"			: "About & Contact",
-      "link"			: "https://selipot.github.io/about/",
+      "link"			: "http://localhost:4000/about/",
       "excerpt"		: ""
     }
   
@@ -99,7 +99,7 @@
   
     ,{
       "title"			: "Curriculum Vitae",
-      "link"			: "https://selipot.github.io/vitae/",
+      "link"			: "http://localhost:4000/vitae/",
       "excerpt"		: ""
     }
   
@@ -109,7 +109,7 @@
   
     ,{
       "title"			: "Abstracts",
-      "link"			: "https://selipot.github.io/abstracts/",
+      "link"			: "http://localhost:4000/abstracts/",
       "excerpt"		: ""
     }
   
@@ -119,7 +119,7 @@
   
     ,{
       "title"			: "Publications",
-      "link"			: "https://selipot.github.io/publications/",
+      "link"			: "http://localhost:4000/publications/",
       "excerpt"		: ""
     }
   
