@@ -14,7 +14,7 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 #### Submitted:
 
 **27.** Erik van Sebille, Erik Zettler, Nicolas Wienders, Linda Amaral-Zettler, **Shane Elipot**,
-and Rick Lumpkin, *Dispersion of surface drifters in the Tropical Atlantic*, submitted to Frontiers in Marine Science, section Physical Oceanography.
+and Rick Lumpkin (2020), *Dispersion of surface drifters in the Tropical Atlantic*, submitted to Frontiers in Marine Science, section Physical Oceanography.
 
 **26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, in revision for Journal of Physical Oceanography.
 
