@@ -13,15 +13,18 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, submitted to Journal of Physical Oceanography.
+**27.** Erik van Sebille, Erik Zettler, Nicolas Wienders, Linda Amaral-Zettler, **Shane Elipot**,
+and Rick Lumpkin, *Dispersion of surface drifters in the Tropical Atlantic*, submitted to Frontiers in Marine Science, section Physical Oceanography.
 
-**25.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, submitted to Journal of Physical Oceanography.
+**26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, in revision for Journal of Physical Oceanography.
+
+**25.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, in revision for Journal of Physical Oceanography.
 
 **24.** **Elipot, S.** (2020), *Measuring global mean sea level changes with surface drifting buoys*, submitted to Geophysical Research Letters, arXiv.org [preprint](https://arxiv.org/abs/1909.03269).
 
-**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Observed Modes of Agulhas Current Temperature Variability on its Temperature Transport*, submitted to Journal of Physical Oceanography.
-
 #### Published:
+
+**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, accepted to Journal of Physical Oceanography.
 
 **22.** Xiaolong Yu, Aurélien L. Ponte, **Shane Elipot**, Dimitris Menemenlis, Edward D. Zaron, Ryan Abernathey (2019), *Surface kinetic energy distributions in the global oceans from a high-resolution numerical model and surface drifter observations*, [Geophys. Res. Lett.](https://agupubs.onlinelibrary.wiley.com/journal/19448007), in press, [doi:10.1029/2019GL083074](https://doi.org/10.1029/2019GL083074)
 
@@ -88,7 +91,7 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 **4.** **Elipot, S.**, and S. T. Gille (2009), *Estimates of wind energy input to the Ekman layer in the Southern Ocean from surface drifter data*, J. Geophys. Res., 114, C06003, [doi:10.1029/2008JC-005170](http://dx.doi.org/10.1029/2008JC005170).
 
-**3.** **Elipot, S.**, and S. T. Gille (2009), *Ekman layers in the *Southern Ocean*: spectral models and observations, vertical viscosity and boundary layer depth*, Ocean Sci., 5, 115-139, [doi:10.5194/os-5-115-2009](http://dx.doi.org/10.5194/os-5-115-2009).
+**3.** **Elipot, S.**, and S. T. Gille (2009), *Ekman layers in the *Southern Ocean: spectral models and observations, vertical viscosity and boundary layer depth*, Ocean Sci., 5, 115-139, [doi:10.5194/os-5-115-2009](http://dx.doi.org/10.5194/os-5-115-2009).
 
 **2.** **Elipot, S.**, and R. Lumpkin (2008), *Spectral description of oceanic near-surface variability*, Geophys. Res. Lett., 35, L05606, [doi:10.1029/2007GL032589](http://dx.doi.org/10.1029/2007GL032874).
 
