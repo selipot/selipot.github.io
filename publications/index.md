@@ -16,15 +16,15 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 **27.** Erik van Sebille, Erik Zettler, Nicolas Wienders, Linda Amaral-Zettler, **Shane Elipot**,
 and Rick Lumpkin (2020), *Dispersion of surface drifters in the Tropical Atlantic*, submitted to Frontiers in Marine Science, section Physical Oceanography.
 
-**26.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, in revision for Journal of Physical Oceanography.
-
-**25.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, in revision for Journal of Physical Oceanography.
-
-**24.** **Elipot, S.** (2020), *Measuring global mean sea level changes with surface drifting buoys*, submitted to Geophysical Research Letters, arXiv.org [preprint](https://arxiv.org/abs/1909.03269).
+**26.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, revised for Journal of Physical Oceanography.
 
 #### Published:
 
-**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, accepted to Journal of Physical Oceanography.
+**25.** **Elipot, S.** (2020), *Measuring global mean sea level changes with surface drifting buoys*, in press, Geophysical Research Letters, Open Access, [doi:10.1029/2020GL091078](https://dx.doi.org/10.1029/2020GL091078).
+
+**24.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0093.1](https://doi.org/10.1175/JPO-D-20-0093.1).
+
+**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
 
 **22.** Xiaolong Yu, Aurélien L. Ponte, **Shane Elipot**, Dimitris Menemenlis, Edward D. Zaron, Ryan Abernathey (2019), *Surface kinetic energy distributions in the global oceans from a high-resolution numerical model and surface drifter observations*, [Geophys. Res. Lett.](https://agupubs.onlinelibrary.wiley.com/journal/19448007), in press, [doi:10.1029/2019GL083074](https://doi.org/10.1029/2019GL083074)
 
