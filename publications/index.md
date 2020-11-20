@@ -13,12 +13,14 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
+**28.** Jonathan M. Lilly and **Elipot, S.** (2020), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, submitted to [MDPI](https://www.mdpi.com/about) [Fluids](https://www.mdpi.com/journal/fluids), [pre-print from preprints.org](https://www.preprints.org/manuscript/202011.0529/v1).
+
 **27.** Erik van Sebille, Erik Zettler, Nicolas Wienders, Linda Amaral-Zettler, **Shane Elipot**,
 and Rick Lumpkin (2020), *Dispersion of surface drifters in the Tropical Atlantic*, submitted to Frontiers in Marine Science, section Physical Oceanography.
 
 #### Published:
 
-**26.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, accepted for Journal of Physical Oceanography.
+**26.** Edward Zaron and **Elipot, S.** (2020), *An Assessment of Global Ocean Barotropic Tide Models Using Geodetic Mission Altimetry and Surface Drifters*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0089.1](https://doi.org/10.1175/JPO-D-20-0089.1).
 
 **25.** **Elipot, S.** (2020), *Measuring global mean sea level changes with surface drifting buoys*, Geophysical Research Letters, 47, e2020GL091078, [doi:10.1029/2020GL091078](https://dx.doi.org/10.1029/2020GL091078).
 
