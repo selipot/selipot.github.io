@@ -24,6 +24,8 @@ and Rick Lumpkin (2020), *Dispersion of surface drifters in the Tropical Atlanti
 
 **25.** **Elipot, S.** (2020), *Measuring global mean sea level changes with surface drifting buoys*, Geophysical Research Letters, 47, e2020GL091078, [doi:10.1029/2020GL091078](https://dx.doi.org/10.1029/2020GL091078).
 
+- This paper was the focus of a Research Spotlight in AGU's Eos : Thompson, E. (2020), A floating buoy fleet could help scientists track rising seas, Eos, 101, [https://doi.org/10.1029/2020EO151862](https://doi.org/10.1029/2020EO151862).
+
 **24.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0093.1](https://doi.org/10.1175/JPO-D-20-0093.1).
 
 **23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
