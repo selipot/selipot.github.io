@@ -10,7 +10,7 @@ image:
 date: 2020-11-30
 ---
 
-By now you've probably heard that the United Nations (UN) has proclaimed [*a Decade of Ocean Science for Sustainable Development*](https://www.oceandecade.org) which will take place from 2021 to 2030. More broadly, this is one of the actions put in place by the UN to achieve [*The Sustainable Development Goals*](https://www.un.org/sustainabledevelopment/), and more specifically Goal 14 to [Conserve and sustainably use the oceans, seas and marine resources](https://www.un.org/sustainabledevelopment/oceans/).
+By now you've probably heard that the United Nations (UN) has proclaimed [*a Decade of Ocean Science for Sustainable Development*](https://www.oceandecade.org) which will take place from 2021 to 2030. More broadly, this is one of the actions put in place by the UN to achieve [*The Sustainable Development Goals*](https://www.un.org/sustainabledevelopment/), and more specifically Goal 14 to [*Conserve and sustainably use the oceans, seas and marine resources*](https://www.un.org/sustainabledevelopment/oceans/).
 
 Anyway, the slogan for this decade is "The Science We Need For the Ocean We Want". I don't think this rolls easily on the tongue, but I think it means that it will be up to us to decide what we want to do as scientists to fulfill the Ocean Decade Challenges (perhaps). As the decade is an international activity, it is not a funding program but rather a **framework** to work together to create **new ideas and solutions**. One of the ways this will be achieved is by the Decade endorsing specific **Decade Actions** for which there is [a call, closing on January 2021](https://www.oceandecade.org/news/75/Call-for-Decade-Actions-No-012020-).
 
