@@ -5,7 +5,7 @@ modified:
 categories: blog
 excerpt:
 tags:
-image:
+image: tristan.jpg
   feature:
 date: 2020-11-30
 ---
