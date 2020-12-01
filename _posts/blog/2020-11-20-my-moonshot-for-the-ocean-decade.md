@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My moonshot for the next decade"
+title: "My moonshot for the Ocean Decade"
 modified:
 categories: blog
 excerpt:
