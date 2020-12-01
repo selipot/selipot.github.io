@@ -20,6 +20,8 @@ If you are still reading this, and you are based in the USA, you should perhaps 
 
 In any case, with the support of Rick Lumpkin from NOAA/AOML, Luca Centurioni from Scripps Institution of Oceanography, and Josh Willis from NASA/JPL, I have submitted an Ocean-Shot application to NASEM about the idea/concept of implementing **a new global ocean observing system for mean sea level**, based [on my latest paper published in AGU GRL [1]](https://dx.doi.org/10.1029/2020GL091078) and featured in [AGU's EOS as a Research Spotlight](https://doi.org/10.1029/2020EO151862). This is kind of a crazy idea, and realizing this idea will require national and international collaborations ... and help. So I thought it would be a good idea to put it out there in the open, for the sake of [\#openscience](https://en.wikipedia.org/wiki/Open_science), and I hope to gather ideas, suggestions, and criticisms. Let me know what you think by email [selipot@miami.edu](mailto:selipot@miami.edu), [twitter](https://twitter.com/ShaneKahn), or use [Disqus](https://disqus.com) below to post your comments.
 
+![Alt text](../../images/tristan.jpg "a Technocean SVPB drifter in the foreground, with Tristan da Cunha Island in the background")
+
 ## **"Ocean-Shot Concept": Measuring Global Mean Sea Level Changes With Surface Drifting Buoys**
 
 **1. Abstract (describe hypothesis, scientific and/or technological objectives, 200 words limit)**
