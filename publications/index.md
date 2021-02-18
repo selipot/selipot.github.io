@@ -11,11 +11,19 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-#### Submitted:
+#### In preparation:
 
-**28.** Jonathan M. Lilly and **Elipot, S.** (2020), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, in revision for [MDPI](https://www.mdpi.com/about) [Fluids](https://www.mdpi.com/journal/fluids), [pre-print from preprints.org](https://www.preprints.org/manuscript/202011.0529/v1).
+**31.** **Elipot, Shane**, Rick C. Lumpkin, Luca Centurioni, Mayra Pazos, (2021), *A Global Dataset of Sea Surface Temperature From Surface Drifters*.
+
+**30**, K. McMonigal, Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Convergent Indian Ocean heat transport drives recent warming*.
+
+**29.** Jonathan M. Brasch, Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its1vertical structure from global high-resolution models2and drifter observations*.
 
 #### Published:
+
+**28.** Jonathan M. Lilly and **Elipot, S.** (2020), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids) 2021, 6(2), 85;
+
+- This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
 
 **27.** Erik van Sebille, Erik Zettler, Nicolas Wienders, Linda Amaral-Zettler, **Shane Elipot**,
 and Rick Lumpkin (2021), *Dispersion of surface drifters in the Tropical Atlantic*, Frontiers in Marine Science, 7, [doi:10.3389/fmars.2020.607426](https://dx.doi.org/10.3389/fmars.2020.607426).
