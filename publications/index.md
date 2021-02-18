@@ -13,15 +13,15 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### In preparation:
 
-**31.** **Elipot, Shane**, Rick C. Lumpkin, Luca Centurioni, Mayra Pazos, (2021), *A Global Dataset of Sea Surface Temperature From Surface Drifters*.
+**31.** **Elipot, Shane**, Rick C. Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Global Dataset of Sea Surface Temperature From Surface Drifters*.
 
-**30**, K. McMonigal, Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Convergent Indian Ocean heat transport drives recent warming*.
+**30** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Convergent Indian Ocean heat transport drives recent warming*.
 
-**29.** Jonathan M. Brasch, Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its1vertical structure from global high-resolution models2and drifter observations*.
+**29.** Jonathan M. Brasch, Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*.
 
 #### Published:
 
-**28.** Jonathan M. Lilly and **Elipot, S.** (2020), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids) 2021, 6(2), 85;
+**28.** Jonathan M. Lilly and **Elipot, S.** (2020), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 2021, 6(2), 85;
 
 - This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
 
