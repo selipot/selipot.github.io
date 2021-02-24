@@ -21,7 +21,7 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Published:
 
-**28.** Jonathan M. Lilly and **Elipot, S.** (2020), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 2021, 6(2), 85;
+**28.** Jonathan M. Lilly and **Elipot, S.** (2021), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 6(2), 85, [dpoi:10.3390/fluids6020085](https://doi.org/10.3390/fluids6020085)
 
 - This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
 
@@ -34,11 +34,11 @@ and Rick Lumpkin (2021), *Dispersion of surface drifters in the Tropical Atlanti
 
 - This paper was the focus of a Research Spotlight in AGU's Eos : Thompson, E. (2020), A floating buoy fleet could help scientists track rising seas, Eos, 101, [https://doi.org/10.1029/2020EO151862](https://doi.org/10.1029/2020EO151862).
 
-**24.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0093.1](https://doi.org/10.1175/JPO-D-20-0093.1).
+**24.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0093.1](https://doi.org/10.1175/JPO-D-20-0093.1).
 
-**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
+**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
 
-**22.** Xiaolong Yu, Aurélien L. Ponte, **Shane Elipot**, Dimitris Menemenlis, Edward D. Zaron, Ryan Abernathey (2019), *Surface kinetic energy distributions in the global oceans from a high-resolution numerical model and surface drifter observations*, [Geophys. Res. Lett.](https://agupubs.onlinelibrary.wiley.com/journal/19448007), in press, [doi:10.1029/2019GL083074](https://doi.org/10.1029/2019GL083074)
+**22.** Xiaolong Yu, Aurélien L. Ponte, **Shane Elipot**, Dimitris Menemenlis, Edward D. Zaron, Ryan Abernathey (2019), *Surface kinetic energy distributions in the global oceans from a high-resolution numerical model and surface drifter observations*, [Geophys. Res. Lett.](https://agupubs.onlinelibrary.wiley.com/journal/19448007), 46(16), [doi:10.1029/2019GL083074](https://doi.org/10.1029/2019GL083074)
 
 **21.** Frajka-Williams, E. [...], **Elipot, S.**, [...] (2019), *Atlantic Meridional Overturning Circulation: Observed Transport and Variability*, [Front. Mar. Sci.](https://www.frontiersin.org), 6:260. [doi:10.3389/fmars.2019.00260](https://doi.org/10.3389/fmars.2019.00260)
 
@@ -103,7 +103,7 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 **4.** **Elipot, S.**, and S. T. Gille (2009), *Estimates of wind energy input to the Ekman layer in the Southern Ocean from surface drifter data*, J. Geophys. Res., 114, C06003, [doi:10.1029/2008JC-005170](http://dx.doi.org/10.1029/2008JC005170).
 
-**3.** **Elipot, S.**, and S. T. Gille (2009), *Ekman layers in the *Southern Ocean: spectral models and observations, vertical viscosity and boundary layer depth*, Ocean Sci., 5, 115-139, [doi:10.5194/os-5-115-2009](http://dx.doi.org/10.5194/os-5-115-2009).
+**3.** **Elipot, S.**, and S. T. Gille (2009), *Ekman layers in the Southern Ocean: spectral models and observations, vertical viscosity and boundary layer depth*, Ocean Sci., 5, 115-139, [doi:10.5194/os-5-115-2009](http://dx.doi.org/10.5194/os-5-115-2009).
 
 **2.** **Elipot, S.**, and R. Lumpkin (2008), *Spectral description of oceanic near-surface variability*, Geophys. Res. Lett., 35, L05606, [doi:10.1029/2007GL032589](http://dx.doi.org/10.1029/2007GL032874).
 
