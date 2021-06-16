@@ -111,6 +111,8 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 ### Others
 
-**a.** MacKinnon, J.A., Alford, M., Bouruet-Aubertot, P., Bindoff, N., **Elipot, S.**, Gille, S., Girton, J., Gregg, M.C., Hallberg, R., Kunze, E., Naveira Garabato, A., Phillips, H., Pinkel, R., Polzin, K., Sanford, T., Simmons, H., and Speer, K., (2010), *Using global arrays to investigate internal-waves and mixing*, in Proceedings of the OceanObs09: Sustained Ocean Observations and Information for Society Conference (Vol. 1), Venice, Italy, 21-25 September 2009, Hall, J., Harrison D.E. and Stammer, D., Eds., ESA Publication WPP-306.
+**c.**  Elipot, S., Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
-**b.** **Elipot, S.** (2006), *Spectral characterization of Ekman velocities in the Southern Ocean based on surface drifter trajectories*, Ph.D. dissertation, University of California, San Diego.
+**b.** MacKinnon, J.A., Alford, M., Bouruet-Aubertot, P., Bindoff, N., **Elipot, S.**, Gille, S., Girton, J., Gregg, M.C., Hallberg, R., Kunze, E., Naveira Garabato, A., Phillips, H., Pinkel, R., Polzin, K., Sanford, T., Simmons, H., and Speer, K., (2010), *Using global arrays to investigate internal-waves and mixing*, in Proceedings of the OceanObs09: Sustained Ocean Observations and Information for Society Conference (Vol. 1), Venice, Italy, 21-25 September 2009, Hall, J., Harrison D.E. and Stammer, D., Eds., ESA Publication WPP-306.
+
+**a.** **Elipot, S.** (2006), *Spectral characterization of Ekman velocities in the Southern Ocean based on surface drifter trajectories*, Ph.D. dissertation, University of California, San Diego.
