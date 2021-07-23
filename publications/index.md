@@ -36,7 +36,7 @@ and Rick Lumpkin (2021), *Dispersion of surface drifters in the Tropical Atlanti
 
 **24.** Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0093.1](https://doi.org/10.1175/JPO-D-20-0093.1).
 
-**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Kathryn L. Gunn (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
+**23.** K. McMonigal, Lisa M. Beal, **Shane Elipot**, Kathryn L. Gunn, Juliet Hermes, Tamaryn Morris, and Adam Houk (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
 
 **22.** Xiaolong Yu, Aurélien L. Ponte, **Shane Elipot**, Dimitris Menemenlis, Edward D. Zaron, Ryan Abernathey (2019), *Surface kinetic energy distributions in the global oceans from a high-resolution numerical model and surface drifter observations*, [Geophys. Res. Lett.](https://agupubs.onlinelibrary.wiley.com/journal/19448007), 46(16), [doi:10.1029/2019GL083074](https://doi.org/10.1029/2019GL083074)
 
