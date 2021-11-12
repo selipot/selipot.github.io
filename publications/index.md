@@ -11,13 +11,25 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
+### Some recent gray literature
+
+
+**.** **Shane Elipot** and Jacob Wenegrat, *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp.  
+[doi:10.5065/ybca-0s03](https://doi:10.5065/ybca-0s03).
+
+**.** Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson, (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://doi:10.5065/0g4s-5w68).
+
+**.**  **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
+
 #### In preparation:
 
-**31.** **Elipot, Shane**, Rick C. Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Global Dataset of Sea Surface Temperature From Surface Drifters*.
+**31.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Dataset of Hourly Sea Surface Temperature From Surface Drifters*.
 
-**30** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Convergent Indian Ocean heat transport drives recent warming*.
+**30.** Brasch, Jonathan M., Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*.
 
-**29.** Jonathan M. Brasch, Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*.
+#### Submitted:
+
+**29** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Convergent Indian Ocean heat transport drives recent warming*., Journal of Physical Oceanography.
 
 #### Published:
 
@@ -85,7 +97,7 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 - This paper presents the first results from the velocity moorings deployed as part of the Agulhas Current Time-Series Experiment, or [ACT](http://act.rsmas.miami.edu), that took place between 2010 and 2013 in the Indian Ocean. We provide the longest in-situ record to date of the Agulhas Current Jet transport.
 
-**10.** **Elipot, S.**, E. Frajka-Williams, C. Hughe, and J. Willis (2014), *The Observed North Atlantic Meridional Overturning Circulation, its Meridional Coherence and Ocean Bottom Pressure*,  J. Phys. Oceanogr., 44, 517-537, [doi:10.1175/JPO-D-13-026.1](http://dx.doi.org/10.1175/JPO-D-13-026.1) (Open Access)
+**10.** **Elipot, S.**, E. Frajka-Williams, C. Hughes, and J. Willis (2014), *The Observed North Atlantic Meridional Overturning Circulation, its Meridional Coherence and Ocean Bottom Pressure*,  J. Phys. Oceanogr., 44, 517-537, [doi:10.1175/JPO-D-13-026.1](http://dx.doi.org/10.1175/JPO-D-13-026.1) (Open Access)
 
 **9.** Polton, J., Y.-D. Lenn, **S. Elipot**, T. K. Chereskin, and J. Sprintall (2013), *Can Drake Passage observations match Ekman's classic theory?* J. Phys. Oceanogr., 43, 1733-1740, [doi:10.1175/JPO-D-13-034.1](http://dx.doi.org/10.1175/JPO-D-13-034.1) (Open Access)
 
@@ -109,9 +121,6 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 **1.** Beal, L. M. , T. K. Chereskin, Y.-D. Lenn , and **S. Elipot** (2006), *The sources and mixing characteristics of the Agulhas Current*, J. Phys. Oceanogr., 36, 2060-2074, [doi:10.1175/JPO2964.1](http://dx.doi.org/10.1175/JPO2964.1).
 
-### Others
-
-**c.**  Elipot, S., Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
 **b.** MacKinnon, J.A., Alford, M., Bouruet-Aubertot, P., Bindoff, N., **Elipot, S.**, Gille, S., Girton, J., Gregg, M.C., Hallberg, R., Kunze, E., Naveira Garabato, A., Phillips, H., Pinkel, R., Polzin, K., Sanford, T., Simmons, H., and Speer, K., (2010), *Using global arrays to investigate internal-waves and mixing*, in Proceedings of the OceanObs09: Sustained Ocean Observations and Information for Society Conference (Vol. 1), Venice, Italy, 21-25 September 2009, Hall, J., Harrison D.E. and Stammer, D., Eds., ESA Publication WPP-306.
 

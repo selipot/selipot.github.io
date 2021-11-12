@@ -6,6 +6,28 @@ image:
   credit: Acadia National Park, Maine, LAPCOD 2015 meeting
 ---
 
+## Global Observational Constraints on Oceanic Response to Wind Forcing
+
+![Alt text](/images/drifter.jpg "Deploying a drifter in the Agulhas Current. Photo Credit: Kayleen McMonigal")
+
+I lead this NSF-funded collaborative research project with [Dr. J.M. Lilly](www.jmlilly.net) now at Planetary Science Institute and [Dr. R. Harcourt](http://www.apl.washington.edu/people/profile.php?last=Harcourt&first=Ramsey) from the Applied Physics Laboratory of the University of Washington. The goal of this project is to better understand the dynamics of the ocean surface boundary layer through the first global study of the wind stress to ocean current *transfer function*. This is to be accomplished by analyzing in detail the response to wind forcing in the global array of surface drifters, which sample the ocean currents in the vicinity of their 15 m drogue depth. The global analysis is to be informed and tested by (i) a prototype study from the SPURS region, near a well-instrumented air-sea flux mooring, and (ii) analysis of synthetic data generated with a recently improved turbulence closure model that explicitly includes Langmuir turbulence. The hypotheses that wind, wave, and stratification state substantially modify near-surface mixing will be tested by examining dependencies of the transfer function on various environmental parameters, such as Langmuir number. Observed patterns will then be interpreted and scrutinized by deriving new theoretical approximations to the expected transfer functions characterizing different mixing processes. This project is officially closed but its related science questions are still very much an area of research for me. This project as generated two publications so far:
+
+* Jonathan M. Lilly and **Elipot, S.** (2021), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 6(2), 85, [dpoi:10.3390/fluids6020085](https://doi.org/10.3390/fluids6020085)
+
+- This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
+
+* **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, and A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
+J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
+
+
+* * *
+
+## An new global hourly surface drifter dataset
+
+![Alt text](/images/globalrotaryspectra123.pdf "Figure 17 of Elipot et al. (2016)")
+
+I have produced with colleagues at [AOML](http://www.aoml.noaa.gov) a new global surface drifter dataset at hourly resolution. This dataset is freely available through the [Global Drifter Program Data Assembly Center](http://www.aoml.noaa.gov/phod/dac/hourly_data.php) hosted at NOAA/AOML in Miami, FL. The dataset is described in Elipot S., R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early and A. M. Sykulski (2016), A global surface drifter dataset at hourly resolution, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716). The dataset is regularly updated as new drifter data become available and improvements in the methodology are being made. This project was partly supported by [The Cooperative Institute for Marine and Atmospheric Studies (CIMAS)](http://http://cimas.rsmas.miami.edu).
+
 - - -
 
 ### The Agulhas Current Time-Series Experiment (ACT)
