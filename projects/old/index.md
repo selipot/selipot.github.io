@@ -14,7 +14,7 @@ I lead this NSF-funded collaborative research project with [Dr. J.M. Lilly](www.
 
 * Jonathan M. Lilly and **Elipot, S.** (2021), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 6(2), 85, [dpoi:10.3390/fluids6020085](https://doi.org/10.3390/fluids6020085)
 
-- This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
+This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
 
 * **Elipot S.**, R. Lumpkin, R. C. Perez, J. M. Lilly, J. J. Early, and A. M. Sykulski (2016), *A global surface drifter dataset at hourly resolution*,
 J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.1002/2016JC011716).
