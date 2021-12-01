@@ -29,6 +29,10 @@
 <lastmod>2020-01-20T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/my-moonshot-for-the-ocean-decade/</loc>
+<lastmod>2020-11-30T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -71,7 +75,7 @@
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/talks/lecture1/index.html</loc>
+<loc>http://localhost:4000/talks/lecture1/</loc>
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
@@ -139,7 +143,7 @@
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/talks/lecture2/index.html</loc>
+<loc>http://localhost:4000/talks/lecture2/</loc>
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
@@ -175,7 +179,7 @@
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/talks/lecture3/index.html</loc>
+<loc>http://localhost:4000/talks/lecture3/</loc>
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
@@ -183,7 +187,7 @@
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/talks/lecture4/index.html</loc>
+<loc>http://localhost:4000/talks/lecture4/</loc>
 <lastmod>2020-05-29T11:09:30-04:00</lastmod>
 </url>
 <url>
@@ -327,11 +331,11 @@
 <lastmod>2020-05-29T11:09:31-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/talks/lecture5/index.html</loc>
+<loc>http://localhost:4000/talks/lecture5/</loc>
 <lastmod>2020-05-29T11:09:31-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/talks/tromso/index.html</loc>
+<loc>http://localhost:4000/talks/tromso/</loc>
 <lastmod>2020-05-29T11:09:31-04:00</lastmod>
 </url>
 <url>
@@ -340,6 +344,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/vitae/latest-cv.pdf</loc>
-<lastmod>2020-05-29T11:09:31-04:00</lastmod>
+<lastmod>2021-11-12T10:06:36-05:00</lastmod>
 </url>
 </urlset>

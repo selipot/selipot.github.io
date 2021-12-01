@@ -22,7 +22,7 @@ Lecture 4: "Time Series Analyses" [{Live Presentation}](lecture4/index.html) or 
 
 Lecture 5: "Eigen Methods" [{Live Presentation}](lecture5/index.html) or [{download}](lecture5.pdf).
 
-These lectures were followed by practical sessions using the Matlab software. The scripts used for these sessions are available at this [link](https://drive.google.com/open?id=0B5UwZFhQ8OhvWXFSY19YcGZMZEU).
+These lectures were followed by practical sessions using the Matlab software. The scripts used for these sessions are available at this [link](https://drive.google.com/drive/folders/0B5UwZFhQ8OhvWXFSY19YcGZMZEU?resourcekey=0-XN72IcDq6aY0V3CHQ2GdzA&usp=sharing).
 
 
 ---

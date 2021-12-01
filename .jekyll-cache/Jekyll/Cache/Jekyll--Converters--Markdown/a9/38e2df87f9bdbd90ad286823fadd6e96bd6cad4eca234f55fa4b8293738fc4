@@ -1,0 +1,8 @@
+I"Ë<p>I just spent 3 very intense but delightful weeks in Cape Town, the mother city of South Africa. Aside from attending the <a href="http://www.iapso-iamas-iaga2017.com">IAPSO-IAMAS-IAGA 2017 meeting</a> which was a lot of fun, I visited for two weeks the <a href="http://www.sea.uct.ac.za">Department of Oceanography at the University of Cape Town</a> in order to deliver a series of lectures on methods of data analysis in oceanic and atmospheric sciences. I am very grateful to the Head of Department Prof. Isabelle Ansorge and Dr. Juliet Hermes from <a href="http://www.saeon.ac.za">the South African Environmental Observation Network</a> for making my visit possible.</p>
+
+<p>My audience was broad and diverse (more than 30 students!), from Masters level to postdoctoral researchers. I am pleased to make now available openly on my website the <a href="/talks/">slides of these five lectures</a>, as well as the Matlab scripts that the students worked with during afternoon practical sessions. I was ambivalent about making the students use a commercial software, as opposed to an open source software like Python. However, In the interest of time and exactness, I had to stick to what I knew. In addition, most of these Matlab scripts are compatible with the Matlab-like free software <a href="https://www.gnu.org/software/octave/">Octave</a>.</p>
+
+<p>By the way, I am always grateful to <a href="http://www.jmlilly.net">Jonathan Lilly</a> who made me embark on this journey of lecturing on stats! And please check out the latest version of his course on time series analysis <a href="http://www.jmlilly.net/talks/oslo/v2/index.html">here</a>.</p>
+
+<p>Please feel free to email me with comments or questions about this material!</p>
+:ET
