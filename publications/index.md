@@ -13,9 +13,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 ### Some recent gray literature:
 
-- **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://doi.org/10.1029/2022EO220021). Published on 12 January 2022.
+- **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://eos.org/opinions/overcoming-the-challenges-of-ocean-data-uncertainty). Published on 12 January 2022.
 
-- **Shane Elipot** and Jacob Wenegrat, *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://doi:10.5065/ybca-0s03).
+- **Elipot, S.** and Wenegrat, J., *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://doi:10.5065/ybca-0s03).
 
 - Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson, (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://doi:10.5065/0g4s-5w68).
 
