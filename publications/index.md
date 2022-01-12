@@ -13,6 +13,8 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 ### Some recent gray literature:
 
+- **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://doi.org/10.1029/2022EO220021). Published on 12 January 2022.
+
 - **Shane Elipot** and Jacob Wenegrat, *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://doi:10.5065/ybca-0s03).
 
 - Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson, (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://doi:10.5065/0g4s-5w68).
@@ -25,11 +27,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **30.** Brasch, Jonathan M., Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*.
 
-#### Submitted:
-
-**29.** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Convergent Indian Ocean heat transport drives recent warming*., Journal of Physical Oceanography.
-
 #### Published:
+
+**29.** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Reduction in meridional heat export contributes to recent Indian Ocean warming*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-21-0085.1](https://doi.org/10.1175/JPO-D-21-0085.1)
 
 **28.** Jonathan M. Lilly and **Elipot, S.** (2021), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 6(2), 85, [dpoi:10.3390/fluids6020085](https://doi.org/10.3390/fluids6020085)
 
