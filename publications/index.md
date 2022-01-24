@@ -29,6 +29,8 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **30.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, submitted to [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
 
+- This paper is a *Data Descriptor* publication which means that *it provides detailed descriptions of research datasets, including the methods used to collect the data and technical analyses supporting the quality of the measurements*. We are very excited to finally share this new dataset of SST *estimates* from surface drifter data.  
+
 #### Published:
 
 **29.** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Reduction in meridional heat export contributes to recent Indian Ocean warming*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-21-0085.1](https://doi.org/10.1175/JPO-D-21-0085.1)
