@@ -23,9 +23,11 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### In preparation:
 
-**31.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Dataset of Hourly Sea Surface Temperature From Surface Drifters*.
+**31.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*.
 
-**30.** Brasch, Jonathan M., Brian K. Arbic, **Shane Elipot**, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron,Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*.
+#### Submitted:
+
+**30.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, submitted to [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
 
 #### Published:
 
