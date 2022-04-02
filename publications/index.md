@@ -15,19 +15,21 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://eos.org/opinions/overcoming-the-challenges-of-ocean-data-uncertainty). Published on 12 January 2022.
 
-- **Elipot, S.** and Wenegrat, J., *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://doi:10.5065/ybca-0s03).
+- **Elipot, S.** and Wenegrat, J., *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://dx.doi.org/10.5065/ybca-0s03).
 
-- Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson, (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://doi:10.5065/0g4s-5w68).
+- Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://dx.doi.org/10.5065/0g4s-5w68).
 
 - **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
 #### Submitted:
 
+**32.** Kathryn L. Gunn,  K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Elaine McDonagh (2022), *Indian Ocean remains net evapourative*, submitted to the Journal of Physical Oceanography.
+
 **31.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2021), *Frequency dependence of surface kinetic energy and its vertical structure from global high-resolution models and drifter observations*, submitted to [JGR: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291). Preprint available from arXiv as [arxiv:2202.08877](https://arxiv.org/abs/2202.08877).
 
 - In this paper we compare the estimates of oceanic kinetic energy in different frequency bands from the velocity data of the Global Drifter Program and from the outputs of two numerical model integrations (HYCOM and MITgcm LLC4320). Both model integrations include atmospheric forcing and tidal forcing.
 
-**30.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, submitted to [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
+**30.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2021), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, in revision for [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
 
 - This paper is a *Data Descriptor* publication which means that *it provides detailed descriptions of research datasets, including the methods used to collect the data and technical analyses supporting the quality of the measurements*. We are very excited to finally share this new dataset of SST *estimates* from surface drifter data.  
 
