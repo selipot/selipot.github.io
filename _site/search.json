@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "My OSM22 poster",
+      "link"			: "http://localhost:4000/blog/my-osm22-poster-on-estimating-ke-from-baroclinic-tides/",
+      "excerpt"		: "I am posting here the poster I am presenting at the AGU OSM 2022 meeting as part of Session PL09Tides in the past, present and future. Originally on March 2, 2022 at 9:00 PM ET."
+    }
+  
+
+  
+    ,{
       "title"			: "My moonshot for the Ocean Decade",
       "link"			: "http://localhost:4000/blog/my-moonshot-for-the-ocean-decade/",
       "excerpt"		: "By now you’ve probably heard that the United Nations (UN) has proclaimed a Decade of Ocean Science for Sustainable Development which will take place from 2021 to 2030. More broadly, this is one of the actions put in place by the UN to achieve The Sustainable Development Goals, and more specifically Goal 14 to Conserve and sustainably use the oceans, seas and marine resources."

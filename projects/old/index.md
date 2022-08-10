@@ -6,6 +6,31 @@ image:
   credit: Acadia National Park, Maine, LAPCOD 2015 meeting
 ---
 
+## The Agulhas System Climate Array (ASCA)
+
+![Alt text](/images/algoa.jpg)
+
+I am a co-PI of the Agulhas System Climate Array (ASCA) project, led by Prof Lisa Beal and funded by the U.S.A. National Science Foundation (NSF) for its US component. More broadly, [ASCA](http://asca.dirisa.org) is an international research project with partners from South Africa, the USA, and the Netherlands, with funding support from the South African Departments of Science and Technology (DST) and Environmental Affairs (DEA), the US National Science Foundation (NSF) and the Royal Dutch Institute for Sea Research (NIOZ). It is designed to provide long term observations of Agulhas Current volume, heat and salt transport and its variability from mesoscale (eddies), through seasonal to interannual timescales. This is achieved by means of two shelf and seven full-depth tall moorings, interspersed with five Current- and Pressure-recording Inverted Echo Sounders (CPIES), measuring pressure, current velocities, temperatures and salinities. The ASCA shelf and tall moorings  extend 200 km offshore along the descending TOPEX/Jason satellite ground track \#96, through the core of the Agulhas Current, with CPIES measurements extending the array to 300 km offshore. The project has generated the following publications:
+
+* Kathryn L. Gunn,  K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Elaine McDonagh (2022), *Indian Ocean remains net evapourative*, submitted to the Journal of Physical Oceanography.
+
+* McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Reduction in meridional heat export contributes to recent Indian Ocean warming*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-21-0085.1](https://doi.org/10.1175/JPO-D-21-0085.1)
+
+* Kathryn L. Gunn, Lisa M. Beal, **Shane Elipot**, K. McMonigal, and Adam Houk (2020), *Mixing of Subtropical, Central and Intermediate Waters Driven by Shifting and Pulsing of the Agulhas Current*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0093.1](https://doi.org/10.1175/JPO-D-20-0093.1).
+
+* K. McMonigal, Lisa M. Beal, **Shane Elipot**, Kathryn L. Gunn, Juliet Hermes, Tamaryn Morris, and Adam Houk (2020), *The Impact of Meanders, Deepening and Broadening, and Seasonality on Agulhas Current Temperature Variability*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-20-0018.1](https://doi.org/10.1175/JPO-D-20-0018.1)
+
+* Vermeulen, E., B. Backeberg, J. Hermes, and **S. Elipot** (2019), *Investigating the relationship between volume transport and sea surface height in a numerical ocean model*, [Ocean Sci.](https://www.ocean-science.net/index.html), 15, 513-526, [doi:10.5194/os-15-513-2019](https://doi.org/10.5194/os-15-513-2019)
+
+* **Elipot, S.**, and L. M. Beal (2018), *Observed Agulhas Current sensitivity to interannual and long-term trend atmospheric forcings*, J. Clim., 31, 3077-3098, [doi: 10.1175/JCLI-D-17-0597.1](http://dx.doi.org/10.1175/JCLI-D-17-0597.1).
+
+**This paper has been selected as a research highlight for Nature Climate Change:**
+G. Simpkins (2018), *Nature Climate Change* **8**, 188, [doi:10.1038/s41558-018-0111-3](http://dx.doi.org/10.1038/s41558-018-0111-3).
+
+- This paper studies the atmosphere-driven interannual variability of the Agulhas jet transport based on the altimeter proxy derived in [Beal and Elipot (2016)](http://dx.doi.org/10.1038/nature19853). We find that 29% of the interannual variance of the Agulhas Current transport can be linearly related to six modes of Southern Hemisphere atmospheric variability, including ENSO and a SAM-related mode. The Agulhas transport proxy time series can be downloaded via the [ACT website](http://http://act.rsmas.miami.edu) [here](http://http://act.rsmas.miami.edu/media/publications/).
+
+* * *
+
 ## Global Observational Constraints on Oceanic Response to Wind Forcing
 
 ![Alt text](/images/drifter.jpg "Deploying a drifter in the Agulhas Current. Photo Credit: Kayleen McMonigal")

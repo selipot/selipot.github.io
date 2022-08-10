@@ -5,8 +5,8 @@ locale: en_US
 description: Research Assistant Professor of Ocean Sciences at the University of Miami.
 logo: bio-photo5.jpeg
 search: true
-url: https://selipot.github.io
-#url : ""
+#url: https://selipot.github.io
+url : ""
 
 # Jekyll configuration
 
