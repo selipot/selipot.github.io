@@ -33,6 +33,10 @@
 <lastmod>2020-11-30T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/my-osm22-poster-on-estimating-ke-from-baroclinic-tides/</loc>
+<lastmod>2022-03-02T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -69,6 +73,10 @@
 <url>
 <loc>http://localhost:4000/images/site-logo.pdf</loc>
 <lastmod>2022-01-22T07:53:26-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/talks/idsc/</loc>
+<lastmod>2022-04-05T14:52:20-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talks/lecture1.pdf</loc>

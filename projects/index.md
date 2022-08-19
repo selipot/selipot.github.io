@@ -41,11 +41,3 @@ I am the lead-PI of this [NSF-funded project](https://www.nsf.gov/awardsearch/sh
 
 
 * * *
-
-## The Agulhas System Climate Array (ASCA)
-
-![Alt text](/images/algoa.jpg)
-
-I am a co-PI of the Agulhas System Climate Array (ASCA) project, led by Prof Lisa Beal and funded by the U.S.A. National Science Foundation (NSF) for its US component. More broadly, [ASCA](http://asca.dirisa.org) is an international research project with partners from South Africa, the USA, and the Netherlands, with funding support from the South African Departments of Science and Technology (DST) and Environmental Affairs (DEA), the US National Science Foundation (NSF) and the Royal Dutch Institute for Sea Research (NIOZ). It is designed to provide long term observations of Agulhas Current volume, heat and salt transport and its variability from mesoscale (eddies), through seasonal to interannual timescales. This is achieved by means of two shelf and seven full-depth tall moorings, interspersed with five Current- and Pressure-recording Inverted Echo Sounders (CPIES), measuring pressure, current velocities, temperatures and salinities. The ASCA shelf and tall moorings  extend 200 km offshore along the descending TOPEX/Jason satellite ground track \#96, through the core of the Agulhas Current, with CPIES measurements extending the array to 300 km offshore.
-
-* * *
