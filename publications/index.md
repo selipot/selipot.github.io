@@ -23,23 +23,23 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**32.** Kathryn L. Gunn,  K. McMonigal, Lisa M. Beal, **Shane Elipot**, and Elaine McDonagh (2022), *Indian Ocean remains net evapourative*, in press for the AMS Journal of Physical Oceanography.
-
-**31.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2022), *Frequency dependence of near-surface oceanic kinetic energy from drifter observations and global high-resolution models* revised for [JGR: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291). Preprint available from arXiv as [arxiv:2202.08877](https://doi.org/10.48550/arXiv.2202.08877v2).
+**33.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2022), *Frequency dependence of near-surface oceanic kinetic energy from drifter observations and global high-resolution models* revised for [JGR: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291). Preprint available from arXiv as [arxiv:2202.08877](https://doi.org/10.48550/arXiv.2202.08877v2).
 
 - In this paper we compare the estimates of oceanic kinetic energy in different frequency bands from the velocity data of the Global Drifter Program and from the outputs of two numerical model integrations (HYCOM and MITgcm LLC4320). Both model integrations include atmospheric forcing and tidal forcing.
 
-**30.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2022), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, in revision for [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
+**32.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2022), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, in revision for [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
 
 - This paper is a *Data Descriptor* publication which means that *it provides detailed descriptions of research datasets, including the methods used to collect the data and technical analyses supporting the quality of the measurements*. We are very excited to finally share this new dataset of SST *estimates* from surface drifter data.  
 
 #### Published:
 
-**30.** Miron, Philippe, **Elipot, Shane**, Lumpkin, Rick, & Dano, Bertrand. (2022). Accelerating Lagrangian analyses of oceanic data: benchmarking typical workflows (ec2022v4). Zenodo. [https://doi.org/10.5281/zenodo.6781037](https://doi.org/10.5281/zenodo.6781037)
+**31.** Kathryn L. Gunn,  K. McMonigal, Lisa M. Beal, **Shane Elipot** (2022), *Decadal and Intra-annual Variability of the Indian Ocean Freshwater Budget*, Journal of Physical Oceanography, [https://doi.org/10.1175/JPO-D-22-0057.1](https://doi.org/10.1175/JPO-D-22-0057.1).
 
-**29.** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Reduction in meridional heat export contributes to recent Indian Ocean warming*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-21-0085.1](https://doi.org/10.1175/JPO-D-21-0085.1)
+**30.** Miron, Philippe, **Elipot, Shane**, Lumpkin, Rick, & Dano, Bertrand. (2022). *Accelerating Lagrangian analyses of oceanic data: benchmarking typical workflows* (ec2022v4). Zenodo. [doi:10.5281/zenodo.6781037](https://doi.org/10.5281/zenodo.6781037).
 
-**28.** Jonathan M. Lilly and **Elipot, S.** (2021), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 6(2), 85, [dpoi:10.3390/fluids6020085](https://doi.org/10.3390/fluids6020085)
+**29.** McMonigal, K.,  Kathy Gunn, Lisa Beal, **Shane Elipot**, and Josh K. Willis (2021), *Reduction in meridional heat export contributes to recent Indian Ocean warming*, Journal of Physical Oceanography, 50(12), [doi:10.1175/JPO-D-21-0085.1](https://doi.org/10.1175/JPO-D-21-0085.1).
+
+**28.** Jonathan M. Lilly and **Elipot, S.** (2021), *A Unifying Perspective on Transfer Function Solutions to the Unsteady Ekman Problem*, [Fluids](https://www.mdpi.com/journal/fluids), 6(2), 85, [doi:10.3390/fluids6020085](https://doi.org/10.3390/fluids6020085).
 
 - This paper is a revisit of some theoretical aspects of my PhD work, expanding and unifying previous studies including some of the material presented in [Elipot and Gille (2009a)](http://dx.doi.org/10.5194/os-5-115-2009).
 
