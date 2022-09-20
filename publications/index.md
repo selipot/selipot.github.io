@@ -27,13 +27,13 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - In this paper we compare the estimates of oceanic kinetic energy in different frequency bands from the velocity data of the Global Drifter Program and from the outputs of two numerical model integrations (HYCOM and MITgcm LLC4320). Both model integrations include atmospheric forcing and tidal forcing.
 
-**32.** **Elipot, Shane**, Adam Sykulski, Rick Lumpkin, Luca Centurioni, and Mayra Pazos (2022), *A Dataset of Hourly Sea Surface Temperature From Drifting Buoys*, in revision for [Scientific Data](https://www.nature.com/sdata/). Preprint available from arXiv as [arxiv:2201.08289v1](https://arxiv.org/abs/2201.08289v1).
+#### Published:
+
+**32.** **Elipot, S.**, A. Sykulski, R. Lumpkin, L. Centurioni, and M. Pazos (2022), A Dataset of Hourly Sea Surface Temperature From Drifting Buoys, Scientific Data, 9, 567, [doi:10.1038/s41597-022-01670-2](https://dx.doi.org/10.1038/s41597-022-01670-2).
 
 - This paper is a *Data Descriptor* publication which means that *it provides detailed descriptions of research datasets, including the methods used to collect the data and technical analyses supporting the quality of the measurements*. We are very excited to finally share this new dataset of SST *estimates* from surface drifter data.  
 
-#### Published:
-
-**31.** Kathryn L. Gunn,  K. McMonigal, Lisa M. Beal, **Shane Elipot** (2022), *Decadal and Intra-annual Variability of the Indian Ocean Freshwater Budget*, Journal of Physical Oceanography, [https://doi.org/10.1175/JPO-D-22-0057.1](https://doi.org/10.1175/JPO-D-22-0057.1).
+**31.** Kathryn L. Gunn,  K. McMonigal, Lisa M. Beal, **Shane Elipot** (2022), *Decadal and Intra-annual Variability of the Indian Ocean Freshwater Budget*, Journal of Physical Oceanography, [doi:10.1175/JPO-D-22-0057.1](https://doi.org/10.1175/JPO-D-22-0057.1).
 
 **30.** Miron, Philippe, **Elipot, Shane**, Lumpkin, Rick, & Dano, Bertrand. (2022). *Accelerating Lagrangian analyses of oceanic data: benchmarking typical workflows* (ec2022v4). Zenodo. [doi:10.5281/zenodo.6781037](https://doi.org/10.5281/zenodo.6781037).
 
