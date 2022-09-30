@@ -23,7 +23,7 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Published:
 
-**33.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2022), *Near-surface oceanic kinetic energy distributions from drifter observations and numerical models*, [Journal of Geophysical Research: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291), 127, e2022JC018551. (https://doi.org/10.1029/2022JC018551](https://doi.org/10.1029/2022JC018551).
+**33.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2022), *Near-surface oceanic kinetic energy distributions from drifter observations and numerical models*, [Journal of Geophysical Research: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291), 127, e2022JC018551. [doi:10.1029/2022JC018551](https://doi.org/10.1029/2022JC018551).
 
 - In this paper we compare the oceanic kinetic energy as captured by the hourly drifter dataset of the NOAA Global Drifter Program to the outputs of two global numerical model runs (HYCOM and MITgcm LLC4320) that simulate both the general oceanic circulations and the tides. The comparisons are made both at the surface and at 15m depth, by separating motions by timescales, or frequency.
 
