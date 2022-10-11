@@ -129,4 +129,4 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 
 **b.** MacKinnon, J.A., Alford, M., Bouruet-Aubertot, P., Bindoff, N., **Elipot, S.**, Gille, S., Girton, J., Gregg, M.C., Hallberg, R., Kunze, E., Naveira Garabato, A., Phillips, H., Pinkel, R., Polzin, K., Sanford, T., Simmons, H., and Speer, K., (2010), *Using global arrays to investigate internal-waves and mixing*, in Proceedings of the OceanObs09: Sustained Ocean Observations and Information for Society Conference (Vol. 1), Venice, Italy, 21-25 September 2009, Hall, J., Harrison D.E. and Stammer, D., Eds., ESA Publication WPP-306.
 
-**a.** **Elipot, S.** (2006), *Spectral characterization of Ekman velocities in the Southern Ocean based on surface drifter trajectories*, Ph.D. dissertation, University of California, San Diego.
+**a.** **Elipot, S.** (2006). *Spectral characterization of Ekman velocities in the Southern Ocean based on surface drifter trajectories.* UC San Diego. ProQuest ID: umi-ucsd-1392. Merritt ID: ark:/20775/bb6280737k. Retrieved from [https://escholarship.org/uc/item/2pp898fv](https://escholarship.org/uc/item/2pp898fv)
