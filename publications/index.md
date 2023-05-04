@@ -21,6 +21,10 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
+#### Submitted:
+
+**34.** . E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, manuscript submitted to Royal Society Philosophical Transactions A.
+
 #### Published:
 
 **33.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2022), *Near-surface oceanic kinetic energy distributions from drifter observations and numerical models*, [Journal of Geophysical Research: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291), 127, e2022JC018551. [doi:10.1029/2022JC018551](https://doi.org/10.1029/2022JC018551).
