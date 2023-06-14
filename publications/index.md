@@ -23,7 +23,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**34.** . E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, manuscript submitted to Royal Society Philosophical Transactions A.
+**35.** Edward D. Zaron and **Shane Elipot**, *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, manuscript submitted to the AMS Journal of Physical Oceanography, June 2023.
+
+**34.** . E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, manuscript submitted to Royal Society Philosophical Transactions A, May 2023.
 
 #### Published:
 
