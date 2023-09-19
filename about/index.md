@@ -8,7 +8,7 @@ image:
 
 I am a Research Associate Professor in the [Department of Ocean Sciences](https://ocean-sciences.rsmas.miami.edu/index.html) at the [Rosenstiel School of Marine, Atmospheric, and Earth Science](http://rsmas.miami.edu) of [the University of Miami](http://www.miami.edu).
 
-I conduct research in physical oceanography, and specifically in atmosphere-ocean interactions, oceanic surface boundary layer dynamics, meridional overturning circulation dynamics, and Agulhas Current System dynamics. I am interested in the nature of oceanic and atmospheric observations, and more generally in time series and covariance analyses of environmental data.
+I conduct research in physical oceanography, focusing on atmosphere-ocean interactions, oceanic surface boundary layer dynamics, meridional overturning circulation dynamics, and the general oceanic circulation. I am interested in the nature of oceanic and atmospheric observational and modeled data, and more generally in time series and covariance analyses of environmental data.
 
 *Mailing address:*
 
