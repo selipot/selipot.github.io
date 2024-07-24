@@ -21,11 +21,11 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
-#### Submitted:
-
-**35.** Edward D. Zaron and **Shane Elipot**, *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, manuscript submitted to the AMS Journal of Physical Oceanography, June 2023.
-
 #### Published:
+
+**36.** Edward D. Zaron and **Shane Elipot**, (2024). *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, Journal of Physical Oceanography, early online release, [https://doi.org/10.1175/JTECH-D-23-0159.1](https://doi.org/10.1175/JTECH-D-23-0159.1)
+
+**35** **Elipot, Shane**, Miron, Philippe, Curcic, Milan, Santana, K. and Rick Lumpkin, (2024). *Clouddrift: a Python package to accelerate the use of Lagrangian data for atmospheric, oceanic, and climate sciences*. Journal of Open Source Software, 9(99), 6742, [https://doi.org/10.21105/joss.06742](https://doi.org/10.21105/joss.06742)
 
 **34.** W. E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith (2023) *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, Philosophycal Transactions of the Royal Society A 381:20220188. 20220188. [http://doi.org/10.1098/rsta.2022.0188](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0188).
 
