@@ -11,7 +11,7 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-### Some recent gray literature:
+### Gray literature:
 
 - **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://eos.org/opinions/overcoming-the-challenges-of-ocean-data-uncertainty). Published on 12 January 2022.
 
@@ -25,7 +25,7 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **36.** Edward D. Zaron and **Shane Elipot**, (2024). *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, Journal of Physical Oceanography, early online release, [https://doi.org/10.1175/JTECH-D-23-0159.1](https://doi.org/10.1175/JTECH-D-23-0159.1)
 
-**35** **Elipot, Shane**, Miron, Philippe, Curcic, Milan, Santana, K. and Rick Lumpkin, (2024). *Clouddrift: a Python package to accelerate the use of Lagrangian data for atmospheric, oceanic, and climate sciences*. Journal of Open Source Software, 9(99), 6742, [https://doi.org/10.21105/joss.06742](https://doi.org/10.21105/joss.06742)
+**35.** **Elipot, Shane**, Miron, Philippe, Curcic, Milan, Santana, K. and Rick Lumpkin, (2024). *Clouddrift: a Python package to accelerate the use of Lagrangian data for atmospheric, oceanic, and climate sciences*. Journal of Open Source Software, 9(99), 6742, [https://doi.org/10.21105/joss.06742](https://doi.org/10.21105/joss.06742).
 
 **34.** W. E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith (2023) *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, Philosophycal Transactions of the Royal Society A 381:20220188. 20220188. [http://doi.org/10.1098/rsta.2022.0188](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0188).
 
