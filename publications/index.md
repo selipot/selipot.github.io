@@ -23,11 +23,15 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Published:
 
-**36.** Edward D. Zaron and **Shane Elipot**, (2024). *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, Journal of Physical Oceanography, early online release, [https://doi.org/10.1175/JTECH-D-23-0159.1](https://doi.org/10.1175/JTECH-D-23-0159.1)
+**38.** **Shane Elipot**, Eli Faigle, Brian K. arbic and Jay F. Shriver, (2024), *An integrated dataset of near-surface Eulerian fields and Lagrangian trajectories from an ocean model*, Scientific Data, 11, 943 (2024). https://doi.org/10.1038/s41597-024-03813-z.
+
+**37.** Johnson, G. C., and Coauthors (including **S. Elipot**), (2024), *Global Oceans*, Bull. Amer. Meteor. Soc., 105, S156–S213, https://doi.org/10.1175/BAMS-D-24-0100.1.
+
+**36.** Edward D. Zaron and **Shane Elipot**, (2024), *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, Journal of Physical Oceanography, 41, 781–802, [https://doi.org/10.1175/JTECH-D-23-0159.1](https://doi.org/10.1175/JTECH-D-23-0159.1)
 
 **35.** **Elipot, Shane**, Miron, Philippe, Curcic, Milan, Santana, K. and Rick Lumpkin, (2024). *Clouddrift: a Python package to accelerate the use of Lagrangian data for atmospheric, oceanic, and climate sciences*. Journal of Open Source Software, 9(99), 6742, [https://doi.org/10.21105/joss.06742](https://doi.org/10.21105/joss.06742).
 
-**34.** W. E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith (2023) *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, Philosophycal Transactions of the Royal Society A 381:20220188. 20220188. [http://doi.org/10.1098/rsta.2022.0188](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0188).
+**34.** W. E. Johns, **S. Elipot**, D. A. Smeed, B. Moat, B. King, D. L. Volkov, R. H. Smith (2023) *Towards Two Decades of Atlantic Ocean Mass and Heat Transports at 26.5N*, Philosophical Transactions of the Royal Society A 381:20220188. 20220188. [http://doi.org/10.1098/rsta.2022.0188](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0188).
 
 **33.** Brian K. Arbic, **Shane Elipot**, Jonathan M. Brasch, Dimitris Menemenlis, Aurelien L. Ponte, Jay F. Shriver, Xiaolong Yu, Edward D. Zaron, Matthew H. Alford, Maarten C. Buijsman, Ryan Abernathey, Paige E. Martin, Arin D. Nelson, (2022), *Near-surface oceanic kinetic energy distributions from drifter observations and numerical models*, [Journal of Geophysical Research: Oceans](https://agupubs.onlinelibrary.wiley.com/journal/21699291), 127, e2022JC018551. [doi:10.1029/2022JC018551](https://doi.org/10.1029/2022JC018551).
 
