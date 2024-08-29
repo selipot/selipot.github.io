@@ -23,9 +23,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Published:
 
-**38.** **Shane Elipot**, Eli Faigle, Brian K. arbic and Jay F. Shriver, (2024), *An integrated dataset of near-surface Eulerian fields and Lagrangian trajectories from an ocean model*, Scientific Data, 11, 943 (2024). https://doi.org/10.1038/s41597-024-03813-z.
+**38.** **Shane Elipot**, Eli Faigle, Brian K. arbic and Jay F. Shriver, (2024), *An integrated dataset of near-surface Eulerian fields and Lagrangian trajectories from an ocean model*, Scientific Data, 11, 943 (2024). [https://doi.org/10.1038/s41597-024-03813-z](https://doi.org/10.1038/s41597-024-03813-z).
 
-**37.** Johnson, G. C., and Coauthors (including **S. Elipot**), (2024), *Global Oceans*, Bull. Amer. Meteor. Soc., 105, S156–S213, https://doi.org/10.1175/BAMS-D-24-0100.1.
+**37.** Johnson, G. C., and Coauthors (including **S. Elipot**), (2024), *Global Oceans*, Bull. Amer. Meteor. Soc., 105, S156–S213, [https://doi.org/10.1175/BAMS-D-24-0100.1](ttps://doi.org/10.1175/BAMS-D-24-0100.1).
 
 **36.** Edward D. Zaron and **Shane Elipot**, (2024), *Estimates of Baroclinic Tidal Sea Level and Currents from Lagrangian Drifters and Satellite Altimetry*, Journal of Physical Oceanography, 41, 781–802, [https://doi.org/10.1175/JTECH-D-23-0159.1](https://doi.org/10.1175/JTECH-D-23-0159.1)
 
