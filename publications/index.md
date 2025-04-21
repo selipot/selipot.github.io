@@ -17,13 +17,15 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - **Elipot, S.** and Wenegrat, J., *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://dx.doi.org/10.5065/ybca-0s03).
 
+- Bourassa, M., K. Drushka, **S. Elipot**, T. Farrar, P. Gaube, S. Gille, H. Seo, M. Stukel, and A. Subramanian, (2021), *Surface currents in the coupled ocean-atmosphere system*. A US CLIVAR Report, 2021-3, 29pp., [doi:10.5065/9cd3-9258](https://doi.org/10.5065/9cd3-9258).
+
 - Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://dx.doi.org/10.5065/0g4s-5w68).
 
 - **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
 #### Published:
 
-**38.** **Shane Elipot**, Eli Faigle, Brian K. arbic and Jay F. Shriver, (2024), *An integrated dataset of near-surface Eulerian fields and Lagrangian trajectories from an ocean model*, Scientific Data, 11, 943 (2024). [https://doi.org/10.1038/s41597-024-03813-z](https://doi.org/10.1038/s41597-024-03813-z).
+**38.** **Shane Elipot**, Eli Faigle, Brian K. Arbic and Jay F. Shriver, (2024), *An integrated dataset of near-surface Eulerian fields and Lagrangian trajectories from an ocean model*, Scientific Data, 11, 943 (2024). [https://doi.org/10.1038/s41597-024-03813-z](https://doi.org/10.1038/s41597-024-03813-z).
 
 **37.** Johnson, G. C., and Coauthors (including **S. Elipot**), (2024), *Global Oceans*, Bull. Amer. Meteor. Soc., 105, S156–S213, [https://doi.org/10.1175/BAMS-D-24-0100.1](ttps://doi.org/10.1175/BAMS-D-24-0100.1).
 
