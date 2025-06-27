@@ -23,6 +23,12 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 - **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
+#### Submitted:
+
+**40.** T. Petit, D. Smeed, A. Blaker, **S. Elipot**, W. Johns, J. B. Kajtar, D. Rayner, B. Sinha, R. H. Smith, D. L. Volkov, and B. Moat, (2025), *Evaluation of a Reduced RAPID Array for Measuring the AMOC*, submitted to Journal of Geophysical Research: Oceans.
+
+**39.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2025), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, submitted.
+
 #### Published:
 
 **38.** **Shane Elipot**, Eli Faigle, Brian K. Arbic and Jay F. Shriver, (2024), *An integrated dataset of near-surface Eulerian fields and Lagrangian trajectories from an ocean model*, Scientific Data, 11, 943 (2024). [https://doi.org/10.1038/s41597-024-03813-z](https://doi.org/10.1038/s41597-024-03813-z).
