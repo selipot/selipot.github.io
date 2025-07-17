@@ -25,9 +25,11 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**40.** T. Petit, D. Smeed, A. Blaker, **S. Elipot**, W. Johns, J. B. Kajtar, D. Rayner, B. Sinha, R. H. Smith, D. L. Volkov, and B. Moat, (2025), *Evaluation of a Reduced RAPID Array for Measuring the AMOC*, submitted to Journal of Geophysical Research: Oceans.
+**41.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2025), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, submitted to AGU *Geophysical Research Letters*.
 
-**39.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2025), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, submitted.
+**40.** T. Petit, D. Smeed, A. Blaker, **S. Elipot**, W. Johns, J. B. Kajtar, D. Rayner, B. Sinha, R. H. Smith, D. L. Volkov, and B. Moat, (2025), *Evaluation of a Reduced RAPID Array for Measuring the AMOC*, submitted to the AGU *Journal of Geophysical Research: Oceans*.
+
+**39.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2025), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, submitted to *Science Advances*.
 
 #### Published:
 
