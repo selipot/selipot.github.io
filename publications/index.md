@@ -25,14 +25,13 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**43** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](  
-https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
+**43** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
 
 **42** Nicholas Foukal, Isabela Le Bras, Yao Fu, Tillys Petit, Tiago Carrilho Bilo, **Shane Elipot**, Ben Moat, *Strengthening Connections in Observing the North Atlantic Meridional Overturning Circulation: Outcomes from a Joint RAPID-OSNAP Workshop*, in revision for *Oceanography*. 
 
-**41.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2025), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, submitted to AGU *Geophysical Research Letters*.
+**41.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2026), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, in revision for AGU *Geophysical Research Letters*.
 
-**40.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2025), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, accepted to *Science Advances*.
+**40.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2026), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, accepted to *Science Advances*.
 
 #### Published:
 
