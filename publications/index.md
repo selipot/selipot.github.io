@@ -25,15 +25,17 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
+**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Climate Change*.
+
 **43.** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, (2026), *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
 
 **42.** Nicholas Foukal, Isabela Le Bras, Yao Fu, Tillys Petit, Tiago Carrilho Bilo, **Shane Elipot**, Ben Moat, (2026), *Strengthening Connections in Observing the North Atlantic Meridional Overturning Circulation: Outcomes from a Joint RAPID-OSNAP Workshop*, in revision for *Oceanography*. 
 
-**41.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2026), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, in revision for AGU *Geophysical Research Letters*.
-
-**40.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2026), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, accepted to *Science Advances*.
+**41.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2026), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, accepted to AGU *Geophysical Research Letters*.
 
 #### Published:
+
+**40.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2026), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, Sci. Adv. 12, eadz7738(2026). [DOI:10.1126/sciadv.adz7738](https://doi.org/10.1126/sciadv.adz7738).
 
 **39.** T. Petit, D. Smeed, A. Blaker, **S. Elipot**, W. Johns, J. B. Kajtar, D. Rayner, B. Sinha, R. H. Smith, D. L. Volkov, and B. Moat, (2025), *Evaluation of a Reduced RAPID Array for Measuring the AMOC*, Journal of Geophysical Research: Oceans, 130, e2025JC023093. [https://doi.org/10.1029/2025JC023093](https://doi.org/10.1029/2025JC023093).
 
