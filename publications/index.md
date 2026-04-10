@@ -31,11 +31,12 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **42.** Nicholas Foukal, Isabela Le Bras, Yao Fu, Tillys Petit, Tiago Carrilho Bilo, **Shane Elipot**, Ben Moat, (2026), *Strengthening Connections in Observing the North Atlantic Meridional Overturning Circulation: Outcomes from a Joint RAPID-OSNAP Workshop*, in revision for *Oceanography*. 
 
-**41.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2026), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, accepted to AGU *Geophysical Research Letters*.
 
 #### Published:
 
-**40.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2026), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, Sci. Adv. 12, eadz7738(2026). [DOI:10.1126/sciadv.adz7738](https://doi.org/10.1126/sciadv.adz7738).
+**41.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2026), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, Sci. Adv. 12, eadz7738(2026). [DOI:10.1126/sciadv.adz7738](https://doi.org/10.1126/sciadv.adz7738).
+
+**40.** D.A. Smeed, W.E. Johns, R.H. Smith, T. Petit, E.L. McDonagh, D. Rayner, D.L. Volkov, **S. Elipot**, J.B. Kajtar, B.A. King, Y.L. Firing and B.I. Moat, (2026), *Overturning circulation of the North Atlantic subtropical gyre computed in density coordinates*, GeophysicalResearchLetters, 53, e2025GL118277. [https://doi.org/10.1029/2025GL118277](https://doi.org/10.1029/2025GL118277)
 
 **39.** T. Petit, D. Smeed, A. Blaker, **S. Elipot**, W. Johns, J. B. Kajtar, D. Rayner, B. Sinha, R. H. Smith, D. L. Volkov, and B. Moat, (2025), *Evaluation of a Reduced RAPID Array for Measuring the AMOC*, Journal of Geophysical Research: Oceans, 130, e2025JC023093. [https://doi.org/10.1029/2025JC023093](https://doi.org/10.1029/2025JC023093).
 
