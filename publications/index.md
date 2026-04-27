@@ -25,12 +25,11 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Climate Change*.
+**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Communications Earth \& Environment*.
 
 **43.** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, (2026), *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
 
-**42.** Nicholas Foukal, Isabela Le Bras, Yao Fu, Tillys Petit, Tiago Carrilho Bilo, **Shane Elipot**, Ben Moat, (2026), *Strengthening Connections in Observing the North Atlantic Meridional Overturning Circulation: Outcomes from a Joint RAPID-OSNAP Workshop*, in revision for *Oceanography*. 
-
+**42.** Nicholas Foukal, Isabela Le Bras, Yao Fu, Tillys Petit, Tiago Carrilho Bilo, **Shane Elipot**, Ben Moat, (2026), *Strengthening Connections in Observing the North Atlantic Meridional Overturning Circulation: Outcomes from a Joint RAPID-OSNAP Workshop*, accepted to *TOS Oceanography*. 
 
 #### Published:
 
