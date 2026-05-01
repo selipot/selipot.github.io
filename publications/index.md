@@ -25,9 +25,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, Shane Elipot, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint](https://arxiv.org/abs/2604.27200). 
+**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint](https://arxiv.org/abs/2604.27200). 
 
-**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Communications Earth \& Environment*.
+**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Communications Earth & Environment*.
 
 **43.** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, (2026), *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
 
