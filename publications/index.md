@@ -31,9 +31,9 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **43.** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, (2026), *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
 
-**42.** Nicholas Foukal, Isabela Le Bras, Yao Fu, Tillys Petit, Tiago Carrilho Bilo, **Shane Elipot**, Ben Moat, (2026), *Strengthening Connections in Observing the North Atlantic Meridional Overturning Circulation: Outcomes from a Joint RAPID-OSNAP Workshop*, accepted to *TOS Oceanography*. 
-
 #### Published:
+
+**42.** Foukal, N., I. Le Bras, Y. Fu, T. Petit, T.C. Biló, **S. Elipot**, and B. Moat. 2026. Strengthening connections in observing the North Atlantic Meridional Overturning Circulation: Outcomes from a joint RAPID-OSNAP workshop. Oceanography 39(1), [https://doi.org/10.5670/oceanog.2026.e110](https://doi.org/10.5670/oceanog.2026.e110).
 
 **41.** Qianjiang Xing, **Shane Elipot**, William E. Johns, David A. Smeed, Ben I. Moat and John W. Loder, (2026), *Widespread Decline in the Observed Western Boundary Contribution to the Atlantic Meridional Overturning Circulation*, Sci. Adv. 12, eadz7738(2026). [DOI:10.1126/sciadv.adz7738](https://doi.org/10.1126/sciadv.adz7738).
 
