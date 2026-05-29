@@ -11,19 +11,9 @@ image:
 Links to my [Google Scholar profile](https://scholar.google.com/citations?user=HgwWuOMAAAAJ&hl=en),
 [ORCID registry](http://orcid.org/0000-0001-6051-5426), and [Mendeley profile](https://www.mendeley.com/profiles/shane-elipot/).
 
-### Gray literature:
-
-- **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://eos.org/opinions/overcoming-the-challenges-of-ocean-data-uncertainty). Published on 12 January 2022.
-
-- **Elipot, S.** and Wenegrat, J., *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://dx.doi.org/10.5065/ybca-0s03).
-
-- Bourassa, M., K. Drushka, **S. Elipot**, T. Farrar, P. Gaube, S. Gille, H. Seo, M. Stukel, and A. Subramanian, (2021), *Surface currents in the coupled ocean-atmosphere system*. A US CLIVAR Report, 2021-3, 29pp., [doi:10.5065/9cd3-9258](https://doi.org/10.5065/9cd3-9258).
-
-- Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://dx.doi.org/10.5065/0g4s-5w68).
-
-- **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
-
 #### Submitted:
+
+**46** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure*, submitted to Science, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
 
 **45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint](https://arxiv.org/abs/2604.27200). 
 
@@ -152,6 +142,18 @@ J. Geophys. Res.-Oceans, 121, [doi:10.1002/2016JC011716](http://dx.doi.org/10.10
 **2.** **Elipot, S.**, and R. Lumpkin (2008), *Spectral description of oceanic near-surface variability*, Geophys. Res. Lett., 35, L05606, [doi:10.1029/2007GL032589](http://dx.doi.org/10.1029/2007GL032874).
 
 **1.** Beal, L. M. , T. K. Chereskin, Y.-D. Lenn , and **S. Elipot** (2006), *The sources and mixing characteristics of the Agulhas Current*, J. Phys. Oceanogr., 36, 2060-2074, [doi:10.1175/JPO2964.1](http://dx.doi.org/10.1175/JPO2964.1).
+
+### Gray literature:
+
+- **Elipot, S.**, K. Drushka, A. Subramanian, and M. Patterson (2022), *Overcoming the challenges of ocean data uncertainty*, Eos, 103, [doi:10.1029/2022EO220021](https://eos.org/opinions/overcoming-the-challenges-of-ocean-data-uncertainty). Published on 12 January 2022.
+
+- **Elipot, S.** and Wenegrat, J., *Vertical structure of near-surface currents – Importance, state of knowledge, and measurement challenges*, in Drushka, K., & Bourassa, M. (Eds.). (2021), *New frontiers for ocean surface currents*. Variations, 19, 44 pp, [doi:10.5065/ybca-0s03](https://dx.doi.org/10.5065/ybca-0s03).
+
+- Bourassa, M., K. Drushka, **S. Elipot**, T. Farrar, P. Gaube, S. Gille, H. Seo, M. Stukel, and A. Subramanian, (2021), *Surface currents in the coupled ocean-atmosphere system*. A US CLIVAR Report, 2021-3, 29pp., [doi:10.5065/9cd3-9258](https://doi.org/10.5065/9cd3-9258).
+
+- Nielsen-Gammon, J., K. A. Reed, **S. Elipot**, and M. Patterson (2021), *Research Challenge on Climate at the Coasts: US CLIVAR Report*, 2021-2, 20pp, [doi:10.5065/0g4s-5w68](https://dx.doi.org/10.5065/0g4s-5w68).
+
+- **Elipot, S.**, Centurioni, L., Haines, B. J., Lumpkin, R., Willis, J. K. (2021) *Measuring Global-Mean Sea-Level Rise With Surface Drifting Buoys*,  [Marine Technology Society Journal](https://www.ingentaconnect.com/content/mts/mtsj), Volume 55, Number 3, May/June 2021, pp. 66-67(2), [doi:10.4031/MTSJ.55.3.12](https://doi.org/10.4031/MTSJ.55.3.12).
 
 ## Others:
 
