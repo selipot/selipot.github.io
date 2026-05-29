@@ -13,7 +13,7 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**46** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure*, submitted to Science, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
+**46.** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure*, submitted to Science, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
 
 **45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint](https://arxiv.org/abs/2604.27200). 
 
