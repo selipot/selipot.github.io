@@ -15,7 +15,8 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **46.** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure*, submitted to Science, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
 
-**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint](https://arxiv.org/abs/2604.27200). 
+**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint 
+https://doi.org/10.48550/arXiv.2604.27200](https://arxiv.org/abs/2604.27200). 
 
 **44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Communications Earth & Environment*, [preprint](https://www.researchsquare.com/article/rs-8897292/v1).
 
