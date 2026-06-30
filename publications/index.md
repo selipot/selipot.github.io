@@ -15,14 +15,14 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 **46.** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Overturning: mechanistic insights from ocean bottom pressure*, submitted to Science, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
 
-**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, submitted to AMS J. Tech., [arXiv preprint 
+**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, in revision for AMS J. Tech., [arXiv preprint 
 https://doi.org/10.48550/arXiv.2604.27200](https://arxiv.org/abs/2604.27200). 
 
-**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, submitted to *Nature Communications Earth & Environment*, [preprint](https://www.researchsquare.com/article/rs-8897292/v1).
-
-**43.** Rémi Laxenaire, Eric P. Chassignet, Xiaobiao Xu, Alan J. Wallcraft, Luna Hiron, Brian K. Arbic, Maarten C. Buijsman, Miguel Solano, and **Shane Elipot**, (2026), *Surface Kinetic Energy Distributions in the North and Equatorial Atlantic Derived from Surface Drifter Observations and High-Resolution Numerical Models with Tidal Forcing*, [preprint](https://doi.org/10.5194/egusphere-2025-6355) open for discussion and under review for *Geoscientific Model Development*.
+**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, in revision for *Nature Communications Earth & Environment*, [preprint](https://www.researchsquare.com/article/rs-8897292/v1).
 
 #### Published:
+
+**43.** Laxenaire, R., Chassignet, E. P., Xu, X., Wallcraft, A. J., Hiron, L., Arbic, B. K., Buijsman, M. C., Solano, M., & **Elipot, S.** (2026). Surface horizontal kinetic energy sensitivity to numerical parameters in tidal-resolving North and Equatorial Atlantic simulations. Geoscientific Model Development, 19(12), 5571–5599. [https://doi.org/10.5194/gmd-19-5571-2026](https://doi.org/10.5194/gmd-19-5571-2026).
 
 **42.** Foukal, N., I. Le Bras, Y. Fu, T. Petit, T.C. Biló, **S. Elipot**, and B. Moat. 2026. Strengthening connections in observing the North Atlantic Meridional Overturning Circulation: Outcomes from a joint RAPID-OSNAP workshop. Oceanography 39(1), [https://doi.org/10.5670/oceanog.2026.e110](https://doi.org/10.5670/oceanog.2026.e110).
 
