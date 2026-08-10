@@ -13,14 +13,20 @@ Links to my [Google Scholar profile](https://scholar.google.com/citations?user=H
 
 #### Submitted:
 
-**46.** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Meridional Overturning Circulation through ocean bottom pressure*, submitted to Nature Communications, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
+**47.** Qianjiang Xing, **Shane Elipot**, William E. Johns, Bablu Sinha, Jules Kajtar, Adam T. Blaker, Tillys Petit, Ben I. Moat, David A. Smeed, (2026), *Density and sea level changes weaken the Atlantic Meridional Overturning Circulation through ocean bottom pressure*, submitted to Nature Communications, [preprint arXiv:2605.29142](https://doi.org/10.48550/arXiv.2605.29142).
 
-**45.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, in revision for AMS J. Tech., [arXiv preprint 
+**46.** Ayantika Bhattacharjee, Spencer Jones, Dhruv Balwada, **Shane Elipot**, and Manuel Gutierrez-Villanueva (2026), *Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach*, in revision for AMS J. Tech., [arXiv preprint 
 https://doi.org/10.48550/arXiv.2604.27200](https://arxiv.org/abs/2604.27200). 
 
-**44.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, in revision for *Nature Communications Earth & Environment*, [preprint](https://www.researchsquare.com/article/rs-8897292/v1).
+**45.** Ivenis Pita, William E. Johns, **Shane Elipot**, David A. Smeed, Ben Moat and Denis L. Volkov, (2026), *Upper ocean warming in the western subtropical Atlantic drives AMOC weakening at 26.5 N*, in revision for *Nature Communications Earth & Environment*, [preprint](https://www.researchsquare.com/article/rs-8897292/v1).
 
 #### Published:
+
+**44.** D. L. Volkov, S. Dong, T. Petit, J. K. Willis, W. Hobbs, Y. Fu, R. C. Perez, B. Moat, D. Smeed, **S. Elipot**, and M. S. Lozier, 2026: Global ocean Atlantic meridional overturning circulation and heat transport [in “State of the Climate in 2025”]. Bull. Amer. Meteor. Soc., 107 (8), S204–S207, https://doi.org/10.1175/BAMS-D-26-0100.1.
+
+- This section appears in Volkov, D. L. and R. C. Perez, Eds., 2026: Global Oceans [in “State of the Climate in 2025“]. Bull. Amer. Meteor. Soc., 107 (8), S169–S228, [https://doi.org/10.1175/BAMS-D-26-0100.1](https://doi.org/10.1175/BAMS-D-26-0100.1). *Global Oceans* is one chapter from the *State of the Climate in 2025* annual report and is available from [https://doi.org/10.1175/BAMS-D-26-0100.1](https://doi.org/10.1175/BAMS-D-26-0100.1). Compiled by NOAA’s National Centers for Environmental Information, State of the Climate in 2025 is based on contributions from scientists from around the world. It provides a detailed update on global climate indicators, notable weather events, and other data collected by environmental monitoring stations and instruments located on land, water, ice, and in space. This chapter synthesizes changes in the ocean’s physical state and key biogeochemical indicators during 2025.
+
+
 
 **43.** Laxenaire, R., Chassignet, E. P., Xu, X., Wallcraft, A. J., Hiron, L., Arbic, B. K., Buijsman, M. C., Solano, M., & **Elipot, S.** (2026). Surface horizontal kinetic energy sensitivity to numerical parameters in tidal-resolving North and Equatorial Atlantic simulations. Geoscientific Model Development, 19(12), 5571–5599. [https://doi.org/10.5194/gmd-19-5571-2026](https://doi.org/10.5194/gmd-19-5571-2026).
 
