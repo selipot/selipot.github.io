@@ -26,8 +26,6 @@ https://doi.org/10.48550/arXiv.2604.27200](https://arxiv.org/abs/2604.27200).
 
 - This section appears in Volkov, D. L. and R. C. Perez, Eds., 2026: Global Oceans [in “State of the Climate in 2025“]. Bull. Amer. Meteor. Soc., 107 (8), S169–S228, [https://doi.org/10.1175/BAMS-D-26-0100.1](https://doi.org/10.1175/BAMS-D-26-0100.1). *Global Oceans* is one chapter from the *State of the Climate in 2025* annual report and is available from [https://doi.org/10.1175/BAMS-D-26-0100.1](https://doi.org/10.1175/BAMS-D-26-0100.1). Compiled by NOAA’s National Centers for Environmental Information, State of the Climate in 2025 is based on contributions from scientists from around the world. It provides a detailed update on global climate indicators, notable weather events, and other data collected by environmental monitoring stations and instruments located on land, water, ice, and in space. This chapter synthesizes changes in the ocean’s physical state and key biogeochemical indicators during 2025.
 
-
-
 **43.** Laxenaire, R., Chassignet, E. P., Xu, X., Wallcraft, A. J., Hiron, L., Arbic, B. K., Buijsman, M. C., Solano, M., & **Elipot, S.** (2026). Surface horizontal kinetic energy sensitivity to numerical parameters in tidal-resolving North and Equatorial Atlantic simulations. Geoscientific Model Development, 19(12), 5571–5599. [https://doi.org/10.5194/gmd-19-5571-2026](https://doi.org/10.5194/gmd-19-5571-2026).
 
 **42.** Foukal, N., I. Le Bras, Y. Fu, T. Petit, T.C. Biló, **S. Elipot**, and B. Moat. 2026. Strengthening connections in observing the North Atlantic Meridional Overturning Circulation: Outcomes from a joint RAPID-OSNAP workshop. Oceanography 39(1), [https://doi.org/10.5670/oceanog.2026.e110](https://doi.org/10.5670/oceanog.2026.e110).
